@@ -1,0 +1,411 @@
+.sideInfo {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: -5px;
+  background-color: #112102;
+  width: 385px;
+}
+.propagating1 {
+  text-decoration: underline;
+}
+.propagating {
+  color: inherit;
+}
+.itsCalledPropagatingContainer {
+  position: absolute;
+  top: 307px;
+  left: 1px;
+  letter-spacing: 0.05em;
+  font-weight: 500;
+  color: inherit;
+  display: inline-block;
+  width: 278px;
+  height: 85px;
+}
+.succulentsFirstCropped,
+.youCanUse {
+  left: 0;
+  display: inline-block;
+  width: 279px;
+}
+.youCanUse {
+  position: absolute;
+  top: 221px;
+  font-size: 20px;
+  letter-spacing: 0.05em;
+  font-weight: 600;
+  text-align: left;
+}
+.succulentsFirstCropped {
+  top: 116px;
+  font-weight: 500;
+  height: 76px;
+}
+.funFacts,
+.succulentsFirstCropped,
+.succulentsOriginateFrom {
+  position: absolute;
+  letter-spacing: 0.05em;
+}
+.succulentsOriginateFrom {
+  top: 54px;
+  left: 0;
+  font-size: 20px;
+  font-weight: 600;
+  display: inline-block;
+  width: 278px;
+}
+.funFacts {
+  top: 0;
+  left: 1px;
+  font-size: 30px;
+  font-weight: 800;
+  color: rgba(243, 244, 211, 0.9);
+  text-align: left;
+}
+.trivias {
+  position: relative;
+  width: 279px;
+  height: 392px;
+}
+.waterTheraphyFor {
+  position: absolute;
+  top: 7px;
+  left: 136px;
+  text-decoration: underline;
+  letter-spacing: 0.05em;
+  font-weight: 700;
+  color: inherit;
+  display: inline-block;
+  width: 148px;
+}
+.therapyReco {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #d9d9d9;
+  width: 100px;
+  height: 100px;
+}
+.readMore {
+  position: absolute;
+  top: 83px;
+  left: 136px;
+  font-size: 16px;
+  text-decoration: underline;
+  letter-spacing: 0.05em;
+  font-weight: 500;
+  color: rgba(131, 189, 26, 0.5);
+  text-align: justify;
+}
+.therapyRecommended {
+  position: absolute;
+  top: 193px;
+  left: 8px;
+  width: 284px;
+  height: 102px;
+}
+.tipsForSucculent {
+  position: absolute;
+  width: 45.38%;
+  top: 2.97%;
+  left: 54.62%;
+  text-decoration: underline;
+  letter-spacing: 0.05em;
+  font-weight: 700;
+  color: inherit;
+  display: inline-block;
+}
+.tipsRecos {
+  position: absolute;
+  height: 99.01%;
+  width: 40.16%;
+  top: 0;
+  right: 59.84%;
+  bottom: 0.99%;
+  left: 0;
+  background-color: #d9d9d9;
+}
+.readMore1 {
+  position: absolute;
+  top: 81.19%;
+  left: 54.62%;
+  font-size: 16px;
+  text-decoration: underline;
+  letter-spacing: 0.05em;
+  font-weight: 500;
+  color: rgba(131, 189, 26, 0.5);
+}
+.tipsRecommended,
+.tipsRecommendedWrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 249px;
+  height: 101px;
+}
+.tipsRecommendedWrapper {
+  top: 64px;
+  left: 8px;
+}
+.recommended1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 30px;
+  letter-spacing: 0.05em;
+  color: #f3f4d3;
+  text-align: justify;
+}
+.recommended {
+  position: relative;
+  width: 292px;
+  height: 295px;
+  text-align: left;
+  font-size: 20px;
+  color: rgba(243, 244, 211, 0.9);
+}
+.questionMarkPlantImage {
+  position: relative;
+  width: 223.03px;
+  height: 374px;
+  object-fit: cover;
+}
+.sideBarsucculent {
+  position: absolute;
+  top: calc(50% - 670px);
+  left: 58px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 181px;
+  text-align: justify;
+}
+.plants {
+  color: #000;
+}
+.header1,
+.learningMaterials {
+  position: relative;
+  letter-spacing: 0.05em;
+  font-weight: 800;
+}
+.learningMaterials {
+  font-size: 30px;
+  letter-spacing: 0.1em;
+  color: rgba(17, 33, 2, 0.75);
+}
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 6px;
+}
+.donkeystailimgIcon {
+  position: relative;
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+}
+.donkeysTail {
+  position: relative;
+  letter-spacing: 0.05em;
+  font-weight: 800;
+  display: inline-block;
+  width: 250px;
+}
+.donkeystailbtn,
+.row1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.donkeystailbtn {
+  flex-direction: column;
+  padding: 10px;
+  gap: 20px;
+  cursor: pointer;
+}
+.row1 {
+  flex-direction: row;
+  gap: 40px;
+}
+.contents,
+.succulentContents {
+  display: flex;
+  flex-direction: column;
+}
+.contents {
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  text-align: center;
+  font-size: 25px;
+  color: rgba(0, 0, 0, 0.75);
+}
+.succulentContents {
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 50px;
+}
+.test {
+  color: #112102;
+}
+.span {
+  color: #f3f4d3;
+}
+.testYour {
+  font-weight: 800;
+}
+.knowledge {
+  font-weight: 900;
+  color: #83bd1a;
+}
+.basicFactsAbout,
+.testYourKnowledgeContainer {
+  position: relative;
+  letter-spacing: 0.03em;
+}
+.basicFactsAbout {
+  font-size: 30px;
+  letter-spacing: 0.05em;
+  font-weight: 600;
+  display: inline-block;
+  width: 325px;
+}
+.questions {
+  color: rgba(17, 33, 2, 0.8);
+}
+.questions,
+.takeQuiz {
+  position: relative;
+  letter-spacing: 0.05em;
+  font-weight: 600;
+}
+.succulentquizbtn {
+  border-radius: 25px;
+  background-color: #fff;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: row;
+  padding: 12px 24px;
+  align-items: center;
+  justify-content: center;
+  color: #000;
+}
+.quiz {
+  justify-content: flex-start;
+  gap: 35px;
+}
+.mainContent,
+.quiz,
+.succulentquiz,
+.takesucculentquiz {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.takesucculentquiz {
+  border-radius: 50px;
+  padding: 50px 100px;
+  justify-content: flex-start;
+  background-image: url(/public/takesucculentquiz@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  text-align: center;
+  font-size: 25px;
+  color: #112102;
+}
+.mainContent,
+.succulentquiz {
+  justify-content: center;
+}
+.succulentquiz {
+  padding: 0 75px;
+  gap: 75px;
+  color: #000;
+}
+.mainContent {
+  position: absolute;
+  top: calc(50% - 915px);
+  left: calc(50% - 265px);
+  gap: 150px;
+  font-size: 55px;
+  color: #83bd1a;
+}
+.backButtonIcon,
+.succulentCourseChild {
+  position: absolute;
+  top: calc(50% - 1115px);
+  left: calc(50% - 670px);
+  width: 989px;
+  height: 105.96px;
+}
+.backButtonIcon {
+  top: calc(50% - 1030px);
+  left: calc(50% - 335px);
+  width: 80px;
+  height: 80px;
+  cursor: pointer;
+}
+.logoIcon {
+  position: absolute;
+  height: 107.55%;
+  width: 106.15%;
+  top: 0;
+  right: -3.08%;
+  bottom: -7.55%;
+  left: -3.08%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.logoComponent {
+  position: absolute;
+  top: calc(50% - 1115px);
+  left: 50px;
+  width: 130px;
+  height: 105.96px;
+  cursor: pointer;
+}
+.home,
+.plantClassifications {
+  position: relative;
+  font-weight: 500;
+}
+.plantClassifications {
+  cursor: pointer;
+}
+.menu {
+  position: absolute;
+  top: calc(50% - 1094.02px);
+  left: calc(50% - 190px);
+  border-radius: 30px;
+  background-color: #fff;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: row;
+  padding: 20px 50px;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  font-size: 20px;
+  color: #000;
+}
+.succulentCourse {
+  position: relative;
+  background-color: #f3f4d3;
+  width: 100%;
+  height: 2290px;
+  overflow: hidden;
+  text-align: left;
+  font-size: 16px;
+  color: #fff;
+  font-family: Inter;
+}

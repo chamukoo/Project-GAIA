@@ -1,0 +1,158 @@
+.footer,
+.logoIcon1 {
+  position: absolute;
+  overflow: hidden;
+}
+.footer {
+  width: 100.07%;
+  right: -0.07%;
+  bottom: 0;
+  left: 0;
+  background-color: #030d00;
+  height: 200px;
+  text-align: center;
+  color: #fff;
+}
+.logoIcon1 {
+  height: 107.55%;
+  width: 106.15%;
+  top: 0;
+  right: -3.08%;
+  bottom: -7.55%;
+  left: -3.08%;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+.contacts,
+.layer1Parent {
+  display: flex;
+  justify-content: flex-start;
+}
+.layer1Parent {
+  flex-direction: row;
+  align-items: flex-end;
+  gap: 20px;
+  text-align: left;
+}
+.contacts {
+  position: absolute;
+  top: calc(50% - 43px);
+  left: calc(50% + 400px);
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+.iconParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 24px;
+}
+.icon {
+  width: 20px;
+  overflow: hidden;
+}
+.gaiaplantcom {
+  letter-spacing: 0.05em;
+  font-weight: 500;
+  display: inline-block;
+  width: 118px;
+}
+
+.p {
+  margin: 0;
+}
+.gaiaplantcom,
+.icon {
+  position: relative;
+  height: 20px;
+  flex-shrink: 0;
+}
+
+.div {
+  position: relative;
+  letter-spacing: 0.05em;
+  font-weight: 500;
+  display: inline-block;
+  width: 128px;
+  height: 19px;
+  flex-shrink: 0;
+}
+.frameParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 13px;
+}
+.sampalocManila {
+  position: relative;
+  letter-spacing: 0.05em;
+  font-weight: 500;
+  display: inline-block;
+  width: 124px;
+  height: 22px;
+  flex-shrink: 0;
+}
+
+.frameIcon1,
+.layer1Icon1 {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.frameIcon1 {
+  width: 42px;
+  height: 42px;
+}
+.socialMediIcons {
+  position: absolute;
+  top: calc(50% + 14px);
+  left: calc(50% - 623px);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 12px;
+}
+.privacyTerms {
+  position: relative;
+  letter-spacing: 0.05em;
+  font-weight: 500;
+}
+.copyrightIcon {
+  position: relative;
+  width: 15px;
+  height: 15px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.copyrightIconParent,
+.others {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 5px;
+}
+.others {
+  position: absolute;
+  top: calc(50% + 51px);
+  left: calc(50% - 133px);
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  font-size: 12px;
+}
+.logoIcon {
+  position: absolute;
+  top: calc(50% - 79px);
+  left: calc(50% - 82px);
+  width: 128px;
+  height: 106px;
+  object-fit: cover;
+}

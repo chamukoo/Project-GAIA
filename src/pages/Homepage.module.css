@@ -1,0 +1,172 @@
+.greenBg {
+  position: absolute;
+  height: calc(100% - 200px);
+  top: 0;
+  right: -1px;
+  bottom: 200px;
+  background-color: #112102;
+  width: 383px;
+}
+.homeBox,
+.homePlantDesign {
+  position: absolute;
+  left: calc(50% + 107.5px);
+}
+.homeBox {
+  top: calc(50% - 357px);
+  border-radius: 220px 220px 0 0;
+  background-color: #83bd1a;
+  width: 435px;
+  height: 501px;
+}
+.homePlantDesign {
+  top: calc(50% - 374px);
+  border-radius: 26px;
+  width: 533px;
+  height: 535px;
+  object-fit: cover;
+}
+.footer,
+.logoIcon1 {
+  position: absolute;
+  overflow: hidden;
+}
+
+.logoIcon1 {
+  height: 107.55%;
+  width: 106.15%;
+  top: 0;
+  right: -3.08%;
+  bottom: -7.55%;
+  left: -3.08%;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+
+.logoComponent {
+  position: absolute;
+  top: calc(50% - 482px);
+  left: 50px;
+  width: 130px;
+  height: 105.96px;
+  cursor: pointer;
+}
+
+.bring1 {
+  color: #112102;
+}
+.span {
+  color: #000;
+}
+.bring,
+.home1,
+.nature {
+  font-family: Inter;
+}
+.home1,
+.nature {
+  font-weight: 800;
+  color: #83bd1a;
+}
+.home1 {
+  color: #446a12;
+}
+.intoYourHome {
+  margin: 0;
+  font-size: 67px;
+  color: #112102;
+}
+.bringNatureIntoContainer {
+  position: relative;
+  text-shadow: -3px 2px 2px rgba(0, 0, 0, 0.25);
+}
+.loremIpsumDolor {
+  position: relative;
+  font-size: 18px;
+  color: #112102;
+  text-align: justify;
+  display: inline-block;
+  width: 591px;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 24px;
+}
+.frameIcon2 {
+  position: relative;
+  width: 23px;
+  height: 23px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.aboutComponent {
+  border-radius: 100px;
+  background-color: #83bd1a;
+  display: flex;
+  flex-direction: row;
+  padding: 9px 21px;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 6px;
+  cursor: pointer;
+}
+.continue,
+.frameIcon3 {
+  position: relative;
+}
+.frameIcon3 {
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+  margin-left: -1px;
+}
+.continueComponent {
+  border-radius: 100px;
+  background-color: #112102;
+  flex-direction: row;
+  padding: 9px 11px;
+  align-items: center;
+  cursor: pointer;
+}
+.component,
+.continueComponent,
+.displayInfo {
+  display: flex;
+  justify-content: flex-start;
+}
+.component {
+  flex-direction: row;
+  align-items: flex-end;
+  gap: 19px;
+  text-align: center;
+  font-size: 14px;
+  color: #fff;
+}
+.displayInfo {
+  position: absolute;
+  top: calc(50% - 282px);
+  left: calc(50% - 616.5px);
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 30px;
+  font-size: 80px;
+}
+.p {
+  margin: 0;
+}
+.homepage {
+  position: relative;
+  background-color: #f3f4d3;
+  width: 100%;
+  height: 1024px;
+  overflow: hidden;
+  text-align: left;
+  font-size: 14px;
+  color: #000;
+  font-family: Inter;
+}

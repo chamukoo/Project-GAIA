@@ -1,0 +1,357 @@
+.gaiaplantcom,
+.icon {
+  position: relative;
+  height: 20px;
+  flex-shrink: 0;
+}
+.icon {
+  width: 20px;
+  overflow: hidden;
+}
+.gaiaplantcom {
+  letter-spacing: 0.05em;
+  font-weight: 500;
+  display: inline-block;
+  width: 118px;
+}
+.iconParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 24px;
+}
+.p {
+  margin: 0;
+}
+.div {
+  position: relative;
+  letter-spacing: 0.05em;
+  font-weight: 500;
+  display: inline-block;
+  width: 128px;
+  height: 19px;
+  flex-shrink: 0;
+}
+.frameParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 13px;
+}
+.sampalocManila {
+  position: relative;
+  letter-spacing: 0.05em;
+  font-weight: 500;
+  display: inline-block;
+  width: 124px;
+  height: 22px;
+  flex-shrink: 0;
+}
+.contacts,
+.layer1Parent {
+  display: flex;
+  justify-content: flex-start;
+}
+.layer1Parent {
+  flex-direction: row;
+  align-items: flex-end;
+  gap: 20px;
+  text-align: left;
+}
+.contacts {
+  position: absolute;
+  top: calc(50% - 43px);
+  left: calc(50% + 400px);
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+.frameIcon1,
+.layer1Icon1 {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.frameIcon1 {
+  width: 42px;
+  height: 42px;
+}
+.socialMediIcons {
+  position: absolute;
+  top: calc(50% + 14px);
+  left: calc(50% - 623px);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 12px;
+}
+.privacyTerms {
+  position: relative;
+  letter-spacing: 0.05em;
+  font-weight: 500;
+}
+.copyrightIcon {
+  position: relative;
+  width: 15px;
+  height: 15px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.copyrightIconParent,
+.others {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 5px;
+}
+.others {
+  position: absolute;
+  top: calc(50% + 51px);
+  left: calc(50% - 133px);
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  font-size: 12px;
+}
+.logoIcon {
+  position: absolute;
+  top: calc(50% - 79px);
+  left: calc(50% - 82px);
+  width: 128px;
+  height: 106px;
+  object-fit: cover;
+}
+.footer {
+  position: absolute;
+  width: 100.14%;
+  right: -0.14%;
+  bottom: 0;
+  left: 0;
+  background-color: #030d00;
+  height: 200px;
+  overflow: hidden;
+}
+.home,
+.plantClassifications {
+  position: relative;
+  font-weight: 500;
+}
+.plantClassifications {
+  cursor: pointer;
+}
+.menu {
+  position: absolute;
+  top: calc(50% - 461.02px);
+  left: calc(50% - 190px);
+  border-radius: 30px;
+  background-color: #fff;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: row;
+  padding: 20px 50px;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  text-align: left;
+  font-size: 20px;
+  color: #000;
+}
+.logoIcon1 {
+  position: absolute;
+  height: 107.55%;
+  width: 106.15%;
+  top: 0;
+  right: -3.08%;
+  bottom: -7.55%;
+  left: -3.08%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.logoComponent {
+  position: absolute;
+  top: calc(50% - 482px);
+  left: 50px;
+  width: 130px;
+  height: 105.96px;
+  cursor: pointer;
+}
+.classification {
+  font-weight: 900;
+  color: #83bd1a;
+}
+.header {
+  position: relative;
+  letter-spacing: 0.05em;
+}
+.succulentcourseimgIcon {
+  position: relative;
+  width: 297.84px;
+  height: 241px;
+  object-fit: cover;
+  z-index: 1;
+}
+.succulentPlants,
+.viewPlants {
+  position: relative;
+}
+.viewPlants {
+  font-weight: 300;
+}
+.layer1Icon3 {
+  position: relative;
+  width: 21px;
+  height: 21px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.viewPlantsParent {
+  border-radius: 30px;
+  background-color: #cbf57e;
+  display: flex;
+  flex-direction: row;
+  padding: 10px 20px;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 6px;
+  cursor: pointer;
+  font-size: 15px;
+  color: #000;
+}
+.succulentPlantsParent {
+  border-radius: 30px;
+  background-color: #112102;
+  overflow: hidden;
+  padding: 142px 52px 24px;
+  gap: 26px;
+  z-index: 0;
+  margin-top: -111px;
+}
+.succulent,
+.succulentPlantsParent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.herbcourseimgIcon {
+  position: relative;
+  width: 306.56px;
+  height: 266px;
+  object-fit: cover;
+  z-index: 1;
+}
+.herbal,
+.herbalPlantsParent,
+.viewPlantsGroup {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.viewPlantsGroup {
+  border-radius: 30px;
+  background-color: #112102;
+  flex-direction: row;
+  padding: 10px 20px;
+  gap: 6px;
+  cursor: pointer;
+  font-size: 15px;
+  color: #fff;
+}
+.herbal,
+.herbalPlantsParent {
+  flex-direction: column;
+}
+.herbalPlantsParent {
+  border-radius: 30px;
+  background-color: #cbf57e;
+  overflow: hidden;
+  padding: 142px 74px 24px;
+  gap: 26px;
+  z-index: 0;
+  margin-top: -111px;
+}
+.herbal {
+  color: #000;
+}
+.flowercourseimgIcon {
+  position: relative;
+  width: 292.98px;
+  height: 216px;
+  object-fit: cover;
+  z-index: 1;
+}
+.flowerPlantsParent {
+  border-radius: 30px;
+  background-color: #112102;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding: 142px 73px 24px;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 26px;
+  z-index: 0;
+  margin-top: -111px;
+}
+.ferncourseimgIcon {
+  position: relative;
+  width: 324px;
+  height: 226.7px;
+  object-fit: cover;
+  z-index: 1;
+}
+.fernPlantsParent {
+  border-radius: 30px;
+  background-color: #cbf57e;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding: 142px 86px 24px;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 26px;
+  z-index: 0;
+  margin-top: -111px;
+}
+.takeCourseFrame1 {
+  width: 1320px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
+  gap: 25px;
+  text-align: left;
+  font-size: 25px;
+  color: #fff;
+}
+.takeCourseFrame {
+  position: absolute;
+  top: calc(50% - 312px);
+  left: calc(50% - 659px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 12px;
+  font-size: 60px;
+  color: #112102;
+}
+.learningCourse {
+  position: relative;
+  background-color: #f3f4d3;
+  width: 100%;
+  height: 1024px;
+  overflow: hidden;
+  text-align: center;
+  font-size: 14px;
+  color: #fff;
+  font-family: Inter;
+}
