@@ -1,0 +1,60 @@
+.plantCard {
+  position: absolute;
+  top: 140px;
+  left: 220px;
+
+  width: 1000px;
+  height: 1500px;
+  background-color: rgba(203, 245, 126, 1);
+  font-size: 20px;
+  z-index: 1;
+  font-family: Inter;
+  border-radius: 50px;
+}
+
+.plantName {
+  width: 74px;
+  height: 36px;
+  position: relative;
+  transform: translate(418px, 60px);
+  font-size: 30px;
+}
+
+.plantOrigin {
+  position: relative;
+  transform: translate(74px, 150px);
+  font-size: 25px;
+}
+
+.plantSciName {
+  position: relative;
+  transform: translate(74px, 220px);
+  font-size: 25px;
+}
+
+.plantDescription {
+  position: relative;
+  transform: translate(74px, 280px);
+  font-size: 25px;
+}
+
+.plantImageContainer {
+  position: relative;
+  transform: translate(710px);
+}
+
+.plantImage {
+  width: 257.97px;
+  height: 176.67px;
+}
+.scientificNameText {
+  font-size: 21px;
+  position: relative;
+  left: 35px;
+}
+.originText {
+  font-size: 21px;
+  position: relative;
+  left: 35px;
+  width: 200px;
+}

@@ -1,7 +1,8 @@
 import { FunctionComponent, useCallback } from "react";
 import { useNavigate } from "react-router-dom";
 import styles from "./FernCourse.module.css";
-const FernCourse: FunctionComponent = () => {
+import PlantsData from "../components/PlantsData";
+const FernCourse = () => {
   const navigate = useNavigate();
 
   const onFern1ContainerClick = useCallback(() => {
@@ -61,6 +62,7 @@ const FernCourse: FunctionComponent = () => {
 
   return (
     <div className={styles.fernCourse}>
+      <PlantsData />
       <div className={styles.sideInfo} />
       <div className={styles.sideBarfern}>
         <div className={styles.trivias}>
@@ -87,16 +89,16 @@ const FernCourse: FunctionComponent = () => {
           <div className={styles.tipsRecommended1}>
             <a
               className={styles.tipsForSucculent}
-              href="https://www.sciencelearn.org.nz/videos/712-why-are-ferns-unique#:~:text=Ferns%20are%20unique%20in%20land,that%20we%20call%20a%20gametophyte."
-              target="_blank"
+              href='https://www.sciencelearn.org.nz/videos/712-why-are-ferns-unique#:~:text=Ferns%20are%20unique%20in%20land,that%20we%20call%20a%20gametophyte.'
+              target='_blank'
             >
               Why are ferns unique?
             </a>
             <div className={styles.tipsRecos} />
             <a
               className={styles.readMore}
-              href="https://www.sciencelearn.org.nz/videos/712-why-are-ferns-unique#:~:text=Ferns%20are%20unique%20in%20land,that%20we%20call%20a%20gametophyte."
-              target="_blank"
+              href='https://www.sciencelearn.org.nz/videos/712-why-are-ferns-unique#:~:text=Ferns%20are%20unique%20in%20land,that%20we%20call%20a%20gametophyte.'
+              target='_blank'
             >
               Read More
             </a>
@@ -106,8 +108,8 @@ const FernCourse: FunctionComponent = () => {
           <div className={styles.areFernsLuckyPlantParent}>
             <a
               className={styles.areFernsLucky}
-              href="https://www.velvetcushion.com/garden/ferns-everything-you-need-know-about-plant-good-luck-and-prosperity#:~:text=According%20to%20Feng%20Shui%2C%20many,entrance%20or%20in%20the%20bedroom."
-              target="_blank"
+              href='https://www.velvetcushion.com/garden/ferns-everything-you-need-know-about-plant-good-luck-and-prosperity#:~:text=According%20to%20Feng%20Shui%2C%20many,entrance%20or%20in%20the%20bedroom.'
+              target='_blank'
             >
               Are ferns lucky plant?
             </a>
@@ -115,16 +117,16 @@ const FernCourse: FunctionComponent = () => {
           </div>
           <a
             className={styles.readMore1}
-            href="https://www.velvetcushion.com/garden/ferns-everything-you-need-know-about-plant-good-luck-and-prosperity#:~:text=According%20to%20Feng%20Shui%2C%20many,entrance%20or%20in%20the%20bedroom."
-            target="_blank"
+            href='https://www.velvetcushion.com/garden/ferns-everything-you-need-know-about-plant-good-luck-and-prosperity#:~:text=According%20to%20Feng%20Shui%2C%20many,entrance%20or%20in%20the%20bedroom.'
+            target='_blank'
           >
             Read more
           </a>
         </div>
         <img
           className={styles.questionMarkPlantImage}
-          alt=""
-          src="/question-mark-plant-image2@2x.png"
+          alt=''
+          src='/question-mark-plant-image2@2x.png'
         />
       </div>
       <div className={styles.mainContent}>
@@ -139,43 +141,43 @@ const FernCourse: FunctionComponent = () => {
           <div className={styles.contents}>
             <div className={styles.row1}>
               <div className={styles.fern1} onClick={onFern1ContainerClick}>
-                <img className={styles.fern1Icon} alt="" src="/fern-1@2x.png" />
+                <img className={styles.fern1Icon} alt='' src='/fern-1@2x.png' />
                 <div className={styles.fern11}>Lemon Button</div>
               </div>
               <div className={styles.fern1} onClick={onFern2ContainerClick}>
-                <img className={styles.fern1Icon} alt="" src="/fern-2@2x.png" />
+                <img className={styles.fern1Icon} alt='' src='/fern-2@2x.png' />
                 <div className={styles.fern21}>Crocodile Fern</div>
               </div>
               <div className={styles.fern1} onClick={onFern3ContainerClick}>
-                <img className={styles.fern1Icon} alt="" src="/fern-3@2x.png" />
+                <img className={styles.fern1Icon} alt='' src='/fern-3@2x.png' />
                 <div className={styles.fern21}>Silver Lace</div>
               </div>
             </div>
             <div className={styles.row1}>
               <div className={styles.fern1} onClick={onFern4ContainerClick}>
-                <img className={styles.fern1Icon} alt="" src="/fern-4@2x.png" />
+                <img className={styles.fern1Icon} alt='' src='/fern-4@2x.png' />
                 <div className={styles.fern21}>Autumn Fern</div>
               </div>
               <div className={styles.fern1} onClick={onFern5ContainerClick}>
-                <img className={styles.fern1Icon} alt="" src="/fern-5@2x.png" />
+                <img className={styles.fern1Icon} alt='' src='/fern-5@2x.png' />
                 <div className={styles.fern21}>Asparagus Fern</div>
               </div>
               <div className={styles.fern1} onClick={onFern6ContainerClick}>
-                <img className={styles.fern1Icon} alt="" src="/fern-6@2x.png" />
+                <img className={styles.fern1Icon} alt='' src='/fern-6@2x.png' />
                 <div className={styles.fern21}>Maidenhair</div>
               </div>
             </div>
             <div className={styles.row1}>
               <div className={styles.fern1} onClick={onFern7ContainerClick}>
-                <img className={styles.fern1Icon} alt="" src="/fern-7@2x.png" />
+                <img className={styles.fern1Icon} alt='' src='/fern-7@2x.png' />
                 <div className={styles.fern71}>Floating Fern</div>
               </div>
               <div className={styles.fern1} onClick={onFern8ContainerClick}>
-                <img className={styles.fern8Icon} alt="" src="/fern-8@2x.png" />
+                <img className={styles.fern8Icon} alt='' src='/fern-8@2x.png' />
                 <div className={styles.fern81}>Water Sprite</div>
               </div>
               <div className={styles.fern1} onClick={onFern9ContainerClick}>
-                <img className={styles.fern1Icon} alt="" src="/fern-9@2x.png" />
+                <img className={styles.fern1Icon} alt='' src='/fern-9@2x.png' />
                 <div className={styles.fern21}>Boston Fern</div>
               </div>
             </div>
@@ -203,8 +205,8 @@ const FernCourse: FunctionComponent = () => {
       </div>
       <img
         className={styles.backButtonIcon}
-        alt=""
-        src="/back-button1.svg"
+        alt=''
+        src='/back-button1.svg'
         onClick={onBackButtonClick}
       />
       <div className={styles.menu}>
@@ -223,7 +225,7 @@ const FernCourse: FunctionComponent = () => {
         className={styles.logoComponent}
         onClick={onLogoComponentContainerClick}
       >
-        <img className={styles.logoIcon} alt="" src="/logo@2x.png" />
+        <img className={styles.logoIcon} alt='' src='/logo@2x.png' />
       </div>
     </div>
   );
