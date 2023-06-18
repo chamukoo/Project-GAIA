@@ -1,6 +1,7 @@
 import React, { useCallback } from "react";
 import styles from "./PlantsData.module.css";
 import Data from "../data.json";
+import SwitchBack from "./SwitchBack";
 
 interface Props {
   triggered?: false;
@@ -11,6 +12,7 @@ const PlantsData = ({ triggered }: Props) => {
     <>
       {Data.map((info) => (
         <div className={styles.plantCard} id={info.id}>
+          <SwitchBack />
           <div className={styles.plantName}>{info.name}</div>
           <div className={styles.plantOrigin}>
             <b>Origin:</b>

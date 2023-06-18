@@ -1,0 +1,9 @@
+.backButtonIcon {
+  width: 80px;
+  height: 80px;
+  cursor: pointer;
+}
+.backButtonContainer {
+  position: absolute;
+  transform: translate(70px, 40px);
+}
