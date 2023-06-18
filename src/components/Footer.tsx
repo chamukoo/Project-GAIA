@@ -14,7 +14,7 @@ const Footer = () => {
         <div className={styles.frameParent}>
           <img className={styles.icon} alt='' src='/frame.svg' />
           <div className={styles.div}>
-            <p className={styles.p}>+63 9327893355</p>
+            <p className={styles.p}>+639327893355</p>
           </div>
         </div>
         <div className={styles.layer1Parent}>

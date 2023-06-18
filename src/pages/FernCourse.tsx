@@ -1,68 +1,53 @@
-import { FunctionComponent, useCallback } from "react";
+import { useState, useCallback } from "react";
 import { useNavigate } from "react-router-dom";
 import styles from "./FernCourse.module.css";
 import PlantsData from "../components/PlantsData";
+import NavBar from "../components/NavBar";
+import MainLayout from "../layouts/MainLayout";
 const FernCourse = () => {
   const navigate = useNavigate();
+  const [showInfo, setShowInfo] = useState(false);
 
-  const onFern1ContainerClick = useCallback(() => {
-    navigate("/fern-info");
-  }, [navigate]);
+  const onFern1ContainerClick = () => {
+    setShowInfo(true);
+  };
 
-  const onFern2ContainerClick = useCallback(() => {
-    navigate("/fern-info");
-  }, [navigate]);
+  const onFern2ContainerClick = () => {
+    setShowInfo(true);
+  };
 
-  const onFern3ContainerClick = useCallback(() => {
-    navigate("/fern-info");
-  }, [navigate]);
+  const onFern3ContainerClick = () => {
+    setShowInfo(true);
+  };
+  const onFern4ContainerClick = () => {
+    setShowInfo(true);
+  };
+  const onFern5ContainerClick = () => {
+    setShowInfo(true);
+  };
 
-  const onFern4ContainerClick = useCallback(() => {
-    navigate("/fern-info");
-  }, [navigate]);
+  const onFern6ContainerClick = () => {
+    setShowInfo(true);
+  };
 
-  const onFern5ContainerClick = useCallback(() => {
-    navigate("/fern-info");
-  }, [navigate]);
+  const onFern7ContainerClick = () => {
+    setShowInfo(true);
+  };
 
-  const onFern6ContainerClick = useCallback(() => {
-    navigate("/fern-info");
-  }, [navigate]);
+  const onFern8ContainerClick = () => {
+    setShowInfo(true);
+  };
 
-  const onFern7ContainerClick = useCallback(() => {
-    navigate("/fern-info");
-  }, [navigate]);
-
-  const onFern8ContainerClick = useCallback(() => {
-    navigate("/fern-info");
-  }, [navigate]);
-
-  const onFern9ContainerClick = useCallback(() => {
-    navigate("/fern-info");
-  }, [navigate]);
+  const onFern9ContainerClick = () => {
+    setShowInfo(true);
+  };
 
   const onBackButtonClick = useCallback(() => {
     navigate("/learning-course");
   }, [navigate]);
 
-  const onPlantClassificationsTextClick = useCallback(() => {
-    navigate("/learning-course");
-  }, [navigate]);
-
-  const onAboutTextClick = useCallback(() => {
-    navigate("/about-us");
-  }, [navigate]);
-
-  const onLogoComponentContainerClick = useCallback(() => {
-    const anchor = document.querySelector("[data-scroll-to='logoImage']");
-    if (anchor) {
-      anchor.scrollIntoView({ block: "start", behavior: "smooth" });
-    }
-  }, []);
-
   return (
-    <div className={styles.fernCourse}>
-      <PlantsData />
+    <MainLayout ownClass={styles.fernCourse}>
       <div className={styles.sideInfo} />
       <div className={styles.sideBarfern}>
         <div className={styles.trivias}>
@@ -209,25 +194,7 @@ const FernCourse = () => {
         src='/back-button1.svg'
         onClick={onBackButtonClick}
       />
-      <div className={styles.menu}>
-        <div className={styles.home}>Home</div>
-        <div
-          className={styles.plantClassifications}
-          onClick={onPlantClassificationsTextClick}
-        >
-          Plant Classifications
-        </div>
-        <div className={styles.plantClassifications} onClick={onAboutTextClick}>
-          About
-        </div>
-      </div>
-      <div
-        className={styles.logoComponent}
-        onClick={onLogoComponentContainerClick}
-      >
-        <img className={styles.logoIcon} alt='' src='/logo@2x.png' />
-      </div>
-    </div>
+    </MainLayout>
   );
 };
 

@@ -2,7 +2,6 @@
   position: absolute;
   top: 140px;
   left: 220px;
-
   width: 1000px;
   height: 1500px;
   background-color: rgba(203, 245, 126, 1);
@@ -13,7 +12,7 @@
 }
 
 .plantName {
-  width: 74px;
+  width: 200px;
   height: 36px;
   position: relative;
   transform: translate(418px, 60px);
@@ -57,4 +56,9 @@
   position: relative;
   left: 35px;
   width: 200px;
+}
+.descriptionText {
+  font-size: 21px;
+  position: relative;
+  width: 100px;
 }
