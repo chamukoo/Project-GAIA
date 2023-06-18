@@ -76,7 +76,7 @@
   letter-spacing: 0.05em;
   font-weight: 500;
   display: inline-block;
-  width: 128px;
+  width: 130px;
   height: 19px;
   flex-shrink: 0;
 }
@@ -121,11 +121,13 @@
 }
 .privacyTerms {
   position: relative;
+  top: -10px;
   letter-spacing: 0.05em;
   font-weight: 500;
 }
 .copyrightIcon {
   position: relative;
+  top: -10px;
   width: 15px;
   height: 15px;
   overflow: hidden;
