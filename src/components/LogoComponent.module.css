@@ -1,0 +1,19 @@
+.logoIcon1 {
+  position: relative;
+  height: 107.55%;
+  width: 106.15%;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+
+.logoComponent {
+  display: flex;
+  position: absolute;
+  top: 50px;
+  left: 30px;
+  width: 130px;
+  z-index: 1;
+  height: 105.96px;
+  cursor: pointer;
+}

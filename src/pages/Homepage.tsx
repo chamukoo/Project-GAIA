@@ -5,13 +5,6 @@ import MainLayout from "../layouts/MainLayout";
 const Homepage: FunctionComponent = () => {
   const navigate = useNavigate();
 
-  const onLogoComponentContainerClick = useCallback(() => {
-    const anchor = document.querySelector("[data-scroll-to='logoImage']");
-    if (anchor) {
-      anchor.scrollIntoView({ block: "start", behavior: "smooth" });
-    }
-  }, []);
-
   const onAboutComponentContainerClick = useCallback(() => {
     navigate("/about-us");
   }, [navigate]);
@@ -30,17 +23,6 @@ const Homepage: FunctionComponent = () => {
         src='/home--plant-design@2x.png'
       />
 
-      <div
-        className={styles.logoComponent}
-        onClick={onLogoComponentContainerClick}
-      >
-        <img
-          className={styles.logoIcon1}
-          alt=''
-          src='/logo@2x.png'
-          data-scroll-to='logoImage'
-        />
-      </div>
       <div className={styles.displayInfo}>
         <div className={styles.info}>
           <div className={styles.bringNatureIntoContainer}>

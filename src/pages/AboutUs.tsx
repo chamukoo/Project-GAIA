@@ -1,8 +1,6 @@
-import { FunctionComponent, useCallback } from "react";
-import { useNavigate } from "react-router-dom";
 import styles from "./AboutUs.module.css";
 import MainLayout from "../layouts/MainLayout";
-const AboutUs: FunctionComponent = () => {
+const AboutUs = () => {
   return (
     <MainLayout ownClass={styles.aboutUs}>
       <div className={styles.aboutUsChild} />
@@ -20,9 +18,7 @@ const AboutUs: FunctionComponent = () => {
         alt=''
         src='/about--plant-design@2x.png'
       />
-      <div className={styles.logoComponent}>
-        <img className={styles.logoIcon} alt='' src='/logo@2x.png' />
-      </div>
+
       <div className={styles.header}>
         <div className={styles.o}>
           <b>{`GET TO `}</b>

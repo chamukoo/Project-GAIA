@@ -2,15 +2,8 @@ import { FunctionComponent, useCallback } from "react";
 import { useNavigate } from "react-router-dom";
 import styles from "./LearningCourse.module.css";
 import MainLayout from "../layouts/MainLayout";
-const LearningCourse: FunctionComponent = () => {
+const LearningCourse = () => {
   const navigate = useNavigate();
-
-  const onLogoComponentContainerClick = useCallback(() => {
-    const anchor = document.querySelector("[data-scroll-to='logoImage']");
-    if (anchor) {
-      anchor.scrollIntoView({ block: "start", behavior: "smooth" });
-    }
-  }, []);
 
   const onFrameContainer4Click = useCallback(() => {
     navigate("/succulent-course");
