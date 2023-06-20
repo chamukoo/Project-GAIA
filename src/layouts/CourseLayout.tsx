@@ -6,12 +6,13 @@ import SwitchBack from "../components/SwitchBack";
 interface Props {
   children: ReactNode;
   clicked?: boolean;
+  handleReset: () => void;
 }
 
-const CourseLayout = ({ clicked, children }: Props) => {
+const CourseLayout = ({ clicked, children, handleReset }: Props) => {
   return (
     <div>
-      {clicked ? <PlantsData /> : null}
+      {clicked ? <PlantsData handleReset={handleReset} /> : null}
       {children}
     </div>
   );

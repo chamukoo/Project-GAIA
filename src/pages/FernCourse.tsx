@@ -41,8 +41,12 @@ const FernCourse = () => {
     setShowInfo(true);
   };
 
+  const handleReset = () => {
+    setShowInfo(false);
+  };
+
   return (
-    <CourseLayout clicked={showInfo}>
+    <CourseLayout handleReset={handleReset} clicked={showInfo}>
       <MainLayout ownClass={showInfo ? styles.fernCourse1 : styles.fernCourse}>
         <div className={styles.sideInfo} />
         <div className={styles.sideBarfern}>

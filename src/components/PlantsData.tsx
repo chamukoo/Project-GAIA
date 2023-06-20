@@ -4,15 +4,16 @@ import Data from "../data.json";
 import SwitchBack from "./SwitchBack";
 
 interface Props {
-  triggered?: false;
+  handleReset: () => void;
 }
 
-const PlantsData = ({ triggered }: Props) => {
+const PlantsData = ({ handleReset }: Props) => {
   return (
     <>
       {Data.map((info) => (
         <div className={styles.plantCard} id={info.id}>
-          <SwitchBack />
+          <SwitchBack handleReset={handleReset} />
+
           <div className={styles.plantName}>{info.name}</div>
           <div className={styles.plantOrigin}>
             <b>Origin:</b>

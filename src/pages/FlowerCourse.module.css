@@ -24,10 +24,8 @@
   height: 67px;
 }
 .learningMaterials {
-  position: absolute;
-  top: 0;
-  left: 0;
-  letter-spacing: 0.1em;
+  position: relative;
+  letter-spacing: 0.05em;
   font-weight: 800;
 }
 .learningMaterialsWrapper {
@@ -58,8 +56,8 @@
   position: absolute;
   top: 0;
   left: 0;
-  width: 266.7px;
-  height: 271.19px;
+  width: 250px;
+  height: 250px;
   object-fit: cover;
 }
 .flower1,
@@ -80,7 +78,7 @@
 .flower2Icon {
   position: absolute;
   left: 0;
-  width: 270px;
+  width: 250px;
 }
 .flower21 {
   top: 288.63px;
@@ -91,7 +89,7 @@
 }
 .flower2Icon {
   top: 0;
-  height: 261.44px;
+  height: 250px;
   object-fit: cover;
 }
 .flower2 {
@@ -119,11 +117,11 @@
 .flower71 {
   position: absolute;
   left: 0;
-  width: 270px;
+  width: 250px;
 }
 .flower4Icon {
   top: 0;
-  height: 264.03px;
+  height: 250px;
   object-fit: cover;
 }
 .flower71 {
@@ -139,8 +137,8 @@
   position: absolute;
   top: 0;
   left: 1.08px;
-  width: 268.92px;
-  height: 268.46px;
+  width: 250px;
+  height: 250px;
   object-fit: cover;
 }
 .flower8Icon,
@@ -481,6 +479,18 @@
   color: #000;
 }
 .flowerCourse {
+  position: relative;
+  background-color: #f3f4d3;
+  width: 100%;
+  height: 2290px;
+  overflow: hidden;
+  text-align: left;
+  font-size: 55px;
+  color: #83bd1a;
+  font-family: Inter;
+}
+.flowerCourse1 {
+  filter: blur(10px);
   position: relative;
   background-color: #f3f4d3;
   width: 100%;
