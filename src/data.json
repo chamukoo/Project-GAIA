@@ -3,7 +3,7 @@
     "id": "plant-1",
     "img": "/donkeys-tail1@2x.png",
     "name": "Donkey's Tail",
-    "origin": "Southern Mexico0",
+    "origin": "Southern Mexico",
     "scientific-name": "Sedum morganianum",
     "description": "The Donkey’s tail is a succulent plant species that stores water for long periods of time as a fail-safe when in its natural habitat water becomes scarce. It can be grown outdoors as well as indoors during the summer and will in fact relish in the sun. Despite, Mexico having a much warmer climate than those of us in temperate regions, this plant has adjusted well and grows easily indoors. During winter, it is fine if the temperature drops down and it can encourage them to actually bloom in the forthcoming spring season. During the growing season from April – September, water the plant thoroughly and then water when the soil becomes dry to the touch. During winter, cut down on the watering, which the plant may only need once a month. You will only need to repot this plant during spring when the existing pot has become too small for it and use a shallow pot. Avoid wet or poorly drained conditions. Pest/disease problems can occur due to overwatering. Stems and leaves can be eaten, but when ingested in large quantities, can cause stomach upset. Like many succulents, it thrives best in full sun and prefers plenty of warm sun exposure. If you choose to keep your plant indoors, choose a sunny windowsill with several hours of daily light."
   },
@@ -14,5 +14,206 @@
     "origin": "It is commonly found in countries such as India, China, Malaysia, Philippines, and several parts of Africa.",
     "scientific-name": "Parodia magnifica",
     "description": "Ball cactus is considered endangered in the wild. Its sparse populations grow in cool, dry temperate grasslands. This species is cultivated for horticultural purposes, and must be grown under glass in cold regions during the winter. Ball cactus is a drought-tolerant plant that does not require frequent watering. Water thoroughly when the soil is completely dry. When potted, water slowly, wait for water to flow out the bottom, and then pour the excess water from the tray to avoid water accumulation. Spring, summer, and fall are its growing seasons. Water once or twice a week to keep the soil slightly wet. In winter, water less; just keep the soil from drying excessively; usually once a week. Besides, water with rainwater or distilled water rather than tap water. Tap water contains a lot of calcium, magnesium, and other mineral salts. Long-term use tends to cause soil compaction. Avoid splashing water on its stem when watering to prevent rotting. Ball cactus is a heliophilic plant and needs sufficient sunlight for its growth and blooming. It can be placed on the outdoor balcony or in the garden without shade. However, long-time exposure to blazing sunlight should be avoided in hot summer, when it needs to be shaded or cooled a little to prevent high temperatures from damaging it. Ball cactus does not require much pruning. Remove withered flowers and branches so the plant uses nutrients on healthy growth."
+  },
+  {
+    "id": "plant-3",
+    "img": "",
+    "name": "Ox tongue",
+    "origin": "South Africa",
+    "scientific-name": "Gasteria verrucosa",
+    "description": "It has distinct rough and pointed leaves. Due to the shape of its leaves, the plant is also commonly referred to as Cows Tongue or Lawyers Tongue. The color of the leaves is dark green and can often include red and pink toward the tips of the leaves. These slow-growing succulents are perfect for growing indoors and reach a height of 6-20 inches long. It is best to plant it in a well-lit room out of direct sunlight when growing indoors.  It is recommended to water Ox-Tongue when the soil is dry to avoid rotting its roots. Twice a month during warmer months and once a month during the cooler seasons is ideal. Grow in well-drained cactus soil and don’t over-water.  It is ideal for beginner gardeners or those looking for easy care plants. In its native range, it is a winter rainfall plant and blooms from August to October with long-lasting pink or orange flowers. It is perfect as an indoor plant since it can easily grow in the shade. It is also happy to share its space with other plants, making it an ideal pair with a nutrient or sun-hungry plant."
+  },
+  {
+    "id": "plant-4",
+    "img": "",
+    "name": "Zebra Plant",
+    "origin": "South Africa",
+    "scientific-name": "Haworthia fasciata",
+    "description": "Zebra Plant are delicately small succulent houseplants, reaching up to 5 to 8-inches only in height. They have thick, dark green leaves with bumps of white tubercles on the outer surface, and are clustered together giving it a “Zebra” effect. Zebra plants don’t need much effort when it comes to watering, as then can still survive even without one for many weeks. They also look exceptionally beautiful in unusual containers or interesting soil mixes, making them perfect for any indoor spaces. Unlike any other succulents, Zebra plants do well even in medium and low light conditions, which is usually found in an indoor setting. But if you want to bring out its stunning red and orange pigments, display them in a spot where they can get as much natural light as possible, like a south or east-facing windowsill. They have very sensitive leaves, and exposing them to direct light will most likely lead them to get dry tips, which is their way of telling you that they are receiving too much sunlight. Watering Zebra plants is a bit tricky, as too much can quickly lead to root rot or discoloration, and too little water can cause the leaves to drop."
+  },
+  {
+    "id": "plant-5",
+    "img": "",
+    "name": "Panda Plant",
+    "origin": "Madagascar",
+    "scientific-name": "Kalanchoe tomentosa",
+    "description": "The Panda Plant is a perennial succulent known for its soft, fuzzy leaves that look a bit like fur. They’re native to Madagascar, where they naturally grow on granite rocks. Panda Plants can grow quite large – up to 1.5 feet (45 cm) tall, growing into a shrub shape. You can also prune them to maintain more of a bush or tree-like shape. The fuzzy leaves are typically silvery-gray in color, edged with either a rust color on younger leaves or more of a rich chocolate brown on more mature leaves. Each leaf can grow up to 3 inches long. Panda Plants are well-suited to hot, dry environments. Their leaves are reflective, helping to minimize the risk of the plant overheating, plus their fuzzy coating helps reduce water vapor loss during transpiration. These things make the plant drought-resistant. This plant can produce fuzzy flowers when grown in the wild. However, it’s unusual for it to flower when kept indoors as a houseplant. They also aren’t frost-tolerant, so if they are kept outdoors then they should be moved indoors well before the winter cold sets in. The panda plant is a slow grower which will only need re-potting once every 2 years and then less once it matures. Leaf cuttings can be taken and planted in new soil during spring. Give the leaf cutting a week of drying out before re-potting, then you can expect them to begin rooting within 4 weeks. "
+  },
+  {
+    "id": "plant-6",
+    "img": "",
+    "name": "Jade Plant",
+    "origin": "South Africa",
+    "scientific-name": "Crassula ovata",
+    "description": "Jade plants are tough, easy-to-grow succulents. They grow well in containers and like the warm, dry conditions found in most homes. Like many succulent plants which means they have the ability to store water in its leaves, stems, and roots. Jade plants can live for a very long time and grow into small trees or shrubs up to 5 feet tall indoors. Jade plant is an easy-to-grow succulent that stores water in its leaves, stems, and roots. It has been used as an indoor ornamental throughout the world and a landscape plant in mild climates. It makes a good houseplant as it grows well in the restricted root space of containers, is relatively slow-growing, likes the warm, dry conditions found in most homes, and tolerates neglect. It grows into a small rounded evergreen shrub (to 6 feet) on dry, rocky hillsides. It has many short, thick, succulent branches on a gnarled-looking trunk, suggesting great age even in young specimens. The bark peels from the trunk in horizontal brownish strips on old plants. They tend to be clustered at the ends of the branches rather than spaced evenly among them. They should be kept in an area that will not receive any supplemental light so that the natural light cycle of the season will trigger flower initiation.  This plant is tolerant of a wide range of temperature and humidity and may even tolerate light frost but will be killed by freezing conditions."
+  },
+  {
+    "id": "plant-7",
+    "img": "",
+    "name": "Sunburst",
+    "origin": "Mexico and parts of Central America",
+    "scientific-name": "Sedum adolphi",
+    "description": "It is a branching succulent that forms large rosettes of variegated spoon-shaped leaves at the tip of the branches. The rosettes grow up to 8 inches (20 cm) in diameter. Leaves are fleshy, green with yellow edges and reddish-pink tints around the edges when exposed to sunlight. Flowers are small, star-shaped, pale yellow, and appear in summer. This plant is monocarpic, meaning it dies after flowering. Sunburst do not like hot or dry weather. Therefore, they may go dormant in summer and do not require any water except in arid conditions. In extreme heat, their leaves will curl to prevent excessive water loss. Growing them in moist shade will keep them growing, but their true growth season is winter to spring, when temperatures are cool, 65 to 75 °F. Like most types of succulents, the Sunburst has similar water needs. The plant should be watered regularly because of the plant’s small roots. However, we recommend that you thoroughly soak the plant in water and let it dry completely before watering again. For the summer the plant might lay dormant, and then it requires no water, except if the conditions are very dry. It thrives best in full sunlight to part sunlight in a sheltered spot, but the bright light enhances the rich hues of the darker sunburst. It can be easily propagated by seed or by stem cuttings. Take cuttings of rosettes in the spring and kept at 18ºC and barely moist until rooted."
+  },
+  {
+    "id": "plant-8",
+    "img": "",
+    "name": "Dolphin",
+    "origin": "Southwest Africa",
+    "scientific-name": "Senecio peregrinus",
+    "description": "Dolphin plant, is a unique-looking succulent, growing leaves that look like tiny jumping dolphins. It is a low-maintenance plant. This plant was created as a hybrid between Senecio rowleyanus and Senecio articulatus. It requires basic attention to its watering, light, and soil needs to flourish. Since the sap is poisonous. It is advised that you wear protective gloves when handling them. The dolphin plant is drought resistant. This is because their foliage can retain water for long periods. As such, limit watering to once a week or once in 10 days. Overwatering the soil exposes the plant to root rot. This is a result of fungi buildup caused by excess moisture. It is not frost-tolerant. So, ensure temperature levels don’t drop below 40 degrees Fahrenheit. You can propagate the Dolphins plant through stem cuttings. Be Careful when doing this so you don’t end up damaging the plant. Pruning should be done often to control the plant’s growth. You also need to prune often to keep its foliage looking fresh. Sterilize the tools before using them. It is a plant that are known to have a fast growth rate. These plants tolerate dry periods but must be kept moist enough to prevent the dolphin leaves from puckering. Dolphin Plants may just be another novelty plant, but they are also selective about some of their care."
+  },
+  {
+    "id": "plant-9",
+    "img": "",
+    "name": "Moonstone",
+    "origin": "Mexico",
+    "scientific-name": "Pachyphytum oviferum",
+    "description": "It is a popular clump-forming succulent with chubby, pale blue-green to bluish-purple leaves arranged in a rosette at the tips of short stems. This succulent can grow in soil to a height of up to 10 cm and spreads around to 30 cm maximum around the soil as well. Stems are white and bare up to 15 leaves. The petals are cream-colored, apically with a faint round dark purple-red spot, and covered with greenish-white sepals. Moonstone does not tolerate frosts well. It tolerates high heat and intense sunlight. Allow the soil to dry before watering, and avoid getting water on the leaves. The plants will require more water in winter as winter begins its active growth season. A good light exposure helps to keep the plants compact and encourage leaf color and flowering. The white pruinose stem coatings of the plants in our collection sometime are not so intense as those of the plants in their natural habitat but the difference in coating is thought due to the higher humidity and less intense sunlight of our climate. It is a tough plant and, if you have patience, it will reward you with its extremely decorative leaves and flowers. Any soil that retains water for long periods is not suitable for moonstones. Make sure to settle on a medium that drains first enough."
+  },
+  {
+    "id": "plant-10",
+    "img": "",
+    "name": "Basil",
+    "origin": "Asia",
+    "scientific-name": "Ocimum basilicum",
+    "description": "Basil is one of the most widely-used culinary herbs in the world. Basil is an annual, or sometimes perennial, herb used for its leaves. The leaves are used fresh or dried to flavor meats, fish, salads, and sauces; basil tea is a stimulant. Basil leaves are glossy and oval-shaped, with smooth or slightly toothed edges that typically cup slightly; the leaves are arranged oppositely along the square stems. The plant is extremely frost-sensitive and grows best in warm climates. Basil is easy to grow, but it only grows outdoors in the summer once the soil has warmed up nicely. Basil is not usually seeded directly into the soil; rather, gardeners transplant small starter plants purchased at a nursery. Basil will grow best in a location that gets 6 to 8 hours of full sun daily, though it can perform well in partial sun, too. It is popular as a food seasoning, this aromatic herb is also used in teas and supplements which may provide a range of health benefits. Though dried basil is more concentrated in nutrients, you use less in recipes compared to fresh. Basil is generally used in small quantities, the only substantial nutrient it provides is vitamin K. Basil also supplies plant compounds, which contribute aroma, flavor and health benefits. You can grow basil anywhere with nighttime temperatures above 60℉. Harvest basil leaves as you need them, but don’t simply pluck them from your plants. To encourage proper growth, cut the stem toward the bottom so that only two to four leaves remain on the plant."
+  },
+  {
+    "id": "plant-11",
+    "img": "",
+    "name": "Oregano",
+    "origin": "Mediterranean region",
+    "scientific-name": "Origanum vulgare",
+    "description": "Oregano is a herb from the mint, or Lamiaceae family. People have used it for thousands of years to add flavor to dishes and to treat health conditions. It features in the Mediterranean diet. Oregano adds flavor to savory dishes. It may also have health benefits due to its anti-inflammatory, antioxidant, and antimicrobial properties. People around the Mediterranean region have used oregano for centuries in herbal medicine to treat many ailments. The main components of oregano essential oil are carvacrol and  thymol. These may have antimicrobial properties. The perennial herb produces long trailing stems which looks pretty spilling over a container or as a bright green leafy ground cover, especially along a path. White flowers bloom in late summer. Oregano also makes a good companion plant in the vegetable garden. Oregano loves the sun, so ensure that your placement has full sun for strong flavor. Offer partial shade if growing in hot climates. Oregano can easily be started from seeds, though you can also use cuttings from an established plant. "
+  },
+  {
+    "id": "plant-12",
+    "img": "",
+    "name": "Rosemary",
+    "origin": "Europe",
+    "scientific-name": "Salvia rosmarinus",
+    "description": "Rosemary is a perennial shrub and usually grows to about 1 meter long. The linear leaves are about 1 cm long and somewhat resemble small curved pine needles. They are dark green and shiny above, with a white underside and curled leaf margins. The small bluish flowers are borne in axillary clusters and are attractive to bees. Rosemary is fairly resistant to most pests and plant diseases, though it is susceptible to certain fungal infections, such as powdery mildew, in humid climates. It is also a common host to spittlebugs. The plants are easily grown from cuttings. It’s also a popular culinary herb with a wonderful aroma and piney taste which goes well with meat, soups, and potatoes. Drought-tolerant, rosemary grows best in warm areas, similar to its native shores of the Mediterranean Sea. Rosemary grows so vigorously in ideal conditions that it needs a yearly pruning to keep it bushy. When growing rosemary as a culinary herb, it’s best to harvest in the spring and summer when it’s actively putting on new growth. Rosemary grows as a compact woody shrub. While all the leaves are technically edible, we usually only eat the tender leaves that form at the tips of new branches. Rosemary won’t tolerate being constantly wet and the soil should be fertile. Plant rosemary is in spring well after frosts are gone, once the soil is starting to warm up. "
+  },
+  {
+    "id": "plant-13",
+    "img": "",
+    "name": "Thyme",
+    "origin": "Southern Europe and Northern Africa",
+    "scientific-name": "Thymus vulgaris",
+    "description": "Thyme is a wonderful herb with a pleasant, pungent, clover flavor. It smells like summer to us! There are both fragrant ornamental types as well as culinary thyme varieties, which add a savory note to summer soups, grilled meats, and vegetables. A low-growing hardy perennial, thyme is a fragrant herb with small, fragrant leaves and thin, woody stems. Thyme comes in over fifty varieties with different fragrances and flavors. Fresh or English thyme is used most often in cooking. This herb is drought-friendly, so it doesn’t have high watering needs. It is also pollinator-friendly! Let some thyme plants flower, since the herb attracts the bees. Thyme can grow in the ground or in a container. Either is left outside in wintertime. New leaves will emerge within the early spring. Thyme thrives in full sun and loves heat. If you are growing in a pot indoors, plant near a sunny window. It’s hard to grow thyme from seeds because of slow, uneven germination. It’s easier to buy the plants from a garden center or take some cuttings from a friend. Over time, you can propagate from your own cuttings. Plant cuttings or young thyme plants any time after the ground temperature reaches 70°F. "
+  },
+  {
+    "id": "plant-14",
+    "img": "",
+    "name": "Sage",
+    "origin": "Southeastern Europe",
+    "scientific-name": "Salvia officinalis",
+    "description": "Sage is a hardy perennial with pretty, grayish-green leaves that like as good in a perennial border as they do in a vegetable garden. It grows spikes of spring flowers in different colors, including purple, blue, white, and pink. Sage contains antioxidants which help reduce the risk of serious health conditions like cancer. It’s also rich in vitamin K, which aids the body in clotting blood. Sage contains over 160 distinct polyphenols, which are plant-based chemical compounds that act as antioxidants in the body. Sage has a strong aroma and earthy flavor, which is why it’s typically used in small amounts. Sage should be planted in well-draining soil; it won’t tolerate sitting in wet soil. The easiest and best way to start sage is from a small plant. Set the plants 2 feet apart. For best growth, the soil should be between 60° and 70°F. Plants should grow to be between 12 and 30 inches in height. They’ll need a consistent moisture supply until they start growing quickly. It’s best to replace the plants every few years so they remain productive. Sage is a natural cleaning agent, pesticide, and ritual object in spiritual sage burning or smudging. Taking sage by mouth seems to improve memory and thinking skills in healthy adults. "
+  },
+  {
+    "id": "plant-15",
+    "img": "",
+    "name": "Arugula",
+    "origin": "Mediterranean Region",
+    "scientific-name": "Eruca sativa",
+    "description": "Arugula is a globetrotting garden good that packs a punch for the palette and carries a heavy load of nutrients and minerals for the body. As a fresh leafy green with a semi-sturdy texture, arugula is a versatile cooking ingredient and an essential raw food to keep on the ready. Leafy green arugula is an important ingredient for so many cooks and chefs. It is a favorite in pasta, primetime on pizzas, and essential for salad mixes. Arugula plants produce a flower but it is the leaves that are harvested and eaten raw or cooked. Arugula’s particular flavor is as distinct as the cuisine from its native region.  Arugula consists of deeply lobed, flat leaves connected to fibrous stems, growing in a loose, basal rosette. The leaves are generally harvested small in size, averaging 7 to 10 centimeters in length, and are smooth and bright green with prominent veining and frilled edges. The leaves are also attached to a white to pale green, fibrous stem, contributing to the leaf’s crisp, succulent, and slightly chewy consistency. Arugula can be picked young, and the immature greens carry a milder, sweeter flavor with a tender texture. The leaves can also be harvested mature, developing a distinct peppery, somewhat bitter, and vegetal taste with subtle mustard, nuts, and grass notes. "
+  },
+  {
+    "id": "plant-16",
+    "img": "",
+    "name": "Marjoram",
+    "origin": "Southern Europe",
+    "scientific-name": "Origanum majorana",
+    "description": "Marjoram is a low-growing herb, perfect as a garden edging or planted in a container or window box. It is woodier and more floral than oregano, with a slight note of pine. Oregano is stronger and spicier. It tends to grow a bit less aggressively than oregano, and it can’t handle cold weather as well as oregano. Marjoram is one of those plants that seems to put all of its efforts into successful reproduction. It seeds easily, lends itself to division, reproduces via cuttings without fuss, and can even be layered. Marjoram is a very useful herb, as it keeps its full flavor even when dried. In order to dry marjoram, pick the leaves just after flower buds appear but before they open, removing no more than a third of the plant’s leaves in a single harvest. Once the leaves have dried, strip them from the stem. You may harvest again when flower buds reappear later in the season. Pruning flowering stems in summer will reduce the volume of flowers and seeds produced. You can also divide mature plants every few years to restrict the spreading root rhizomes and produce lots of free plants. Flower buds grow on apical and lateral extremities forming tight green knots opening into white flowers. Marjoram is often confused with its close cousin oregano. They are both from the genus Origanum in the mint family, Lamiaceae, but are completely different species; marjoram is Origanum majorana, and oregano is Origanum vulgare. The key differences between marjoram and oregano are their flowers and flavor. Marjoram flower buds open to white or purple florescences, whereas oregano flowers are pink."
+  },
+  {
+    "id": "plant-17",
+    "img": "",
+    "name": "Tarragon",
+    "origin": "Central Asia and Europe",
+    "scientific-name": "Artemisia dracunculus",
+    "description": "Tarragon is a perennial herb with long, light green leaves and tiny greenish or yellowish white flowers. You can’t grow French tarragon from seeds. You must purchase the plants or take an established plant from a friend’s garden. Get the transplants in the spring or fall. Plant the transplants in well-drained soil about 2 to 3 feet apart in order to give each plant room to grow. A full-grown plant should cover about 12 inches of soil. Tarragon is a good companion to most vegetables in the garden. Be sure to prune the plant regularly to prevent flowering and to keep the height to around 2 feet, otherwise the plant will fall over. Tarragon is low in calories and carbs and contains the nutrients manganese, iron and potassium, which may be beneficial for your health. Tarragon has been found to help improve insulin sensitivity and the way your body uses glucose. It’s hardy and easy to grow in a sunny or partially shaded spot in well drained soil. It thrives in spring temperatures and doesn’t do well in overly hot climates. Tarragon may not be the most attractive herb, but it’s flavorsome, easy to grow, hardy and drought-resistant. Planting up in early spring will help ensure the best flavor, and making sure your Tarragon doesn’t get too much direct sun in hot climates is best. You’ll also need to select a sandy, well-draining soil. This hardy plant is not too fussy about temperatures. It can still grow if a cold snap hits. The main thing is that Tarragon doesn’t like intense heat and sun and it doesn’t do well in high humidity. "
+  },
+  {
+    "id": "plant-18",
+    "img": "",
+    "name": "Spinach",
+    "origin": "Persia",
+    "scientific-name": "Spinacia oleracea",
+    "description": "Spinach is a fast-growing plant, yielding many leaves in a short time in the mild weather of spring and fall. Spinach is a cool-weather vegetable related to beets and Swiss chard. A fast-growing plant, it yields many leaves in a short time in the mild weather of spring and fall. When growing spinach, the trick lies in making it last as long as possible, especially in the spring, when lengthening days shorten its life. Plant spinach during the cool weather of spring and fall. Space spinach plants 12 inches apart in fertile, well-drained soil. Check soil moisture often or consider using a soaker hose to keep moisture levels consistent. Harvest spinach starting with the outermost leaves once leaves are large enough to eat. Harvest by removing only the outer leaves and allowing the center leaves to grow larger; this will allow the plant to keep producing. Picking the outer leaves also gives the advantage of briefly delaying bolting. In spring, when plants are about to bolt, pull the entire plant at once to enjoy the leaves before they become bitter. In the spring, plants will grow tall and bloom, called bolting as soon as the days are longer than 14 hours. Heat also speeds up bolting, since spinach prefers temperatures between 35 and 75 degrees. Because it bolts in the lengthening days of spring, spinach is an especially popular crop for fall, when days are short and cool. Plants are very cold-hardy, tolerating temperatures as cold as the teens to low 20s once they are well established."
+  },
+  {
+    "id": "plant-19",
+    "img": "",
+    "name": "Gumamela",
+    "origin": "India, China, Malaysia, and Philippines.",
+    "scientific-name": "Hibiscus rosa-sinensis",
+    "description": "Gumamela is a flowering plant that typically grows as a shrub or small tree. It has glossy, dark green leaves and produces large, showy flowers. The flowers of Gumamela come in a wide range of colors, including red, pink, orange, yellow, and white. They are known for their distinct funnel-shaped or trumpet-shaped petals and prominent central stamens. The flowers can be single or double, depending on the variety. Gumamela is not only valued for its aesthetic appeal but also for its medicinal and culinary uses. Its flowers are often used to make herbal tea and are known for their potential health benefits. Additionally, various parts of the plant, including the leaves and roots, are used in traditional medicine for their antimicrobial, anti-inflammatory, and antioxidant properties."
+  },
+  {
+    "id": "plant-20",
+    "img": "",
+    "name": "Daisies",
+    "origin": "Europe, North America, and some parts of Asia.",
+    "scientific-name": "Bellis perennis",
+    "description": "Daisies are small herbaceous plants with a distinctive appearance. They typically have a rosette of dark green leaves at the base, and from the center of the rosette rises a single stem bearing a solitary flower. The flowers have a yellow disk-like center called the disk floret and white or pinkish petals called ray florets surrounding the center. However, daisies can also come in other colors such as yellow, orange, and red. The flowers of the daisy are known for their simplicity and charm. They are often associated with innocence and purity, and they have become a popular symbol in literature, art, and culture. Daisies are also valued for their ability to attract pollinators like bees and butterflies to the garden."
+  },
+  {
+    "id": "plant-21",
+    "img": "",
+    "name": "Rose",
+    "origin": "Asia",
+    "scientific-name": "Rosa",
+    "description": "Roses are flowering shrubs that are known for their beautiful and fragrant flowers. They have a wide variety of forms, colors, and sizes, thanks to extensive cultivation and hybridization efforts. Roses typically have thorny stems and compound leaves, with each leaflet having a serrated edge. The flowers of roses come in a diverse range of colors, including red, pink, yellow, white, orange, and lavender. They are usually large and showy, with layers of petals forming a distinctive bloom. Roses are not only valued for their aesthetic appeal but also for their fragrance, which can vary from subtle to intense depending on the variety. Roses have been cultivated for centuries and hold significant cultural and symbolic meanings in different societies. They are often associated with love, beauty, and romance, making them popular choices for gardens, bouquets, and various celebrations."
+  },
+  {
+    "id": "plant-22",
+    "img": "",
+    "name": "Sunflower",
+    "origin": "North and Central America",
+    "scientific-name": "Helianthus annuus",
+    "description": "Sunflowers are tall, herbaceous plants with large, daisy-like flowers. They have a sturdy, hairy stem that can reach heights of several feet, depending on the variety. The leaves are broad, rough, and usually heart-shaped or lanceolate. The iconic feature of the sunflower is its large flower head, which consists of numerous small individual flowers arranged in a distinctive spiral pattern. The flower head is composed of yellow or golden ray florets surrounding a central disc of tiny tubular florets. The number and arrangement of the ray florets can vary among different sunflower varieties. Sunflowers are known for their phototropism, a behavior where the flower head follows the movement of the sun throughout the day, facing east in the morning and gradually turning westward as the day progresses. This phenomenon is known as heliotropism. Sunflowers are not only appreciated for their beauty but also for their practical uses. The seeds of the sunflower are harvested for their oil and are a popular snack. Additionally, sunflowers are cultivated as ornamental plants, providing vibrant displays in gardens and attracting pollinators."
+  },
+  {
+    "id": "plant-23",
+    "img": "",
+    "name": "Plumeria",
+    "origin": "Mexico, Central America, and the Caribbean",
+    "scientific-name": "Plumeria rubra",
+    "description": "Plumeria is a tropical flowering tree or shrub known for its fragrant and vibrant flowers. It can reach heights up to 9 meters (30 feet) and has thick, succulent branches with grayish bark. The flowers come in various colors, including white, yellow, pink, and red, and have a distinct shape with five overlapping petals forming a tubular or funnel-like structure. Plumeria flowers are highly fragrant and are used in cultural practices and as ornamental plants in gardens and landscapes."
+  },
+  {
+    "id": "plant-24",
+    "img": "",
+    "name": "Marigolds",
+    "origin": "Mexico and Central America",
+    "scientific-name": "Tagetes",
+    "description": "Marigolds are annual flowering plants known for their vibrant blooms in colors such as yellow, orange, and red. They have a bushy growth habit and reach heights ranging from 15 to 90 centimeters (6 to 36 inches). Marigolds are popular for their ornamental appeal in gardens and containers, and they also serve as companion plants due to their pest-repellent properties."
+  },
+  {
+    "id": "plant-25",
+    "img": "",
+    "name": "Cosmos",
+    "origin": "Central and South America",
+    "scientific-name": "Cosmos",
+    "description": "Cosmos are annual flowering plants known for their delicate and colorful flowers. They typically have slender stems and fern-like foliage. The flowers come in a range of colors, including white, pink, red, and orange, and they have a characteristic daisy-like shape with a prominent central disk and surrounding petals. Cosmos are popular in gardens and landscapes due to their vibrant blooms and ability to attract butterflies and other pollinators. They are relatively low-maintenance plants and can tolerate a variety of soil conditions. Cosmos flowers also make excellent cut flowers, adding beauty to floral arrangements."
+  },
+  {
+    "id": "plant-26",
+    "img": "",
+    "name": "Lotus",
+    "origin": "India, China, and Egypt",
+    "scientific-name": "Nelumbo nucifera",
+    "description": "The lotus is an aquatic perennial plant with large, round leaves that float on the surface of water. It has distinct flowers and seed pods. The flowers of the lotus are large and showy, typically with numerous petals arranged in multiple layers. They come in various colors, including white, pink, and yellow. The flowers often have a sweet fragrance. The lotus is known for its unique growth habit, as its roots are anchored in the mud or muck at the bottom of ponds, while its stems and leaves rise above the water surface. This growth pattern symbolizes purity and spiritual enlightenment in many cultures. The lotus has deep cultural significance and is revered in several religions, including Buddhism, Hinduism, and Egyptian mythology. It is often associated with purity, beauty, spiritual awakening, and rebirth. The various parts of the lotus plant, including the flowers, seeds, and roots, have culinary and medicinal uses in different traditions."
+  },
+  {
+    "id": "plant-27",
+    "img": "",
+    "name": "Hollyhocks",
+    "origin": "Asia and the eastern Mediterranean region",
+    "scientific-name": "Alcea",
+    "description": "Hollyhocks are tall flowering plants known for their impressive spikes of large, showy flowers. They come in a variety of colors and have distinctive petals surrounding a central column of stamens. Hollyhocks are popular in cottage-style gardens and borders, providing vertical interest and attracting pollinators."
   }
+  
 ]
