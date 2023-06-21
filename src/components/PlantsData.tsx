@@ -5,15 +5,17 @@ import SwitchBack from "./SwitchBack";
 
 interface Props {
   handleReset: () => void;
+  plantChosen?: string;
 }
 
-const PlantsData = ({ handleReset }: Props) => {
+const PlantsData = ({ handleReset, plantChosen }: Props) => {
+  const plantId = "plant-1";
+  const filteredData = Data.filter((data) => data.id == plantId);
   return (
     <>
-      {Data.map((info) => (
-        <div className={styles.plantCard} id={info.id}>
+      {filteredData.map((info, index) => (
+        <div className={styles.plantCard} id={info.id} key={index}>
           <SwitchBack handleReset={handleReset} />
-
           <div className={styles.plantName}>{info.name}</div>
           <div className={styles.plantOrigin}>
             <b>Origin:</b>
@@ -22,10 +24,10 @@ const PlantsData = ({ handleReset }: Props) => {
           <div className={styles.plantSciName}>
             <b>Scientific Name: </b>
             {/* <span className={styles.scientificNameText}>
-            <i>
-              <u>{info["scientific-name"]}</u>
-            </i>
-          </span> */}
+              <i>
+                <u>{info["scientific-name"]}</u>
+              </i>
+            </span> */}
           </div>
           <div className={styles.plantDescription}>
             <b>Description: </b>

@@ -6,7 +6,7 @@ import CourseLayout from "../layouts/CourseLayout";
 
 const FernCourse = () => {
   const [showInfo, setShowInfo] = useState(false);
-
+  const [plantClicked, setPlantCicked] = useState(Number);
   const onFern1ContainerClick = () => {
     setShowInfo(true);
   };

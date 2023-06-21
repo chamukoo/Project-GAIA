@@ -1,15 +1,19 @@
-import React, { ReactNode } from "react";
-import NavBar from "../components/NavBar";
+import { ReactNode } from "react";
 import PlantsData from "../components/PlantsData";
-import SwitchBack from "../components/SwitchBack";
 
 interface Props {
   children: ReactNode;
   clicked?: boolean;
   handleReset: () => void;
+  plantChosen?: number;
 }
 
-const CourseLayout = ({ clicked, children, handleReset }: Props) => {
+const CourseLayout = ({
+  clicked,
+  children,
+  handleReset,
+  plantChosen,
+}: Props) => {
   return (
     <div>
       {clicked ? <PlantsData handleReset={handleReset} /> : null}
