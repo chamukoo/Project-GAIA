@@ -155,7 +155,7 @@
     "id": "plant-20",
     "img": "/flower-2@2x.png",
     "name": "Daisies",
-    "origin": "Europe, North America, and some parts of Asia.",
+    "origin": "It is native to Europe, North America, and some parts of Asia.",
     "scientific-name": "Bellis perennis",
     "description": "Daisies are small herbaceous plants with a distinctive appearance. They typically have a rosette of dark green leaves at the base, and from the center of the rosette rises a single stem bearing a solitary flower. The flowers have a yellow disk-like center called the disk floret and white or pinkish petals called ray florets surrounding the center. However, daisies can also come in other colors such as yellow, orange, and red. The flowers of the daisy are known for their simplicity and charm. They are often associated with innocence and purity, and they have become a popular symbol in literature, art, and culture. Daisies are also valued for their ability to attract pollinators like bees and butterflies to the garden."
   },
@@ -163,7 +163,7 @@
     "id": "plant-21",
     "img": "/flower-3@2x.png",
     "name": "Rose",
-    "origin": "Asia",
+    "origin": "It is originated in Asia, specifically in regions such as China, India, and Persia (present-day Iran).",
     "scientific-name": "Rosa",
     "description": "Roses are flowering shrubs that are known for their beautiful and fragrant flowers. They have a wide variety of forms, colors, and sizes, thanks to extensive cultivation and hybridization efforts. Roses typically have thorny stems and compound leaves, with each leaflet having a serrated edge. The flowers of roses come in a diverse range of colors, including red, pink, yellow, white, orange, and lavender. They are usually large and showy, with layers of petals forming a distinctive bloom. Roses are not only valued for their aesthetic appeal but also for their fragrance, which can vary from subtle to intense depending on the variety. Roses have been cultivated for centuries and hold significant cultural and symbolic meanings in different societies. They are often associated with love, beauty, and romance, making them popular choices for gardens, bouquets, and various celebrations."
   },
@@ -171,7 +171,7 @@
     "id": "plant-22",
     "img": "/flower-4@2x.png",
     "name": "Sunflower",
-    "origin": "North and Central America",
+    "origin": "It is native to North and Central America.",
     "scientific-name": "Helianthus annuus",
     "description": "Sunflowers are tall, herbaceous plants with large, daisy-like flowers. They have a sturdy, hairy stem that can reach heights of several feet, depending on the variety. The leaves are broad, rough, and usually heart-shaped or lanceolate. The iconic feature of the sunflower is its large flower head, which consists of numerous small individual flowers arranged in a distinctive spiral pattern. The flower head is composed of yellow or golden ray florets surrounding a central disc of tiny tubular florets. The number and arrangement of the ray florets can vary among different sunflower varieties. Sunflowers are known for their phototropism, a behavior where the flower head follows the movement of the sun throughout the day, facing east in the morning and gradually turning westward as the day progresses. This phenomenon is known as heliotropism. Sunflowers are not only appreciated for their beauty but also for their practical uses. The seeds of the sunflower are harvested for their oil and are a popular snack. Additionally, sunflowers are cultivated as ornamental plants, providing vibrant displays in gardens and attracting pollinators."
   },
@@ -179,7 +179,7 @@
     "id": "plant-23",
     "img": "/flower-5@2x.png",
     "name": "Plumeria",
-    "origin": "Mexico, Central America, and the Caribbean",
+    "origin": "It is native to tropical regions of the Americas, including Mexico, Central America, and the Caribbean.",
     "scientific-name": "Plumeria rubra",
     "description": "Plumeria is a tropical flowering tree or shrub known for its fragrant and vibrant flowers. It can reach heights up to 9 meters (30 feet) and has thick, succulent branches with grayish bark. The flowers come in various colors, including white, yellow, pink, and red, and have a distinct shape with five overlapping petals forming a tubular or funnel-like structure. Plumeria flowers are highly fragrant and are used in cultural practices and as ornamental plants in gardens and landscapes."
   },
@@ -187,7 +187,7 @@
     "id": "plant-24",
     "img": "/flower-6@2x.png",
     "name": "Marigolds",
-    "origin": "Mexico and Central America",
+    "origin": "It is native to the Americas, specifically Mexico and Central America.",
     "scientific-name": "Tagetes",
     "description": "Marigolds are annual flowering plants known for their vibrant blooms in colors such as yellow, orange, and red. They have a bushy growth habit and reach heights ranging from 15 to 90 centimeters (6 to 36 inches). Marigolds are popular for their ornamental appeal in gardens and containers, and they also serve as companion plants due to their pest-repellent properties."
   },
@@ -195,7 +195,7 @@
     "id": "plant-25",
     "img": "/flower-7@2x.png",
     "name": "Cosmos",
-    "origin": "Central and South America",
+    "origin": "It is native to Mexico and some parts of Central and South America. ",
     "scientific-name": "Cosmos",
     "description": "Cosmos are annual flowering plants known for their delicate and colorful flowers. They typically have slender stems and fern-like foliage. The flowers come in a range of colors, including white, pink, red, and orange, and they have a characteristic daisy-like shape with a prominent central disk and surrounding petals. Cosmos are popular in gardens and landscapes due to their vibrant blooms and ability to attract butterflies and other pollinators. They are relatively low-maintenance plants and can tolerate a variety of soil conditions. Cosmos flowers also make excellent cut flowers, adding beauty to floral arrangements."
   },
@@ -203,7 +203,7 @@
     "id": "plant-26",
     "img": "/flower-8@2x.png",
     "name": "Lotus",
-    "origin": "India, China, and Egypt",
+    "origin": "It is native to parts of Asia, including countries such as India, China, and Egypt. ",
     "scientific-name": "Nelumbo nucifera",
     "description": "The lotus is an aquatic perennial plant with large, round leaves that float on the surface of water. It has distinct flowers and seed pods. The flowers of the lotus are large and showy, typically with numerous petals arranged in multiple layers. They come in various colors, including white, pink, and yellow. The flowers often have a sweet fragrance. The lotus is known for its unique growth habit, as its roots are anchored in the mud or muck at the bottom of ponds, while its stems and leaves rise above the water surface. This growth pattern symbolizes purity and spiritual enlightenment in many cultures. The lotus has deep cultural significance and is revered in several religions, including Buddhism, Hinduism, and Egyptian mythology. It is often associated with purity, beauty, spiritual awakening, and rebirth. The various parts of the lotus plant, including the flowers, seeds, and roots, have culinary and medicinal uses in different traditions."
   },
@@ -211,8 +211,80 @@
     "id": "plant-27",
     "img": "/flower-9@2x.png",
     "name": "Hollyhocks",
-    "origin": "Asia and the eastern Mediterranean region",
+    "origin": "It is native to Asia and the eastern Mediterranean region.",
     "scientific-name": "Alcea",
     "description": "Hollyhocks are tall flowering plants known for their impressive spikes of large, showy flowers. They come in a variety of colors and have distinctive petals surrounding a central column of stamens. Hollyhocks are popular in cottage-style gardens and borders, providing vertical interest and attracting pollinators."
+  },
+  {
+    "id": "plant-28",
+    "img": "",
+    "name": "Lemon Button",
+    "origin": "It is native to tropical regions, including parts of Africa, Asia, Australia, and the Americas.",
+    "scientific-name": "Nephrolepis cordifolia",
+    "description": "The Lemon Button Fern is a small, compact fern with delicate, bright green foliage. It typically grows to a height of around 6 to 12 inches (15 to 30 centimeters) and forms a mounding, spreading habit. The fronds are finely textured, feathery, and pinnately divided into small, rounded leaflets, resembling small buttons or coins. The overall appearance of the plant is lush and compact. Lemon Button Ferns are popular indoor plants, well-suited for terrariums, hanging baskets, or as a part of mixed houseplant arrangements. They prefer bright, indirect light and moderate humidity. It's important to keep the soil consistently moist but not waterlogged, as overwatering can lead to root rot. With proper care, the Lemon Button Fern can add a touch of greenery and elegance to your indoor spaces."
+  },
+  {
+    "id": "plant-29",
+    "img": "",
+    "name": "Crocodile Fern",
+    "origin": "It is native to tropical regions of Southeast Asia, including countries like Malaysia, Indonesia, and the Philippines.",
+    "scientific-name": "Microsorum musifolium",
+    "description": "The Crocodile Fern is an epiphytic fern known for its distinctive, textured fronds that resemble the skin of a crocodile. The fronds are elongated and leathery, with undulating edges that create a crinkled appearance. They typically have a glossy dark green color, although some varieties may exhibit lighter green or bronzy tones. This fern has a rhizomatous growth habit, meaning it spreads via underground stems called rhizomes. As it grows, it forms a clumping or trailing habit, making it suitable for hanging baskets or as a ground cover in shady areas. The Crocodile Fern thrives in indirect or filtered light and prefers moderate to high humidity. It is well-suited for tropical or subtropical climates and can be grown both indoors and outdoors, depending on the specific conditions. It requires well-draining soil and regular watering to keep the soil evenly moist."
+  },
+  {
+    "id": "plant-30",
+    "img": "",
+    "name": "Silver Lace",
+    "origin": "It is native to tropical regions of Asia, including countries like Japan, China, and India.",
+    "scientific-name": "Pteris ensiformis",
+    "description": "The Silver Lace Fern is a popular indoor fern known for its delicate and lacy foliage. The fronds are finely textured, with a feather-like appearance, consisting of numerous small leaflets arranged along the stem. The leaflets are typically light green or silvery-green, giving the fern its common name. The fronds of the Silver Lace Fern can grow up to 12 to 18 inches (30 to 45 centimeters) in length, and the plant itself can reach a height of around 12 to 24 inches (30 to 60 centimeters). It has a clumping growth habit, with arching fronds that create an attractive cascading effect. Silver Lace Ferns are well-suited for indoor cultivation, as they prefer bright, indirect light and moderate to high humidity levels. They thrive in well-draining soil and should be watered consistently to keep the soil evenly moist. They can be grown as potted plants, in hanging baskets, or as part of terrariums, adding a touch of elegance and greenery to indoor spaces."
+  },
+  {
+    "id": "plant-31",
+    "img": "",
+    "name": "Autumn Fern",
+    "origin": "It is native to East Asia, including regions of China, Japan, and Korea.",
+    "scientific-name": "Dryopteris erythrosora",
+    "description": "The Autumn Fern is an attractive deciduous fern with fronds that exhibit varying shades of green, copper, and bronze throughout the year. The fronds are typically triangular in shape and have a lacy appearance due to their deeply lobed structure. When young, the fronds emerge in a striking coppery-red color before maturing to a glossy, dark green hue. The Autumn Fern typically grows to a height of about 1 to 2 feet (30 to 60 centimeters) and spreads to a similar width. It forms a clumping habit and can create a dense, textured mound of foliage. This fern thrives in partial to full shade, making it suitable for shaded gardens, woodland areas, or as an underplanting beneath trees. It prefers well-draining soil that is rich in organic matter and requires regular watering to maintain consistent soil moisture. It is relatively adaptable and can tolerate a range of soil conditions. The Autumn Fern adds texture, color, and a touch of elegance to gardens and landscapes, particularly during the autumn months when its fronds display vibrant hues. It is also well-suited for container gardening and can be grown as a houseplant with proper care."
+  },
+  {
+    "id": "plant-32",
+    "img": "",
+    "name": "Asparagus Fern",
+    "origin": "It is native to South Africa.",
+    "scientific-name": "Asparagus setaceus",
+    "description": "The Asparagus Fern is a popular houseplant known for its delicate, feathery foliage. Despite its common name, it is not a true fern but rather a member of the asparagus family. The plant features long, arching stems covered with tiny, needle-like leaves called cladophylls, which give it a fern-like appearance. The cladophylls of the Asparagus Fern are usually bright green, although some cultivars may have a slightly yellowish or variegated coloration. The stems can grow up to several feet in length, creating a cascading or vine-like effect. In some conditions, the plant may produce small white flowers and eventually develop small, round, red berries, although it is primarily grown for its foliage. Asparagus Ferns are often used as decorative houseplants, hanging plants, or in floral arrangements for their lush, soft appearance. They are relatively low-maintenance and can tolerate a range of light conditions, from bright indirect light to partial shade. They prefer well-draining soil and moderate watering, allowing the top inch of soil to dry out between waterings."
+  },
+  {
+    "id": "plant-33",
+    "img": "",
+    "name": "Maidenhair Fern",
+    "origin": "It can be found in regions across the globe, including Asia, the Americas, Europe, and Africa.",
+    "scientific-name": "Adiantum raddianum",
+    "description": "Maidenhair Ferns are known for their delicate, lacy foliage and graceful fronds. The fronds are usually composed of multiple leaflets, which are often fan-shaped and divided into smaller segments. The leaflets are typically a vibrant green color and have a shiny, smooth texture. The overall appearance of Maidenhair Ferns is elegant and feathery, with a light and airy quality. The fronds can vary in size and shape depending on the species, ranging from a few inches to several feet in length. These ferns prefer moist, well-draining soil and thrive in shady to partially shaded environments. They are commonly found growing in moist, forested areas or near water sources such as streams or waterfalls. While they prefer high humidity levels, they can adapt to average household humidity with proper care. Maidenhair Ferns are often cultivated as houseplants or used in shaded garden areas, bringing a touch of elegance and natural beauty to indoor and outdoor spaces. They require regular watering to maintain soil moisture, but it's important to avoid overwatering as excessive moisture can lead to root rot."
+  },
+  {
+    "id": "plant-34",
+    "img": "",
+    "name": "Floating Fern",
+    "origin": "It is native to Europe, Asia and northern Africa,",
+    "scientific-name": "Azolla caroliniana",
+    "description": "Floating ferns are characterized by their ability to float on the water's surface due to special adaptations. They typically have small, finely divided leaves that are arranged in a way that allows them to float freely. The leaves often have a lush green coloration, although some species may exhibit variations in color. Floating ferns play a significant role in aquatic ecosystems, as they provide shelter, shade, and habitat for various organisms. They also help in water filtration and nutrient cycling. These ferns reproduce and spread through spores or vegetative propagation, allowing them to colonize and cover large areas of water bodies. Floating ferns are often found in ponds, lakes, slow-moving rivers, and other bodies of water where they can thrive. They are adapted to grow in aquatic environments and have specific requirements for light, water temperature, and nutrient availability. Some floating ferns, such as Azolla species, have an interesting symbiotic relationship with cyanobacteria. The ferns provide a habitat for the cyanobacteria, which, in turn, fix nitrogen from the atmosphere and provide nutrients to the ferns. This symbiosis allows the ferns to grow and reproduce more efficiently."
+  },
+  {
+    "id": "plant-35",
+    "img": "",
+    "name": "Sprite Fern",
+    "origin": "It can be found in various parts of Asia, Africa, and the Americas.",
+    "scientific-name": "Ceratopteris thalictroides",
+    "description": "The Water Sprite Fern is a popular aquatic fern known for its delicate, finely divided foliage. It has long, arching fronds that can grow up to 12 to 20 inches (30 to 50 centimeters) in length. The leaves are pinnately compound, meaning they are divided into multiple leaflets that are arranged along a central stem. The leaflets of the Water Sprite Fern are typically bright green and have a lacy or feathery appearance. The foliage is finely dissected and creates an attractive, airy effect underwater. The fern's appearance can change depending on the environment, with submerged leaves often displaying more finely divided leaflets compared to those growing above the water's surface. Water Sprite Ferns are popular choices for aquariums and water gardens due to their ability to grow both submerged and emerged. When planted in an aquarium, they can provide shelter and hiding places for fish and other aquatic creatures. In addition to their aesthetic appeal, they also contribute to the overall health of the aquatic ecosystem by absorbing excess nutrients and providing oxygen. These ferns prefer moderate to high lighting conditions and water temperatures between 68 to 82°F (20 to 28°C). They can tolerate a range of water hardness and pH levels, but they generally prefer slightly acidic to neutral conditions. The Water Sprite Fern benefits from regular nutrient supplementation and appreciates a nutrient-rich substrate or water column. When grown in favorable conditions, the Water Sprite Fern can grow rapidly and may require occasional trimming to maintain desired size and shape. It's important to note that the fern can also reproduce through spores and by producing plantlets or adventitious plants on its leaves."
+  },
+  {
+    "id": "plant-36",
+    "img": "",
+    "name": "Boston Fern",
+    "origin": "It is native to tropical regions of the Americas, including Florida, Mexico, and South America.",
+    "scientific-name": "Nephrolepis exaltata",
+    "description": "The Boston Fern is a classic and widely cultivated houseplant known for its lush and cascading fronds. It features long, arching fronds that can reach lengths of up to 2 to 3 feet (60 to 90 centimeters) or even more in optimal conditions. The fronds are composed of numerous lance-shaped leaflets that are finely divided and arranged alternately along the stem. The leaflets of the Boston Fern are typically a vibrant green color, providing a fresh and vibrant appearance. The fronds have a delicate and feathery texture, giving the plant a soft and graceful presence. They can create an attractive hanging or spreading effect when the plant is allowed to grow freely. Boston Ferns are known for their ability to adapt to a range of indoor conditions. They thrive in bright, indirect light, but they can tolerate lower light levels as well. They prefer moderate to high humidity, so it's beneficial to provide additional humidity through misting or using a humidifier, especially in drier indoor environments."
   }
 ]
