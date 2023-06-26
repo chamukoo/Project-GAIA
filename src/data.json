@@ -11,13 +11,13 @@
     "id": "plant-2",
     "img": "/ball-cactus@2x.png",
     "name": "Ball Cactus",
-    "origin": "It is commonly found in countries such as India, China, Malaysia, Philippines, and several parts of Africa.",
+    "origin": "India, China, Malaysia, Philippines, and several parts of Africa.",
     "scientific-name": "Parodia magnifica",
     "description": "Ball cactus is considered endangered in the wild. Its sparse populations grow in cool, dry temperate grasslands. This species is cultivated for horticultural purposes, and must be grown under glass in cold regions during the winter. Ball cactus is a drought-tolerant plant that does not require frequent watering. Water thoroughly when the soil is completely dry. When potted, water slowly, wait for water to flow out the bottom, and then pour the excess water from the tray to avoid water accumulation. Spring, summer, and fall are its growing seasons. Water once or twice a week to keep the soil slightly wet. In winter, water less; just keep the soil from drying excessively; usually once a week. Besides, water with rainwater or distilled water rather than tap water. Tap water contains a lot of calcium, magnesium, and other mineral salts. Long-term use tends to cause soil compaction. Avoid splashing water on its stem when watering to prevent rotting. Ball cactus is a heliophilic plant and needs sufficient sunlight for its growth and blooming. It can be placed on the outdoor balcony or in the garden without shade. However, long-time exposure to blazing sunlight should be avoided in hot summer, when it needs to be shaded or cooled a little to prevent high temperatures from damaging it. Ball cactus does not require much pruning. Remove withered flowers and branches so the plant uses nutrients on healthy growth."
   },
   {
     "id": "plant-3",
-    "img": "",
+    "img": "/ox-tongue@2x.png",
     "name": "Ox tongue",
     "origin": "South Africa",
     "scientific-name": "Gasteria verrucosa",
@@ -25,7 +25,7 @@
   },
   {
     "id": "plant-4",
-    "img": "",
+    "img": "/zebra-plant@2x.png",
     "name": "Zebra Plant",
     "origin": "South Africa",
     "scientific-name": "Haworthia fasciata",
@@ -33,7 +33,7 @@
   },
   {
     "id": "plant-5",
-    "img": "",
+    "img": "/panda-plant@2x.png",
     "name": "Panda Plant",
     "origin": "Madagascar",
     "scientific-name": "Kalanchoe tomentosa",
@@ -41,7 +41,7 @@
   },
   {
     "id": "plant-6",
-    "img": "",
+    "img": "/jade-plant@2x.png",
     "name": "Jade Plant",
     "origin": "South Africa",
     "scientific-name": "Crassula ovata",
@@ -49,7 +49,7 @@
   },
   {
     "id": "plant-7",
-    "img": "",
+    "img": "/sunburst@2x.png",
     "name": "Sunburst",
     "origin": "Mexico and parts of Central America",
     "scientific-name": "Sedum adolphi",
@@ -57,7 +57,7 @@
   },
   {
     "id": "plant-8",
-    "img": "",
+    "img": "/dolphin@2x.png",
     "name": "Dolphin",
     "origin": "Southwest Africa",
     "scientific-name": "Senecio peregrinus",
@@ -65,7 +65,7 @@
   },
   {
     "id": "plant-9",
-    "img": "",
+    "img": "/moonstone@2x.png",
     "name": "Moonstone",
     "origin": "Mexico",
     "scientific-name": "Pachyphytum oviferum",
@@ -73,7 +73,7 @@
   },
   {
     "id": "plant-10",
-    "img": "",
+    "img": "/herbal-1@2x.png",
     "name": "Basil",
     "origin": "Asia",
     "scientific-name": "Ocimum basilicum",
@@ -81,7 +81,7 @@
   },
   {
     "id": "plant-11",
-    "img": "",
+    "img": "/herbal-2@2x.png",
     "name": "Oregano",
     "origin": "Mediterranean region",
     "scientific-name": "Origanum vulgare",
@@ -89,7 +89,7 @@
   },
   {
     "id": "plant-12",
-    "img": "",
+    "img": "/herbal-3@2x.png",
     "name": "Rosemary",
     "origin": "Europe",
     "scientific-name": "Salvia rosmarinus",
@@ -97,7 +97,7 @@
   },
   {
     "id": "plant-13",
-    "img": "",
+    "img": "/herbal-4@2x.png",
     "name": "Thyme",
     "origin": "Southern Europe and Northern Africa",
     "scientific-name": "Thymus vulgaris",
@@ -105,7 +105,7 @@
   },
   {
     "id": "plant-14",
-    "img": "",
+    "img": "/herbal-5@2x.png",
     "name": "Sage",
     "origin": "Southeastern Europe",
     "scientific-name": "Salvia officinalis",
@@ -113,7 +113,7 @@
   },
   {
     "id": "plant-15",
-    "img": "",
+    "img": "/herbal-6@2x.png",
     "name": "Arugula",
     "origin": "Mediterranean Region",
     "scientific-name": "Eruca sativa",
@@ -121,7 +121,7 @@
   },
   {
     "id": "plant-16",
-    "img": "",
+    "img": "/herbal-7@2x.png",
     "name": "Marjoram",
     "origin": "Southern Europe",
     "scientific-name": "Origanum majorana",
@@ -129,7 +129,7 @@
   },
   {
     "id": "plant-17",
-    "img": "",
+    "img": "/herbal-8@2x.png",
     "name": "Tarragon",
     "origin": "Central Asia and Europe",
     "scientific-name": "Artemisia dracunculus",
@@ -137,7 +137,7 @@
   },
   {
     "id": "plant-18",
-    "img": "",
+    "img": "/herbal-9@2x.png",
     "name": "Spinach",
     "origin": "Persia",
     "scientific-name": "Spinacia oleracea",
@@ -145,15 +145,15 @@
   },
   {
     "id": "plant-19",
-    "img": "",
+    "img": "/flower-1@2x.png",
     "name": "Gumamela",
-    "origin": "India, China, Malaysia, and Philippines.",
+    "origin": "It is commonly found in countries such as India, China, Malaysia, Philippines, and several parts of Africa.",
     "scientific-name": "Hibiscus rosa-sinensis",
     "description": "Gumamela is a flowering plant that typically grows as a shrub or small tree. It has glossy, dark green leaves and produces large, showy flowers. The flowers of Gumamela come in a wide range of colors, including red, pink, orange, yellow, and white. They are known for their distinct funnel-shaped or trumpet-shaped petals and prominent central stamens. The flowers can be single or double, depending on the variety. Gumamela is not only valued for its aesthetic appeal but also for its medicinal and culinary uses. Its flowers are often used to make herbal tea and are known for their potential health benefits. Additionally, various parts of the plant, including the leaves and roots, are used in traditional medicine for their antimicrobial, anti-inflammatory, and antioxidant properties."
   },
   {
     "id": "plant-20",
-    "img": "",
+    "img": "/flower-2@2x.png",
     "name": "Daisies",
     "origin": "Europe, North America, and some parts of Asia.",
     "scientific-name": "Bellis perennis",
@@ -161,7 +161,7 @@
   },
   {
     "id": "plant-21",
-    "img": "",
+    "img": "/flower-3@2x.png",
     "name": "Rose",
     "origin": "Asia",
     "scientific-name": "Rosa",
@@ -169,7 +169,7 @@
   },
   {
     "id": "plant-22",
-    "img": "",
+    "img": "/flower-4@2x.png",
     "name": "Sunflower",
     "origin": "North and Central America",
     "scientific-name": "Helianthus annuus",
@@ -177,7 +177,7 @@
   },
   {
     "id": "plant-23",
-    "img": "",
+    "img": "/flower-5@2x.png",
     "name": "Plumeria",
     "origin": "Mexico, Central America, and the Caribbean",
     "scientific-name": "Plumeria rubra",
@@ -185,7 +185,7 @@
   },
   {
     "id": "plant-24",
-    "img": "",
+    "img": "/flower-6@2x.png",
     "name": "Marigolds",
     "origin": "Mexico and Central America",
     "scientific-name": "Tagetes",
@@ -193,7 +193,7 @@
   },
   {
     "id": "plant-25",
-    "img": "",
+    "img": "/flower-7@2x.png",
     "name": "Cosmos",
     "origin": "Central and South America",
     "scientific-name": "Cosmos",
@@ -201,7 +201,7 @@
   },
   {
     "id": "plant-26",
-    "img": "",
+    "img": "/flower-8@2x.png",
     "name": "Lotus",
     "origin": "India, China, and Egypt",
     "scientific-name": "Nelumbo nucifera",
@@ -209,11 +209,10 @@
   },
   {
     "id": "plant-27",
-    "img": "",
+    "img": "/flower-9@2x.png",
     "name": "Hollyhocks",
     "origin": "Asia and the eastern Mediterranean region",
     "scientific-name": "Alcea",
     "description": "Hollyhocks are tall flowering plants known for their impressive spikes of large, showy flowers. They come in a variety of colors and have distinctive petals surrounding a central column of stamens. Hollyhocks are popular in cottage-style gardens and borders, providing vertical interest and attracting pollinators."
   }
-  
 ]

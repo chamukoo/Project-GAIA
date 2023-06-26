@@ -9,7 +9,7 @@ interface Props {
 }
 
 const PlantsData = ({ handleReset, plantChosen }: Props) => {
-  const plantId = "plant-1";
+  const plantId = plantChosen;
   const filteredData = Data.filter((data) => data.id == plantId);
   return (
     <>
@@ -17,22 +17,25 @@ const PlantsData = ({ handleReset, plantChosen }: Props) => {
         <div className={styles.plantCard} id={info.id} key={index}>
           <SwitchBack handleReset={handleReset} />
           <div className={styles.plantName}>{info.name}</div>
-          <div className={styles.plantOrigin}>
-            <b>Origin:</b>
-            {/* <span className={styles.originText}>{info.origin}</span> */}
+          <div className={styles.mainContent}>
+            <div className={styles.plantOrigin}>
+              <b>Origin:</b>
+              <span className={styles.originText}>{info.origin}</span>
+            </div>
+            <div className={styles.plantSciName}>
+              <b>Scientific Name: </b>
+              <span className={styles.scientificNameText}>
+                <i>
+                  <u>{info["scientific-name"]}</u>
+                </i>
+              </span>
+            </div>
+            <div className={styles.plantDescription}>
+              <b>Description: </b>
+              <span className={styles.descriptionText}>{info.description}</span>
+            </div>
           </div>
-          <div className={styles.plantSciName}>
-            <b>Scientific Name: </b>
-            {/* <span className={styles.scientificNameText}>
-              <i>
-                <u>{info["scientific-name"]}</u>
-              </i>
-            </span> */}
-          </div>
-          <div className={styles.plantDescription}>
-            <b>Description: </b>
-            {/* <span className={styles.descriptionText}>{info.description}</span> */}
-          </div>
+
           <div className={styles.plantImageContainer}>
             <img className={styles.plantImage} src={info.img} />
           </div>

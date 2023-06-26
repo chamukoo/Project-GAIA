@@ -4,38 +4,48 @@ import styles from "./HerbalCourse.module.css";
 import CourseLayout from "../layouts/CourseLayout";
 const HerbalCourse = () => {
   const [showInfo, setShowInfo] = useState(false);
+  const [selectedPlant, setSelectedPlant] = useState(String);
 
   const onHerbal1ContainerClick = () => {
+    setSelectedPlant("plant-10");
     setShowInfo(true);
   };
 
   const onHerbal2ContainerClick = () => {
+    setSelectedPlant("plant-11");
     setShowInfo(true);
   };
 
   const onHerbal3ContainerClick = () => {
+    setSelectedPlant("plant-12");
     setShowInfo(true);
   };
   const onHerbal4ContainerClick = () => {
+    setSelectedPlant("plant-13");
     setShowInfo(true);
   };
   const onHerbal5ContainerClick = () => {
+    setSelectedPlant("plant-14");
     setShowInfo(true);
   };
 
   const onHerbal6ContainerClick = () => {
+    setSelectedPlant("plant-15");
     setShowInfo(true);
   };
 
   const onHerbal7ContainerClick = () => {
+    setSelectedPlant("plant-16");
     setShowInfo(true);
   };
 
   const onHerbal8ContainerClick = () => {
+    setSelectedPlant("plant-17");
     setShowInfo(true);
   };
 
   const onHerbal9ContainerClick = () => {
+    setSelectedPlant("plant-18");
     setShowInfo(true);
   };
 
@@ -44,7 +54,11 @@ const HerbalCourse = () => {
   };
 
   return (
-    <CourseLayout handleReset={handleReset} clicked={showInfo}>
+    <CourseLayout
+      plantChosen={selectedPlant}
+      handleReset={handleReset}
+      clicked={showInfo}
+    >
       <MainLayout
         ownClass={showInfo ? styles.herbalCourseBlur : styles.herbalCourse}
       >

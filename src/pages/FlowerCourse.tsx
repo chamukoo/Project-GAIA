@@ -4,38 +4,48 @@ import CourseLayout from "../layouts/CourseLayout";
 import MainLayout from "../layouts/MainLayout";
 const FlowerCourse: FunctionComponent = () => {
   const [showInfo, setShowInfo] = useState(false);
+  const [selectedPlant, setSelectedPlant] = useState(String);
 
   const onFlower1ContainerClick = () => {
+    setSelectedPlant("plant-19");
     setShowInfo(true);
   };
 
   const onFlower2ContainerClick = () => {
+    setSelectedPlant("plant-20");
     setShowInfo(true);
   };
 
   const onFlower3ContainerClick = () => {
+    setSelectedPlant("plant-21");
     setShowInfo(true);
   };
   const onFlower4ContainerClick = () => {
+    setSelectedPlant("plant-22");
     setShowInfo(true);
   };
   const onFlower5ContainerClick = () => {
+    setSelectedPlant("plant-23");
     setShowInfo(true);
   };
 
   const onFlower6ContainerClick = () => {
+    setSelectedPlant("plant-24");
     setShowInfo(true);
   };
 
   const onFlower7ContainerClick = () => {
+    setSelectedPlant("plant-25");
     setShowInfo(true);
   };
 
   const onFlower8ContainerClick = () => {
+    setSelectedPlant("plant-26");
     setShowInfo(true);
   };
 
   const onFlower9ContainerClick = () => {
+    setSelectedPlant("plant-27");
     setShowInfo(true);
   };
 
@@ -44,7 +54,11 @@ const FlowerCourse: FunctionComponent = () => {
   };
 
   return (
-    <CourseLayout handleReset={handleReset} clicked={showInfo}>
+    <CourseLayout
+      plantChosen={selectedPlant}
+      handleReset={handleReset}
+      clicked={showInfo}
+    >
       <MainLayout
         ownClass={showInfo ? styles.flowerCourse1 : styles.flowerCourse}
       >

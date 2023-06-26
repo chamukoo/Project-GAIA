@@ -5,7 +5,7 @@ interface Props {
   children: ReactNode;
   clicked?: boolean;
   handleReset: () => void;
-  plantChosen?: number;
+  plantChosen?: string;
 }
 
 const CourseLayout = ({
@@ -16,7 +16,9 @@ const CourseLayout = ({
 }: Props) => {
   return (
     <div>
-      {clicked ? <PlantsData handleReset={handleReset} /> : null}
+      {clicked ? (
+        <PlantsData plantChosen={plantChosen} handleReset={handleReset} />
+      ) : null}
       {children}
     </div>
   );

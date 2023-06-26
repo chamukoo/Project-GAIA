@@ -4,38 +4,48 @@ import MainLayout from "../layouts/MainLayout";
 import CourseLayout from "../layouts/CourseLayout";
 const SucculentCourse = () => {
   const [showInfo, setShowInfo] = useState(false);
+  const [selectedPlant, setSelectedPlant] = useState(String);
 
   const onSucculent1ContainerClick = () => {
+    setSelectedPlant("plant-1");
     setShowInfo(true);
   };
 
   const onSucculent2ContainerClick = () => {
+    setSelectedPlant("plant-2");
     setShowInfo(true);
   };
 
   const onSucculent3ContainerClick = () => {
+    setSelectedPlant("plant-3");
     setShowInfo(true);
   };
   const onSucculent4ContainerClick = () => {
+    setSelectedPlant("plant-4");
     setShowInfo(true);
   };
   const onSucculent5ContainerClick = () => {
+    setSelectedPlant("plant-5");
     setShowInfo(true);
   };
 
   const onSucculent6ContainerClick = () => {
+    setSelectedPlant("plant-6");
     setShowInfo(true);
   };
 
   const onSucculent7ContainerClick = () => {
+    setSelectedPlant("plant-7");
     setShowInfo(true);
   };
 
   const onSucculent8ContainerClick = () => {
+    setSelectedPlant("plant-8");
     setShowInfo(true);
   };
 
   const onSucculent9ContainerClick = () => {
+    setSelectedPlant("plant-9");
     setShowInfo(true);
   };
 
@@ -44,7 +54,11 @@ const SucculentCourse = () => {
   };
 
   return (
-    <CourseLayout handleReset={handleReset} clicked={showInfo}>
+    <CourseLayout
+      plantChosen={selectedPlant}
+      handleReset={handleReset}
+      clicked={showInfo}
+    >
       <MainLayout
         ownClass={
           showInfo ? styles.succulentCourseBlur : styles.succulentCourse

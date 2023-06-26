@@ -1,14 +1,16 @@
 .plantCard {
+  line-height: 1.5;
   position: absolute;
   top: 140px;
   left: 220px;
   width: 1000px;
-  height: 1500px;
+  height: 1000px;
   background-color: rgba(203, 245, 126, 1);
   font-size: 20px;
   z-index: 1;
   font-family: Inter;
   border-radius: 50px;
+  padding-bottom: 80px;
 }
 
 .plantName {
@@ -20,20 +22,22 @@
 }
 
 .plantOrigin {
-  position: relative;
+  width: 700px;
+  position: absolute;
   transform: translate(74px, 150px);
   font-size: 25px;
 }
 
 .plantSciName {
-  position: relative;
-  transform: translate(74px, 220px);
+  position: absolute;
+  transform: translate(74px, 250px);
   font-size: 25px;
 }
 
 .plantDescription {
-  position: relative;
-  transform: translate(74px, 280px);
+  width: 900px;
+  position: absolute;
+  transform: translate(74px, 310px);
   font-size: 25px;
 }
 
@@ -49,16 +53,18 @@
 .scientificNameText {
   font-size: 21px;
   position: relative;
-  left: 35px;
+  transform: translateX(100px);
 }
 .originText {
   font-size: 21px;
-  position: relative;
-  left: 35px;
-  width: 200px;
+  display: flex;
+  transform: translate(100px, -35px);
+  width: 600px;
 }
 .descriptionText {
+  width: 800px;
+  transform: translate(30px, 15px);
+  display: flex;
   font-size: 21px;
-  position: relative;
-  width: 100px;
+  text-align: justify;
 }
