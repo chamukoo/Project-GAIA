@@ -2,7 +2,7 @@ import { ReactNode } from "react";
 import PlantsData from "../components/PlantsData";
 
 interface Props {
-  children: ReactNode;
+  children?: ReactNode;
   clicked?: boolean;
   handleReset: () => void;
   plantChosen?: string;

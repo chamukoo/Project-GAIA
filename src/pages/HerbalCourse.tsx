@@ -2,6 +2,7 @@ import { FunctionComponent, useState } from "react";
 import MainLayout from "../layouts/MainLayout";
 import styles from "./HerbalCourse.module.css";
 import CourseLayout from "../layouts/CourseLayout";
+import { click } from "@testing-library/user-event/dist/click";
 const HerbalCourse = () => {
   const [showInfo, setShowInfo] = useState(false);
   const [selectedPlant, setSelectedPlant] = useState(String);

@@ -217,7 +217,7 @@
   },
   {
     "id": "plant-28",
-    "img": "",
+    "img": "/fern-1@2x.png",
     "name": "Lemon Button",
     "origin": "It is native to tropical regions, including parts of Africa, Asia, Australia, and the Americas.",
     "scientific-name": "Nephrolepis cordifolia",
@@ -225,7 +225,7 @@
   },
   {
     "id": "plant-29",
-    "img": "",
+    "img": "/fern-2@2x.png",
     "name": "Crocodile Fern",
     "origin": "It is native to tropical regions of Southeast Asia, including countries like Malaysia, Indonesia, and the Philippines.",
     "scientific-name": "Microsorum musifolium",
@@ -233,7 +233,7 @@
   },
   {
     "id": "plant-30",
-    "img": "",
+    "img": "/fern-3@2x.png",
     "name": "Silver Lace",
     "origin": "It is native to tropical regions of Asia, including countries like Japan, China, and India.",
     "scientific-name": "Pteris ensiformis",
@@ -241,7 +241,7 @@
   },
   {
     "id": "plant-31",
-    "img": "",
+    "img": "/fern-4@2x.png",
     "name": "Autumn Fern",
     "origin": "It is native to East Asia, including regions of China, Japan, and Korea.",
     "scientific-name": "Dryopteris erythrosora",
@@ -249,7 +249,7 @@
   },
   {
     "id": "plant-32",
-    "img": "",
+    "img": "/fern-5@2x.png",
     "name": "Asparagus Fern",
     "origin": "It is native to South Africa.",
     "scientific-name": "Asparagus setaceus",
@@ -257,7 +257,7 @@
   },
   {
     "id": "plant-33",
-    "img": "",
+    "img": "/fern-6@2x.png",
     "name": "Maidenhair Fern",
     "origin": "It can be found in regions across the globe, including Asia, the Americas, Europe, and Africa.",
     "scientific-name": "Adiantum raddianum",
@@ -265,7 +265,7 @@
   },
   {
     "id": "plant-34",
-    "img": "",
+    "img": "/fern-7@2x.png",
     "name": "Floating Fern",
     "origin": "It is native to Europe, Asia and northern Africa,",
     "scientific-name": "Azolla caroliniana",
@@ -273,7 +273,7 @@
   },
   {
     "id": "plant-35",
-    "img": "",
+    "img": "/fern-8@2x.png",
     "name": "Sprite Fern",
     "origin": "It can be found in various parts of Asia, Africa, and the Americas.",
     "scientific-name": "Ceratopteris thalictroides",
@@ -281,7 +281,7 @@
   },
   {
     "id": "plant-36",
-    "img": "",
+    "img": "/fern-9@2x.png",
     "name": "Boston Fern",
     "origin": "It is native to tropical regions of the Americas, including Florida, Mexico, and South America.",
     "scientific-name": "Nephrolepis exaltata",

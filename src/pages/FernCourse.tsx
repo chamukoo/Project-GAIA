@@ -6,38 +6,47 @@ import CourseLayout from "../layouts/CourseLayout";
 
 const FernCourse = () => {
   const [showInfo, setShowInfo] = useState(false);
-  const [plantClicked, setPlantCicked] = useState(Number);
+  const [selectedPlant, setSelectedPlant] = useState(String);
   const onFern1ContainerClick = () => {
+    setSelectedPlant("plant-28");
     setShowInfo(true);
   };
 
   const onFern2ContainerClick = () => {
+    setSelectedPlant("plant-29");
     setShowInfo(true);
   };
 
   const onFern3ContainerClick = () => {
+    setSelectedPlant("plant-30");
     setShowInfo(true);
   };
   const onFern4ContainerClick = () => {
+    setSelectedPlant("plant-31");
     setShowInfo(true);
   };
   const onFern5ContainerClick = () => {
+    setSelectedPlant("plant-32");
     setShowInfo(true);
   };
 
   const onFern6ContainerClick = () => {
+    setSelectedPlant("plant-33");
     setShowInfo(true);
   };
 
   const onFern7ContainerClick = () => {
+    setSelectedPlant("plant-34");
     setShowInfo(true);
   };
 
   const onFern8ContainerClick = () => {
+    setSelectedPlant("plant-35");
     setShowInfo(true);
   };
 
   const onFern9ContainerClick = () => {
+    setSelectedPlant("plant-36");
     setShowInfo(true);
   };
 
@@ -46,7 +55,11 @@ const FernCourse = () => {
   };
 
   return (
-    <CourseLayout handleReset={handleReset} clicked={showInfo}>
+    <CourseLayout
+      plantChosen={selectedPlant}
+      handleReset={handleReset}
+      clicked={showInfo}
+    >
       <MainLayout ownClass={showInfo ? styles.fernCourse1 : styles.fernCourse}>
         <div className={styles.sideInfo} />
         <div className={styles.sideBarfern}>
