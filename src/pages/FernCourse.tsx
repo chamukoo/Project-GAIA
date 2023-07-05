@@ -60,7 +60,12 @@ const FernCourse = () => {
       handleReset={handleReset}
       clicked={showInfo}
     >
-      <MainLayout ownClass={showInfo ? styles.fernCourse1 : styles.fernCourse}>
+      <MainLayout
+        ownClass={showInfo ? styles.fernCourse1 : styles.fernCourse}
+        clickable={
+          showInfo ? { pointerEvents: "none" } : { pointerEvents: "inherit" }
+        }
+      >
         <div className={styles.sideInfo} />
         <div className={styles.sideBarfern}>
           <div className={styles.trivias}>

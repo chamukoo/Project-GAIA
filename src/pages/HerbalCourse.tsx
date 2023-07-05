@@ -9,6 +9,7 @@ const HerbalCourse = () => {
 
   const onHerbal1ContainerClick = () => {
     setSelectedPlant("plant-10");
+
     setShowInfo(true);
   };
 
@@ -62,6 +63,9 @@ const HerbalCourse = () => {
     >
       <MainLayout
         ownClass={showInfo ? styles.herbalCourseBlur : styles.herbalCourse}
+        clickable={
+          showInfo ? { pointerEvents: "none" } : { pointerEvents: "inherit" }
+        }
       >
         <div className={styles.sideInfo} />
         <div className={styles.sideBarherbal}>

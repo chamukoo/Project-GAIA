@@ -1,8 +1,13 @@
-import React, { useCallback } from "react";
+import React, { CSSProperties, PointerEvent, useCallback } from "react";
 import { useNavigate } from "react-router-dom";
 import styles from "./NavBar.module.css";
+import { parse } from "querystring";
 
-const NavBar = () => {
+interface Props {
+  clickable?: CSSProperties;
+}
+
+const NavBar = ({ clickable }: Props) => {
   const navigate = useNavigate();
   const onHomeTextClick = useCallback(() => {
     navigate("/");
@@ -14,8 +19,9 @@ const NavBar = () => {
   const onAboutTextClick = useCallback(() => {
     navigate("/about-us");
   }, [navigate]);
+
   return (
-    <div className={styles.menu}>
+    <div className={styles.menu} style={clickable}>
       <div className={styles.home} onClick={onHomeTextClick}>
         Home
       </div>

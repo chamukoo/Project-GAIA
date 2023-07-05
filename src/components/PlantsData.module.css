@@ -1,15 +1,15 @@
 .plantCard {
   line-height: 1.5;
-  position: absolute;
-  top: 140px;
-  left: 220px;
   width: 1000px;
-  height: calc(1500px - 50%);
+  height: 1000px;
   background-color: rgba(203, 245, 126, 1);
   font-size: 20px;
   z-index: 1;
   font-family: Inter;
   border-radius: 50px;
+  position: absolute;
+  top: calc(50% - 200px);
+  left: calc(50% - 450px);
 }
 
 .plantName {
@@ -41,12 +41,13 @@
 }
 
 .plantImageContainer {
+  width: 257.97px;
   position: relative;
   transform: translate(710px);
 }
 
 .plantImage {
-  width: 257.97px;
+  width: inherit;
   height: 176.67px;
 }
 .scientificNameText {

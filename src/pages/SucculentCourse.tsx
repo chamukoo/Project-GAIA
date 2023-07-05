@@ -63,6 +63,9 @@ const SucculentCourse = () => {
         ownClass={
           showInfo ? styles.succulentCourseBlur : styles.succulentCourse
         }
+        clickable={
+          showInfo ? { pointerEvents: "none" } : { pointerEvents: "inherit" }
+        }
       >
         <div className={styles.sideInfo} />
         <div className={styles.sideBarsucculent}>

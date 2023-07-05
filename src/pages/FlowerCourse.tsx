@@ -61,6 +61,9 @@ const FlowerCourse: FunctionComponent = () => {
     >
       <MainLayout
         ownClass={showInfo ? styles.flowerCourse1 : styles.flowerCourse}
+        clickable={
+          showInfo ? { pointerEvents: "none" } : { pointerEvents: "inherit" }
+        }
       >
         <div className={styles.flowerCourseChild} />
         <div className={styles.mainContent}>
