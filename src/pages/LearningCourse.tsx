@@ -1,4 +1,4 @@
-import { FunctionComponent, useCallback } from "react";
+import { useCallback } from "react";
 import { useNavigate } from "react-router-dom";
 import styles from "./LearningCourse.module.css";
 import MainLayout from "../layouts/MainLayout";

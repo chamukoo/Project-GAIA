@@ -3,6 +3,7 @@ import MainLayout from "../layouts/MainLayout";
 import styles from "./HerbalCourse.module.css";
 import CourseLayout from "../layouts/CourseLayout";
 import { click } from "@testing-library/user-event/dist/click";
+import TakeQuiz from "../components/TakeQuiz";
 const HerbalCourse = () => {
   const [showInfo, setShowInfo] = useState(false);
   const [selectedPlant, setSelectedPlant] = useState(String);
@@ -255,25 +256,7 @@ const HerbalCourse = () => {
               </div>
             </div>
           </div>
-          <div className={styles.herbalquiz}>
-            <div className={styles.testYourKnowledgeContainer}>
-              <span className={styles.testYour}>
-                <span className={styles.test}>TEST</span>
-                <span className={styles.span}>{` `}</span>
-                <span>{`YOUR  `}</span>
-              </span>
-              <span className={styles.knowledge}>KNOWLEDGE</span>
-            </div>
-            <div className={styles.takeherbalquiz}>
-              <div className={styles.basicFactsAbout}>
-                Basic Facts About Herbal Plants!
-              </div>
-              <div className={styles.questions}>10 Questions</div>
-              <div className={styles.herbalquizbtn}>
-                <div className={styles.takeQuiz}>Take Quiz</div>
-              </div>
-            </div>
-          </div>
+          <TakeQuiz category={"Herbal"} />
         </div>
       </MainLayout>
     </CourseLayout>

@@ -3,6 +3,7 @@ import { useNavigate } from "react-router-dom";
 import styles from "./FernCourse.module.css";
 import MainLayout from "../layouts/MainLayout";
 import CourseLayout from "../layouts/CourseLayout";
+import TakeQuiz from "../components/TakeQuiz";
 
 const FernCourse = () => {
   const [showInfo, setShowInfo] = useState(false);
@@ -223,25 +224,7 @@ const FernCourse = () => {
               </div>
             </div>
           </div>
-          <div className={styles.quiz}>
-            <div className={styles.testYourKnowledgeContainer}>
-              <span className={styles.testYour}>
-                <span className={styles.test}>TEST</span>
-                <span className={styles.span}>{` `}</span>
-                <span>{`YOUR  `}</span>
-              </span>
-              <span className={styles.knowledge}>KNOWLEDGE</span>
-            </div>
-          </div>
-          <div className={styles.quizSucculent}>
-            <div className={styles.triviaQuizBasic}>
-              Trivia Quiz: Basic Facts About Plants!
-            </div>
-            <div className={styles.questions}>10 Questions</div>
-            <div className={styles.flowerquizbtn}>
-              <div className={styles.takeQuiz}>Take Quiz</div>
-            </div>
-          </div>
+          <TakeQuiz category={"Fern"} />
         </div>
       </MainLayout>
     </CourseLayout>

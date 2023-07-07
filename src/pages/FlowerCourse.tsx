@@ -2,6 +2,7 @@ import { FunctionComponent, useState } from "react";
 import styles from "./FlowerCourse.module.css";
 import CourseLayout from "../layouts/CourseLayout";
 import MainLayout from "../layouts/MainLayout";
+import TakeQuiz from "../components/TakeQuiz";
 const FlowerCourse: FunctionComponent = () => {
   const [showInfo, setShowInfo] = useState(false);
   const [selectedPlant, setSelectedPlant] = useState(String);
@@ -191,25 +192,7 @@ const FlowerCourse: FunctionComponent = () => {
               </div>
             </div>
           </div>
-          <div className={styles.quiz}>
-            <div className={styles.testYourKnowledgeContainer}>
-              <span className={styles.testYour}>
-                <span className={styles.test}>TEST</span>
-                <span className={styles.span}>{` `}</span>
-                <span>{`YOUR  `}</span>
-              </span>
-              <span className={styles.knowledge}>KNOWLEDGE</span>
-            </div>
-            <div className={styles.quizSucculent}>
-              <div className={styles.triviaQuizBasic}>
-                Trivia Quiz: Basic Facts About Plants!
-              </div>
-              <div className={styles.questions}>10 Questions</div>
-              <div className={styles.flowerquizbtn}>
-                <div className={styles.takeQuiz}>Take Quiz</div>
-              </div>
-            </div>
-          </div>
+          <TakeQuiz category={"Flower"} />
         </div>
         <div className={styles.sideBarflowering}>
           <div className={styles.sideBarflower}>

@@ -2,6 +2,7 @@ import { FunctionComponent, useState } from "react";
 import styles from "./SucculentCourse.module.css";
 import MainLayout from "../layouts/MainLayout";
 import CourseLayout from "../layouts/CourseLayout";
+import TakeQuiz from "../components/TakeQuiz";
 const SucculentCourse = () => {
   const [showInfo, setShowInfo] = useState(false);
   const [selectedPlant, setSelectedPlant] = useState(String);
@@ -256,27 +257,7 @@ const SucculentCourse = () => {
               </div>
             </div>
           </div>
-          <div className={styles.succulentquiz}>
-            <div className={styles.testYourKnowledgeContainer}>
-              <span className={styles.testYour}>
-                <span className={styles.test}>TEST</span>
-                <span className={styles.span}>{` `}</span>
-                <span>{`YOUR  `}</span>
-              </span>
-              <span className={styles.knowledge}>KNOWLEDGE</span>
-            </div>
-            <div className={styles.takesucculentquiz}>
-              <div className={styles.quiz}>
-                <div className={styles.basicFactsAbout}>
-                  Basic Facts About Succulent Plants!
-                </div>
-                <div className={styles.questions}>10 Questions</div>
-                <div className={styles.succulentquizbtn}>
-                  <div className={styles.takeQuiz}>Take Quiz</div>
-                </div>
-              </div>
-            </div>
-          </div>
+          <TakeQuiz category={"Succulent"} />
         </div>
       </MainLayout>
     </CourseLayout>

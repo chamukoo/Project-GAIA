@@ -4,6 +4,7 @@ import Footer from "../components/Footer";
 import SwitchBack from "../components/SwitchBack";
 import LogoComponent from "../components/LogoComponent";
 import { Style } from "util";
+import TakeQuiz from "../components/TakeQuiz";
 
 interface Props {
   children: ReactNode;
