@@ -97,8 +97,7 @@ function App() {
       <Route path='/herbal-course' element={<HerbalCourse />} />
       <Route path='/flower-course' element={<FlowerCourse />} />
       <Route path='/fern-course' element={<FernCourse />} />
-      <Route path='/quiz1' element={<Quiz />} />
-      <Route path='/quiz' element={<Quiz1 />} />
+      <Route path='/quiz-page' element={<Quiz />} />
       <Route path='/score-reveal' element={<ScoreReveal />} />
     </Routes>
   );

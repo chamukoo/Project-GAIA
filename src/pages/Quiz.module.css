@@ -87,7 +87,7 @@
 .timer11Icon {
   top: calc(50% - 22px);
   left: calc(50% - 41.63px);
-  border-radius: 50px;
+  border-radius: 150px;
   width: 35px;
   height: 40px;
   object-fit: cover;
@@ -111,7 +111,6 @@
 .timer {
   top: calc(50% - 246.5px);
   left: calc(50% + 270px);
-  box-shadow: 0 0 6px rgba(0, 0, 0, 0.25);
   width: 140px;
   height: 60px;
 }

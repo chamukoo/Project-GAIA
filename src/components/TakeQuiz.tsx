@@ -9,7 +9,7 @@ interface Props {
 const TakeQuiz = ({ category }: Props) => {
   const navigate = useNavigate();
   const handleClick = useCallback(() => {
-    navigate("/");
+    navigate("/quiz-page");
   }, [navigate]);
 
   return (
