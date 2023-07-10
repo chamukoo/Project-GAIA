@@ -165,11 +165,3 @@
   color: #000;
   font-family: Inter;
 }
-span {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  top: 20px;
-  font-size: 25px;
-}

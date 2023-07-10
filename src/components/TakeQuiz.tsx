@@ -1,14 +1,15 @@
 import React, { useCallback } from "react";
 import styles from "./TakeQuiz.module.css";
-import { useNavigate } from "react-router-dom";
+import { Route, useNavigate } from "react-router-dom";
 
 interface Props {
-  category?: String;
+  category?: any;
 }
 
 const TakeQuiz = ({ category }: Props) => {
   const navigate = useNavigate();
   const handleClick = useCallback(() => {
+    localStorage.setItem("category", category);
     navigate("/quiz-page");
   }, [navigate]);
 

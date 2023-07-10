@@ -1,17 +1,20 @@
 [
   {
+    "category": "Succulent",
     "id": "Q1",
     "question": "Its scientific name is Sedum morganianum.",
     "choices": ["Donkey’s Tail", "Ball Cactus", "Zebra Plant", "Panda Plant"],
     "correct": "Donkey’s Tail"
   },
   {
+    "category": "Succulent",
     "id": "Q2",
     "question": "The color of the leaves of this plant is dark green and can often include red and pink toward the tips of the leaves.",
     "choices": ["Sunburst", "Ox Tongue", "Moonstone", "Ball Cactus"],
     "correct": "Ox Tongue"
   },
   {
+    "category": "Succulent",
     "id": "Q3",
     "question": "A succulent plant that originates from Madagascar and has soft, fuzzy leaves that looks a bit like fur",
     "choices": ["Jade Plant", "Zebra Plant", "Panda Plant", "Donkey’s Tail"],

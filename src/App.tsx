@@ -97,7 +97,10 @@ function App() {
       <Route path='/herbal-course' element={<HerbalCourse />} />
       <Route path='/flower-course' element={<FlowerCourse />} />
       <Route path='/fern-course' element={<FernCourse />} />
-      <Route path='/quiz-page' element={<Quiz />} />
+      <Route
+        path='/quiz-page'
+        element={<Quiz category={localStorage.getItem("category")} />}
+      />
       <Route path='/score-reveal' element={<ScoreReveal />} />
     </Routes>
   );
