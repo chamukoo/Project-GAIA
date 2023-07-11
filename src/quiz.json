@@ -16,8 +16,92 @@
   {
     "category": "Succulent",
     "id": "Q3",
-    "question": "A succulent plant that originates from Madagascar and has soft, fuzzy leaves that looks a bit like fur",
+    "question": "A succulent plant that originates from Madagascar and has soft, fuzzy leaves that looks a bit like fur.",
     "choices": ["Jade Plant", "Zebra Plant", "Panda Plant", "Donkey’s Tail"],
     "correct": "Panda Plant"
+  },
+  {
+    "category": "Succulent",
+    "id": "Q4",
+    "question": "It doesn’t require much pruning and is considered endangered in the wild.",
+    "choices": ["Dolphin", "Sunburst", "Moonstone", "Ball Cactus"],
+    "correct": "Ball Cactus"
+  },
+  {
+    "category": "Succulent",
+    "id": "Q5",
+    "question": "It is a branching succulent that forms large rosettes of variegated spoon-shaped leaves at the tip of the branches.",
+    "choices": ["Sunburst", "Donkey’s Tail", "Ox Tongue", "Zebra Plant"],
+    "correct": "Sunburst"
+  },
+  {
+    "category": "Succulent",
+    "id": "Q6",
+    "question": "A succulent that tends to be clustered at the ends of the branch rather than spaced evenly among them.",
+    "choices": ["Zebra Plant", "Jade Plant", "Panda Plant", "Dolphin"],
+    "correct": "Jade Plant"
+  },
+  {
+    "category": "Succulent",
+    "id": "Q7",
+    "question": "This plant was created as a hybrid between Senecio rowleyanus and Senecio articulatus.",
+    "choices": ["Donkey’s Tail", "Ball Cactus", "Dolphin", "Moonstone"],
+    "correct": "Dolphin"
+  },
+  {
+    "category": "Succulent",
+    "id": "Q8",
+    "question": "It is a popular clump-forming succulent with chubby, pale blue-green to bluish-purple leaves arranged in a rosette at the tips of short stems.",
+    "choices": ["Moonstone", "Jade Plant", "Sunburst", "Ball Cactus"],
+    "correct": "Moonstone"
+  },
+  {
+    "category": "Succulent",
+    "id": "Q9",
+    "question": "The most favorable temperature for this succulent is 60 to 80 degrees Fahrenheit.",
+    "choices": ["Panda Plant", "Zebra Plant", "Dolphin", "Ox Tongue"],
+    "correct": "Zebra Plant"
+  },
+  {
+    "category": "Succulent",
+    "id": "Q10",
+    "question": "You will only need to repot this plant during spring when the existing pot is too small for it to fit anymore, as it begins to actually bloom when the temperature drops down during the winter. ",
+    "choices": ["Donkey’s Tail", "Ball Cactus", "Moonstone", "Jade Plant"],
+    "correct": "Donkey’s Tail"
+  },
+  {
+    "category": "Succulent",
+    "id": "Q11",
+    "question": "It has a scientific name of Parodia magnifica and it originates from South America",
+    "choices": ["Panda Plant", "Sunburst", "Ball Cactus", "Dolphin"],
+    "correct": "Ball Cactus"
+  },
+  {
+    "category": "Succulent",
+    "id": "Q12",
+    "question": "It is an ideal plant for beginners’ gardeners and it is not a fast-growing plant as it will do just fine in the same pot for several years.",
+    "choices": ["Jade Plant", "Zebra Plant", "Donkey’s Tail", "Ox Tongue"],
+    "correct": "Ox Tongue"
+  },
+  {
+    "category": "Succulent",
+    "id": "Q13",
+    "question": "It has a thick, dark green leaves with bumps of white tubercles on the outer surface that are clustered together, hence giving its name.",
+    "choices": ["Ball Cactus", "Donkey’s Tail", "Zebra Plant", "Sunburst"],
+    "correct": "Zebra Plant"
+  },
+  {
+    "category": "Succulent",
+    "id": "Q14",
+    "question": "Its leaves are reflective that helps minimize the risk of the plant overheating and produce fuzzy flowers when grown in the wild.",
+    "choices": ["Moonstone", "Dolphin", "Panda Plant", "Jade Plant"],
+    "correct": "Panda Plant"
+  },
+  {
+    "category": "Succulent",
+    "id": "Q15",
+    "question": "It can live for a very long time and grow into small trees or shrubs up to 5 feet tall.",
+    "choices": ["Ball Cactus", "Jade Plant", "Panda Plant", "Ox Tongue"],
+    "correct": "Jade Plant"
   }
 ]
