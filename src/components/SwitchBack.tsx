@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 import styles from "./SwitchBack.module.css";
 
 interface Props {
-  handleReset: () => void;
+  handleReset?: () => void;
 }
 
 const SwitchBack = ({ handleReset }: Props) => {
