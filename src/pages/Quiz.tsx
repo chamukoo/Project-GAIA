@@ -3,14 +3,13 @@ import styles from "./Quiz.module.css";
 import QuizData from "../quiz.json";
 import SwitchBack from "../components/SwitchBack";
 
-import { useNavigate, useNavigation } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 interface Props {
   category?: any;
 }
 
 const Quiz = ({ category }: Props) => {
-  const [answer, setAnswer] = useState(null);
   const [itemNumber, setItemNumber] = useState(1);
   const [currentIndex, setCurrentIndex] = useState(0);
 
@@ -21,6 +20,15 @@ const Quiz = ({ category }: Props) => {
   const goBack = useCallback(() => {
     navigate("/succulent-course");
   }, [navigate]);
+
+  //Checker
+  const [points, setPoints] = useState(0);
+  function checker(answer_param: string, correct: string) {
+    if (answer_param == correct) {
+      setPoints(points + 1);
+    }
+  }
+  console.log(points);
 
   // Timer
   useEffect(() => {
@@ -39,32 +47,6 @@ const Quiz = ({ category }: Props) => {
   }, [timeLeft]);
 
   const currentItem = itemNumber;
-  const onOption4Click = () => {
-    currentItem < 10 ? setItemNumber(currentItem + 1) : currentItem;
-    setCurrentIndex(currentIndex + 1);
-    setAnswer(answer);
-    updateTime(20);
-  };
-
-  const onOption3Click = () => {
-    setCurrentIndex(currentIndex + 1);
-    currentItem < 10 ? setItemNumber(currentItem + 1) : currentItem;
-    setAnswer(answer);
-    updateTime(20);
-  };
-
-  const onOption2Click = () => {
-    setCurrentIndex(currentIndex + 1);
-    currentItem < 10 ? setItemNumber(currentItem + 1) : currentItem;
-    setAnswer(answer);
-    updateTime(20);
-  };
-  const onOption1Click = () => {
-    setCurrentIndex(currentIndex + 1);
-    currentItem < 10 ? setItemNumber(currentItem + 1) : currentItem;
-    setAnswer(answer);
-    updateTime(20);
-  };
 
   const chosenCategory = category;
   const dataCategory = QuizData.filter(
@@ -76,6 +58,32 @@ const Quiz = ({ category }: Props) => {
       <img className={styles.quizChild} alt='' src='/rectangle-2@2x.png' />
       <div className={styles.quizItem} />
       {dataCategory.map((inputData, index) => {
+        const onOption4Click = () => {
+          currentItem < 10 ? setItemNumber(currentItem + 1) : currentItem;
+          setCurrentIndex(currentIndex + 1);
+          checker(inputData.choices[3], inputData.correct);
+          updateTime(20);
+        };
+
+        const onOption3Click = () => {
+          setCurrentIndex(currentIndex + 1);
+          currentItem < 10 ? setItemNumber(currentItem + 1) : currentItem;
+          checker(inputData.choices[2], inputData.correct);
+          updateTime(20);
+        };
+
+        const onOption2Click = () => {
+          setCurrentIndex(currentIndex + 1);
+          currentItem < 10 ? setItemNumber(currentItem + 1) : currentItem;
+          checker(inputData.choices[1], inputData.correct);
+          updateTime(20);
+        };
+        const onOption1Click = () => {
+          setCurrentIndex(currentIndex + 1);
+          currentItem < 10 ? setItemNumber(currentItem + 1) : currentItem;
+          checker(inputData.choices[0], inputData.correct);
+          updateTime(20);
+        };
         if (index == currentIndex) {
           return (
             <div className={styles.quizBoxContent}>
