@@ -2,7 +2,6 @@ import { useState, useEffect, useCallback } from "react";
 import styles from "./Quiz.module.css";
 import QuizData from "../quiz.json";
 import SwitchBack from "../components/SwitchBack";
-
 import { useNavigate } from "react-router-dom";
 
 interface Props {
@@ -10,10 +9,7 @@ interface Props {
 }
 
 const Quiz = ({ category }: Props) => {
-  const [itemNumber, setItemNumber] = useState(1);
   const [currentIndex, setCurrentIndex] = useState(0);
-
-  const [timeLeft, updateTime] = useState(20);
 
   const navigate = useNavigate();
 
@@ -28,9 +24,9 @@ const Quiz = ({ category }: Props) => {
       setPoints(points + 1);
     }
   }
-  console.log(points);
 
   // Timer
+  const [timeLeft, updateTime] = useState(20);
   useEffect(() => {
     {
       let timer = setInterval(() => {
@@ -46,20 +42,42 @@ const Quiz = ({ category }: Props) => {
     }
   }, [timeLeft]);
 
+  // incrementing the item number
+  const [itemNumber, setItemNumber] = useState(1);
   const currentItem = itemNumber;
+  if (currentItem == 10) {
+    localStorage.setItem("points", points.toString());
 
+    navigate("/score-reveal");
+  }
+
+  // choosing category
   const chosenCategory = category;
   const dataCategory = QuizData.filter(
     (data) => data.category == chosenCategory
   );
 
+  //Randoming question
+  const getRandomItems = (array: any[], n: number) => {
+    const shuffledArray = array.sort(() => 0.5 - Math.random());
+    return shuffledArray.slice(0, n);
+  };
+
+  const [randomItems, setRandomItems] = useState<any[]>([]);
+
+  useEffect(() => {
+    const pickedItems = getRandomItems(dataCategory, 10);
+    setRandomItems(pickedItems);
+  }, []);
+
   return (
     <div className={styles.quiz}>
       <img className={styles.quizChild} alt='' src='/rectangle-2@2x.png' />
       <div className={styles.quizItem} />
-      {dataCategory.map((inputData, index) => {
+
+      {randomItems.map((inputData, index) => {
         const onOption4Click = () => {
-          currentItem < 10 ? setItemNumber(currentItem + 1) : currentItem;
+          currentItem < 10 ? setItemNumber(currentItem + 1) : { currentItem };
           setCurrentIndex(currentIndex + 1);
           checker(inputData.choices[3], inputData.correct);
           updateTime(20);

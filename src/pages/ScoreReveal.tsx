@@ -5,29 +5,33 @@ const ScoreReveal: FunctionComponent = () => {
   const navigate = useNavigate();
 
   const onExitQuizButtonClick = useCallback(() => {
+    localStorage.setItem("points", "0");
     navigate("/succulent-course");
   }, [navigate]);
 
   const onTakeQuizButtonClick = useCallback(() => {
-    navigate("/quiz1");
+    navigate("/quiz-page");
+    localStorage.setItem("points", "0");
   }, [navigate]);
 
   return (
     <div className={styles.scoreReveal}>
       <img
         className={styles.scoreRevealChild}
-        alt=""
-        src="/rectangle-22@2x.png"
+        alt=''
+        src='/rectangle-22@2x.png'
       />
       <div className={styles.scoreRevealItem} />
       <img
         className={styles.arrowsCircleArrowLeft}
-        alt=""
-        src="/24--arrows--circlearrowleft2.svg"
+        alt=''
+        src='/24--arrows--circlearrowleft2.svg'
       />
       <div className={styles.scoreBoxContent}>
         <div className={styles.quizBox} />
-        <div className={styles.yourScoreIs}>Your Score is 10/10!</div>
+        <div
+          className={styles.yourScoreIs}
+        >{`Your Score is ${localStorage.getItem("points")}/10!`}</div>
         <div className={styles.exitQuizButton} onClick={onExitQuizButtonClick}>
           <div className={styles.quitBox} />
           <div className={styles.quit}>Quit</div>
