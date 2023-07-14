@@ -1,4 +1,4 @@
-import React, { useCallback } from "react";
+import React, { useCallback, useEffect, useRef } from "react";
 import styles from "./PlantsData.module.css";
 import Data from "../data.json";
 import SwitchBack from "./SwitchBack";
@@ -11,10 +11,20 @@ interface Props {
 const PlantsData = ({ handleReset, plantChosen }: Props) => {
   const plantId = plantChosen;
   const filteredData = Data.filter((data) => data.id == plantId);
+
+  const divRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    if (divRef.current) {
+      const textHeight = divRef.current.scrollHeight;
+      divRef.current.style.height = `${textHeight}px`;
+    }
+  }, []);
+
   return (
     <>
       {filteredData.map((info, index) => (
-        <div className={styles.plantCard} id={info.id} key={index}>
+        <div ref={divRef} className={styles.plantCard} id={info.id} key={index}>
           <SwitchBack handleReset={handleReset} />
           <div className={styles.plantName}>{info.name}</div>
           <div className={styles.mainContent}>

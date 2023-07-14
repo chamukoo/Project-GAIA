@@ -48,10 +48,10 @@ const Homepage: FunctionComponent = () => {
             </p>
           </div>
           <div className={styles.loremIpsumDolor}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.
+            Planting is a lot of more fun when done with consideration and care.
+            Various plant species that you can grow and show in your home.
+            Putting out a more varied approach to understanding nature and its
+            purpose.
           </div>
         </div>
         <div className={styles.component}>

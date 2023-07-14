@@ -1,7 +1,7 @@
 .plantCard {
   line-height: 1.5;
   width: 1000px;
-  height: 1000px;
+
   background-color: rgba(203, 245, 126, 1);
   font-size: 20px;
   z-index: 1;
@@ -10,6 +10,7 @@
   position: absolute;
   top: calc(50% - 200px);
   left: calc(50% - 450px);
+  padding-bottom: 200px;
 }
 
 .plantName {
@@ -63,6 +64,7 @@
 }
 .descriptionText {
   width: 800px;
+  height: fit-content;
   transform: translate(30px, 15px);
   display: flex;
   font-size: 21px;
