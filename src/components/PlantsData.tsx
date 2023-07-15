@@ -28,10 +28,6 @@ const PlantsData = ({ handleReset, plantChosen }: Props) => {
           <SwitchBack handleReset={handleReset} />
           <div className={styles.plantName}>{info.name}</div>
           <div className={styles.mainContent}>
-            <div className={styles.plantOrigin}>
-              <b>Origin:</b>
-              <span className={styles.originText}>{info.origin}</span>
-            </div>
             <div className={styles.plantSciName}>
               <b>Scientific Name: </b>
               <span className={styles.scientificNameText}>
@@ -40,9 +36,65 @@ const PlantsData = ({ handleReset, plantChosen }: Props) => {
                 </i>
               </span>
             </div>
-            <div className={styles.plantDescription}>
-              <b>Description: </b>
-              <span className={styles.descriptionText}>{info.description}</span>
+            <div className={styles.plantOrigin}>
+              <b>Background and Origin:</b>
+              <span className={styles.originText}>
+                <ul>
+                  <li>{info.origin[0]}</li>
+                  <li>{info.origin[1]}</li>
+                  <li>{info.origin[2]}</li>
+                </ul>
+              </span>
+            </div>
+            <div className={styles.facts}>
+              <b>Facts:</b>
+              <span className={styles.factsText}>
+                <ul>
+                  <li>{info.facts[0]}</li>
+                  <li>{info.facts[1]}</li>
+                  <li>{info.facts[2]}</li>
+                </ul>
+              </span>
+            </div>
+            <div className={styles.uses}>
+              <b>Uses of Donkey’s Tail:</b>
+              <span className={styles.usesText}>
+                <ul>
+                  <li>{info.uses[0]}</li>
+                  <li>{info.uses[1]}</li>
+                  <li>{info.uses[2]}</li>
+                </ul>
+              </span>
+            </div>
+            <div className={styles.benefits}>
+              <b>Benefits of Donkey’s Tail:</b>
+              <span className={styles.benefitsText}>
+                <ul>
+                  <li>{info.benefits[0]}</li>
+                  <li>{info.benefits[1]}</li>
+                  <li>{info.benefits[2]}</li>
+                </ul>
+              </span>
+            </div>
+            <div className={styles.caring}>
+              <b>How to Take Care of Donkey’s Tail:</b>
+              <span className={styles.caringText}>
+                <ul>
+                  <li>{info.caring[0]}</li>
+                  <li>{info.caring[1]}</li>
+                  <li>{info.caring[2]}</li>
+                </ul>
+              </span>
+            </div>
+            <div className={styles.recom}>
+              <b>Recommendations for Gardeners/Plant Lovers:</b>
+              <span className={styles.recomText}>
+                <ul>
+                  <li>{info.recom[0]}</li>
+                  <li>{info.recom[1]}</li>
+                  <li>{info.recom[2]}</li>
+                </ul>
+              </span>
             </div>
           </div>
 

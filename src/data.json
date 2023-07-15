@@ -3,73 +3,156 @@
     "id": "plant-1",
     "img": "/donkeys-tail1@2x.png",
     "name": "Donkey's Tail",
-    "origin": "Southern Mexico",
     "scientific-name": "Sedum morganianum",
-    "description": "The Donkey’s tail is a succulent plant species that stores water for long periods of time as a fail-safe when in its natural habitat water becomes scarce. It can be grown outdoors as well as indoors during the summer and will in fact relish in the sun. Despite, Mexico having a much warmer climate than those of us in temperate regions, this plant has adjusted well and grows easily indoors. During winter, it is fine if the temperature drops down and it can encourage them to actually bloom in the forthcoming spring season. During the growing season from April – September, water the plant thoroughly and then water when the soil becomes dry to the touch. During winter, cut down on the watering, which the plant may only need once a month. You will only need to repot this plant during spring when the existing pot has become too small for it and use a shallow pot. Avoid wet or poorly drained conditions. Pest/disease problems can occur due to overwatering. Stems and leaves can be eaten, but when ingested in large quantities, can cause stomach upset. Like many succulents, it thrives best in full sun and prefers plenty of warm sun exposure. If you choose to keep your plant indoors, choose a sunny windowsill with several hours of daily light."
+    "origin": [
+      "Donkey’s Tail, also known as Burro’s Tail, is a trailing succulent plant belonging to the Crassulaceae family.",
+      "It is native to southern Mexico and Honduras, where it grows in rocky, arid environments.",
+      "Donkey’s Tail is prized for its unique trailing stems covered in plump, cylindrical leaves."
+    ],
+    "facts": [
+      "The plant gets its name from the resemblance of its trailing stems to the tail of a donkey or burro.",
+      "It is a perennial succulent that can grow up to 60 cm (24 inches) long.",
+      "Donkey’s Tail produces small, star-shaped flowers in shades of pink, red, or white."
+    ],
+    "uses": [
+      "The plant gets its name from the resemblance of its trailing stems to the tail of a donkey or burro.",
+      "It is a perennial succulent that can grow up to 60 cm (24 inches) long.",
+      "Donkey’s Tail produces small, star-shaped flowers in shades of pink, red, or white."
+    ],
+    "benefits": [
+      "Like other succulents, Donkey’s Tail is drought-tolerant and can store water in its leaves, making it a low-maintenance plant.",
+      "It can purify the air by absorbing toxins and releasing oxygen, improving the indoor air quality.",
+      "Donkey’s Tail can be propagated easily from stem cuttings, allowing you to expand your collection or share with others."
+    ],
+    "caring": [
+      "Donkey’s Tail thrives in bright, indirect light, but it can tolerate some direct sunlight.",
+      "It prefers well-draining soil and requires infrequent watering. Allow the soil to dry out between waterings to prevent root rot.",
+      "Donkey’s Tail is sensitive to cold temperatures, so protect it from frost and provide a warm environment."
+    ],
+    "recom": [
+      "Hang Donkey’s Tail in a spot where its trailing stems can be showcased, such as near a window or on a balcony.",
+      "Avoid overwatering, as excessive moisture can lead to root rot. A light touch when watering is crucial.",
+      "Consider placing Donkey’s Tail outdoors during warm months to enjoy its trailing beauty in a garden setting."
+    ]
   },
   {
     "id": "plant-2",
     "img": "/ball-cactus@2x.png",
     "name": "Ball Cactus",
-    "origin": "India, China, Malaysia, Philippines, and several parts of Africa.",
     "scientific-name": "Parodia magnifica",
-    "description": "Ball cactus is considered endangered in the wild. Its sparse populations grow in cool, dry temperate grasslands. This species is cultivated for horticultural purposes, and must be grown under glass in cold regions during the winter. Ball cactus is a drought-tolerant plant that does not require frequent watering. Water thoroughly when the soil is completely dry. When potted, water slowly, wait for water to flow out the bottom, and then pour the excess water from the tray to avoid water accumulation. Spring, summer, and fall are its growing seasons. Water once or twice a week to keep the soil slightly wet. In winter, water less; just keep the soil from drying excessively; usually once a week. Besides, water with rainwater or distilled water rather than tap water. Tap water contains a lot of calcium, magnesium, and other mineral salts. Long-term use tends to cause soil compaction. Avoid splashing water on its stem when watering to prevent rotting. Ball cactus is a heliophilic plant and needs sufficient sunlight for its growth and blooming. It can be placed on the outdoor balcony or in the garden without shade. However, long-time exposure to blazing sunlight should be avoided in hot summer, when it needs to be shaded or cooled a little to prevent high temperatures from damaging it. Ball cactus does not require much pruning. Remove withered flowers and branches so the plant uses nutrients on healthy growth."
+    "origin": [
+      "Ball Cactus, also known as Notocactus magnificus, is a small, globular succulent belonging to the Cactaceae family.",
+      "It is native to Brazil and Uruguay, where it grows in arid regions with sandy or rocky soil.",
+      "Ball Cactus is named for its rounded shape and is highly valued for its attractive spines and vibrant flowers."
+    ],
+    "facts": [
+      "The plant forms clusters of spherical stems covered in dense, interlocking spines.",
+      "It produces eye-catching, funnel-shaped flowers that bloom in shades of yellow, orange, or red.",
+      "Ball Cactus can live for several decades with proper care and can reach a size of about 10-15 cm (4-6 inches) in diameter."
+    ],
+    "uses": [
+      "Ball Cactus is primarily grown as an ornamental plant and is popular in cactus and succulent gardens, as well as indoor collections.",
+      "Its compact size and unique shape make it suitable for small spaces, such as windowsills and tabletop display.",
+      "Some people use Ball Cactus in xeriscaping, which is a landscaping technique that conserves water in dry climates."
+    ],
+    "benefits": [
+      "Like other cacti, Ball Cactus is well-adapted to arid conditions and requires minimal water once established, making it a low-maintenance plant.",
+      "It can tolerate bright, direct sunlight and can thrive in hot and dry environments.",
+      "Ball Cactus can add visual interest and a touch of desert-like charm to any space."
+    ],
+    "caring": [
+      "Place Ball Cactus in a location with plenty of bright, direct sunlight, such as a south-facing window or a sunny spot outdoors.",
+      "Use a well-draining cactus mix or sandy soil to prevent waterlogging, as excessive moisture can lead to root rot.",
+      "Water sparingly, allowing the soil to dry out completely between waterings. Reduce watering during the dormant winter period."
+    ],
+    "recom": [
+      "Handle Ball Cactus with care, as its spines can be sharp and prickly. Use protective gloves or a folded newspaper when necessary.",
+      "Consider pairing Ball Cactus with other succulents or cacti in your garden or arrangements to create a visually appealing display.",
+      "Be patient with Ball Cactus, as it may take several years to reach its full size and produce its spectacular blooms."
+    ]
   },
   {
     "id": "plant-3",
     "img": "/ox-tongue@2x.png",
     "name": "Ox tongue",
-    "origin": "South Africa",
     "scientific-name": "Gasteria verrucosa",
-    "description": "It has distinct rough and pointed leaves. Due to the shape of its leaves, the plant is also commonly referred to as Cows Tongue or Lawyers Tongue. The color of the leaves is dark green and can often include red and pink toward the tips of the leaves. These slow-growing succulents are perfect for growing indoors and reach a height of 6-20 inches long. It is best to plant it in a well-lit room out of direct sunlight when growing indoors.  It is recommended to water Ox-Tongue when the soil is dry to avoid rotting its roots. Twice a month during warmer months and once a month during the cooler seasons is ideal. Grow in well-drained cactus soil and don’t over-water.  It is ideal for beginner gardeners or those looking for easy care plants. In its native range, it is a winter rainfall plant and blooms from August to October with long-lasting pink or orange flowers. It is perfect as an indoor plant since it can easily grow in the shade. It is also happy to share its space with other plants, making it an ideal pair with a nutrient or sun-hungry plant."
+    "origin": ["", "", ""],
+    "facts": ["", "", ""],
+    "uses": ["", "", ""],
+    "benefits": ["", "", ""],
+    "caring": ["", "", ""],
+    "recom": ["", "", ""]
   },
   {
     "id": "plant-4",
     "img": "/zebra-plant@2x.png",
     "name": "Zebra Plant",
-    "origin": "South Africa",
     "scientific-name": "Haworthia fasciata",
-    "description": "Zebra Plant are delicately small succulent houseplants, reaching up to 5 to 8-inches only in height. They have thick, dark green leaves with bumps of white tubercles on the outer surface, and are clustered together giving it a “Zebra” effect. Zebra plants don’t need much effort when it comes to watering, as then can still survive even without one for many weeks. They also look exceptionally beautiful in unusual containers or interesting soil mixes, making them perfect for any indoor spaces. Unlike any other succulents, Zebra plants do well even in medium and low light conditions, which is usually found in an indoor setting. But if you want to bring out its stunning red and orange pigments, display them in a spot where they can get as much natural light as possible, like a south or east-facing windowsill. They have very sensitive leaves, and exposing them to direct light will most likely lead them to get dry tips, which is their way of telling you that they are receiving too much sunlight. Watering Zebra plants is a bit tricky, as too much can quickly lead to root rot or discoloration, and too little water can cause the leaves to drop."
+    "origin": ["", "", ""],
+    "facts": ["", "", ""],
+    "uses": ["", "", ""],
+    "benefits": ["", "", ""],
+    "caring": ["", "", ""],
+    "recom": ["", "", ""]
   },
   {
     "id": "plant-5",
     "img": "/panda-plant@2x.png",
     "name": "Panda Plant",
-    "origin": "Madagascar",
     "scientific-name": "Kalanchoe tomentosa",
-    "description": "The Panda Plant is a perennial succulent known for its soft, fuzzy leaves that look a bit like fur. They’re native to Madagascar, where they naturally grow on granite rocks. Panda Plants can grow quite large – up to 1.5 feet (45 cm) tall, growing into a shrub shape. You can also prune them to maintain more of a bush or tree-like shape. The fuzzy leaves are typically silvery-gray in color, edged with either a rust color on younger leaves or more of a rich chocolate brown on more mature leaves. Each leaf can grow up to 3 inches long. Panda Plants are well-suited to hot, dry environments. Their leaves are reflective, helping to minimize the risk of the plant overheating, plus their fuzzy coating helps reduce water vapor loss during transpiration. These things make the plant drought-resistant. This plant can produce fuzzy flowers when grown in the wild. However, it’s unusual for it to flower when kept indoors as a houseplant. They also aren’t frost-tolerant, so if they are kept outdoors then they should be moved indoors well before the winter cold sets in. The panda plant is a slow grower which will only need re-potting once every 2 years and then less once it matures. Leaf cuttings can be taken and planted in new soil during spring. Give the leaf cutting a week of drying out before re-potting, then you can expect them to begin rooting within 4 weeks. "
+    "origin": ["", "", ""],
+    "facts": ["", "", ""],
+    "uses": ["", "", ""],
+    "benefits": ["", "", ""],
+    "caring": ["", "", ""],
+    "recom": ["", "", ""]
   },
   {
     "id": "plant-6",
     "img": "/jade-plant@2x.png",
     "name": "Jade Plant",
-    "origin": "South Africa",
-    "scientific-name": "Crassula ovata",
-    "description": "Jade plants are tough, easy-to-grow succulents. They grow well in containers and like the warm, dry conditions found in most homes. Like many succulent plants which means they have the ability to store water in its leaves, stems, and roots. Jade plants can live for a very long time and grow into small trees or shrubs up to 5 feet tall indoors. Jade plant is an easy-to-grow succulent that stores water in its leaves, stems, and roots. It has been used as an indoor ornamental throughout the world and a landscape plant in mild climates. It makes a good houseplant as it grows well in the restricted root space of containers, is relatively slow-growing, likes the warm, dry conditions found in most homes, and tolerates neglect. It grows into a small rounded evergreen shrub (to 6 feet) on dry, rocky hillsides. It has many short, thick, succulent branches on a gnarled-looking trunk, suggesting great age even in young specimens. The bark peels from the trunk in horizontal brownish strips on old plants. They tend to be clustered at the ends of the branches rather than spaced evenly among them. They should be kept in an area that will not receive any supplemental light so that the natural light cycle of the season will trigger flower initiation.  This plant is tolerant of a wide range of temperature and humidity and may even tolerate light frost but will be killed by freezing conditions."
+    "origin": ["", "", ""],
+    "facts": ["", "", ""],
+    "uses": ["", "", ""],
+    "benefits": ["", "", ""],
+    "caring": ["", "", ""],
+    "recom": ["", "", ""]
   },
   {
     "id": "plant-7",
     "img": "/sunburst@2x.png",
     "name": "Sunburst",
-    "origin": "Mexico and parts of Central America",
     "scientific-name": "Sedum adolphi",
-    "description": "It is a branching succulent that forms large rosettes of variegated spoon-shaped leaves at the tip of the branches. The rosettes grow up to 8 inches (20 cm) in diameter. Leaves are fleshy, green with yellow edges and reddish-pink tints around the edges when exposed to sunlight. Flowers are small, star-shaped, pale yellow, and appear in summer. This plant is monocarpic, meaning it dies after flowering. Sunburst do not like hot or dry weather. Therefore, they may go dormant in summer and do not require any water except in arid conditions. In extreme heat, their leaves will curl to prevent excessive water loss. Growing them in moist shade will keep them growing, but their true growth season is winter to spring, when temperatures are cool, 65 to 75 °F. Like most types of succulents, the Sunburst has similar water needs. The plant should be watered regularly because of the plant’s small roots. However, we recommend that you thoroughly soak the plant in water and let it dry completely before watering again. For the summer the plant might lay dormant, and then it requires no water, except if the conditions are very dry. It thrives best in full sunlight to part sunlight in a sheltered spot, but the bright light enhances the rich hues of the darker sunburst. It can be easily propagated by seed or by stem cuttings. Take cuttings of rosettes in the spring and kept at 18ºC and barely moist until rooted."
+    "origin": ["", "", ""],
+    "facts": ["", "", ""],
+    "uses": ["", "", ""],
+    "benefits": ["", "", ""],
+    "caring": ["", "", ""],
+    "recom": ["", "", ""]
   },
   {
     "id": "plant-8",
     "img": "/dolphin@2x.png",
     "name": "Dolphin",
-    "origin": "Southwest Africa",
     "scientific-name": "Senecio peregrinus",
-    "description": "Dolphin plant, is a unique-looking succulent, growing leaves that look like tiny jumping dolphins. It is a low-maintenance plant. This plant was created as a hybrid between Senecio rowleyanus and Senecio articulatus. It requires basic attention to its watering, light, and soil needs to flourish. Since the sap is poisonous. It is advised that you wear protective gloves when handling them. The dolphin plant is drought resistant. This is because their foliage can retain water for long periods. As such, limit watering to once a week or once in 10 days. Overwatering the soil exposes the plant to root rot. This is a result of fungi buildup caused by excess moisture. It is not frost-tolerant. So, ensure temperature levels don’t drop below 40 degrees Fahrenheit. You can propagate the Dolphins plant through stem cuttings. Be Careful when doing this so you don’t end up damaging the plant. Pruning should be done often to control the plant’s growth. You also need to prune often to keep its foliage looking fresh. Sterilize the tools before using them. It is a plant that are known to have a fast growth rate. These plants tolerate dry periods but must be kept moist enough to prevent the dolphin leaves from puckering. Dolphin Plants may just be another novelty plant, but they are also selective about some of their care."
+    "origin": ["", "", ""],
+    "facts": ["", "", ""],
+    "uses": ["", "", ""],
+    "benefits": ["", "", ""],
+    "caring": ["", "", ""],
+    "recom": ["", "", ""]
   },
   {
     "id": "plant-9",
     "img": "/moonstone@2x.png",
     "name": "Moonstone",
-    "origin": "Mexico",
     "scientific-name": "Pachyphytum oviferum",
-    "description": "It is a popular clump-forming succulent with chubby, pale blue-green to bluish-purple leaves arranged in a rosette at the tips of short stems. This succulent can grow in soil to a height of up to 10 cm and spreads around to 30 cm maximum around the soil as well. Stems are white and bare up to 15 leaves. The petals are cream-colored, apically with a faint round dark purple-red spot, and covered with greenish-white sepals. Moonstone does not tolerate frosts well. It tolerates high heat and intense sunlight. Allow the soil to dry before watering, and avoid getting water on the leaves. The plants will require more water in winter as winter begins its active growth season. A good light exposure helps to keep the plants compact and encourage leaf color and flowering. The white pruinose stem coatings of the plants in our collection sometime are not so intense as those of the plants in their natural habitat but the difference in coating is thought due to the higher humidity and less intense sunlight of our climate. It is a tough plant and, if you have patience, it will reward you with its extremely decorative leaves and flowers. Any soil that retains water for long periods is not suitable for moonstones. Make sure to settle on a medium that drains first enough."
+    "origin": ["", "", ""],
+    "facts": ["", "", ""],
+    "uses": ["", "", ""],
+    "benefits": ["", "", ""],
+    "caring": ["", "", ""],
+    "recom": ["", "", ""]
   },
   {
     "id": "plant-10",

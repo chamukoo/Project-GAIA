@@ -16,11 +16,9 @@
 }
 .home,
 .plantClassifications {
-  font-family: "Poppins", sans-serif;
   position: relative;
   cursor: pointer;
-  color: #d3fcbe;
-  transition: 0.5s;
+  color: black;
 }
 
 .home:hover,

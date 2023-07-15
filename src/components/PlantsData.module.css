@@ -1,7 +1,6 @@
 .plantCard {
   line-height: 1.5;
   width: 1000px;
-
   background-color: rgba(203, 245, 126, 1);
   font-size: 20px;
   z-index: 1;
@@ -21,28 +20,102 @@
   font-size: 30px;
 }
 
-.plantOrigin {
-  width: 700px;
+.plantSciName {
   position: absolute;
   transform: translate(74px, 150px);
   font-size: 25px;
 }
 
-.plantSciName {
+.plantSciName .scientificNameText {
+  font-size: 21px;
+  position: relative;
+  transform: translateX(100px);
+}
+
+.plantOrigin {
+  width: 700px;
   position: absolute;
-  transform: translate(74px, 250px);
+  transform: translate(74px, 230px);
   font-size: 25px;
 }
 
-.plantDescription {
-  width: 900px;
+.plantOrigin .originText {
+  font-size: 21px;
+  display: flex;
+  transform: translate(20px, 10px);
+  width: 100%;
+}
+
+.facts {
+  width: 700px;
   position: absolute;
-  transform: translate(74px, 310px);
+  transform: translate(74px, 510px);
   font-size: 25px;
+}
+
+.facts .factsText {
+  font-size: 21px;
+  display: flex;
+  transform: translate(20px, 10px);
+  width: 100%;
+}
+.uses {
+  width: 700px;
+  position: absolute;
+  transform: translate(74px, 790px);
+  font-size: 25px;
+}
+
+.uses .usesText {
+  font-size: 21px;
+  display: flex;
+  transform: translate(20px, 10px);
+  width: 100%;
+}
+
+.benefits {
+  width: 700px;
+  position: absolute;
+  transform: translate(74px, 1070px);
+  font-size: 25px;
+}
+
+.benefits .benefitsText {
+  font-size: 21px;
+  display: flex;
+  transform: translate(20px, 10px);
+  width: 100%;
+}
+
+.caring {
+  width: 700px;
+  position: absolute;
+  transform: translate(74px, 1350px);
+  font-size: 25px;
+}
+
+.caring .caringText {
+  font-size: 21px;
+  display: flex;
+  transform: translate(20px, 10px);
+  width: 100%;
+}
+
+.recom {
+  width: 700px;
+  position: absolute;
+  transform: translate(74px, 1630px);
+  font-size: 25px;
+}
+
+.recom .recomText {
+  font-size: 21px;
+  display: flex;
+  transform: translate(20px, 10px);
+  width: 100%;
 }
 
 .plantImageContainer {
-  width: 257.97px;
   position: relative;
   transform: translate(710px);
 }
@@ -50,23 +123,4 @@
 .plantImage {
   width: inherit;
   height: 176.67px;
-}
-.scientificNameText {
-  font-size: 21px;
-  position: relative;
-  transform: translateX(100px);
-}
-.originText {
-  font-size: 21px;
-  display: flex;
-  transform: translate(100px, -35px);
-  width: 600px;
-}
-.descriptionText {
-  width: 800px;
-  height: fit-content;
-  transform: translate(30px, 15px);
-  display: flex;
-  font-size: 21px;
-  text-align: justify;
 }
