@@ -1,3 +1,15 @@
+.container {
+  position: absolute;
+  top: calc(50% - 200px);
+  left: calc(50% - 450px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 1000px;
+  padding-bottom: 50px;
+}
+
 .plantCard {
   line-height: 1.5;
   width: 1000px;
@@ -6,10 +18,15 @@
   z-index: 1;
   font-family: Inter;
   border-radius: 50px;
-  position: absolute;
-  top: calc(50% - 200px);
-  left: calc(50% - 450px);
-  padding-bottom: 200px;
+
+  padding-bottom: 50px;
+}
+
+.mainContent {
+  width: 1953px;
+  display: flex;
+  flex-direction: column;
+  transform: translate(74px, 150px);
 }
 
 .plantName {
@@ -20,107 +37,107 @@
   font-size: 30px;
 }
 
-.plantSciName {
-  position: absolute;
-  transform: translate(74px, 150px);
+.mainContent .plantSciName {
+  position: relative;
   font-size: 25px;
+  padding-bottom: 30px;
 }
-
 .plantSciName .scientificNameText {
   font-size: 21px;
   position: relative;
   transform: translateX(100px);
 }
 
-.plantOrigin {
+.mainContent .plantOrigin {
   width: 700px;
-  position: absolute;
-  transform: translate(74px, 230px);
+  position: relative;
   font-size: 25px;
+  padding-bottom: 30px;
 }
 
 .plantOrigin .originText {
   font-size: 21px;
   display: flex;
-  transform: translate(20px, 10px);
+  transform: translate(20px);
   width: 100%;
 }
 
-.facts {
+.mainContent .facts {
   width: 700px;
-  position: absolute;
-  transform: translate(74px, 510px);
+  position: relative;
   font-size: 25px;
+  padding-bottom: 30px;
 }
 
 .facts .factsText {
   font-size: 21px;
   display: flex;
-  transform: translate(20px, 10px);
+  transform: translate(20px);
   width: 100%;
 }
-.uses {
+.mainContent .uses {
   width: 700px;
-  position: absolute;
-  transform: translate(74px, 790px);
+  position: relative;
   font-size: 25px;
+  padding-bottom: 30px;
 }
 
 .uses .usesText {
   font-size: 21px;
   display: flex;
-  transform: translate(20px, 10px);
+  transform: translate(20px);
   width: 100%;
 }
 
-.benefits {
+.mainContent .benefits {
   width: 700px;
-  position: absolute;
-  transform: translate(74px, 1070px);
+  position: relative;
   font-size: 25px;
+  padding-bottom: 30px;
 }
 
 .benefits .benefitsText {
   font-size: 21px;
   display: flex;
-  transform: translate(20px, 10px);
+  transform: translate(20px);
   width: 100%;
 }
 
-.caring {
+.mainContent .caring {
   width: 700px;
-  position: absolute;
-  transform: translate(74px, 1350px);
+  position: relative;
   font-size: 25px;
+  padding-bottom: 30px;
 }
 
 .caring .caringText {
   font-size: 21px;
   display: flex;
-  transform: translate(20px, 10px);
+  transform: translate(20px);
   width: 100%;
 }
 
-.recom {
+.mainContent .recom {
   width: 700px;
-  position: absolute;
-  transform: translate(74px, 1630px);
+  position: relative;
   font-size: 25px;
+  padding-bottom: 30px;
 }
 
 .recom .recomText {
   font-size: 21px;
   display: flex;
-  transform: translate(20px, 10px);
+  transform: translate(20px);
   width: 100%;
 }
 
 .plantImageContainer {
-  position: relative;
-  transform: translate(710px);
+  position: absolute;
+  left: 690px;
+  top: -130px;
 }
 
-.plantImage {
+.plantImageContainer .plantImage {
   width: inherit;
   height: 176.67px;
 }

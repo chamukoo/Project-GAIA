@@ -1,5 +1,6 @@
 import { ReactNode } from "react";
 import PlantsData from "../components/PlantsData";
+import NextButton from "../components/NextButton";
 
 interface Props {
   children?: ReactNode;
@@ -19,6 +20,7 @@ const CourseLayout = ({
       {clicked ? (
         <PlantsData plantChosen={plantChosen} handleReset={handleReset} />
       ) : null}
+
       {children}
     </div>
   );

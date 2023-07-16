@@ -1,7 +1,8 @@
-import React, { useCallback, useEffect, useRef } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import styles from "./PlantsData.module.css";
 import Data from "../data.json";
 import SwitchBack from "./SwitchBack";
+import NextButton from "./NextButton";
 
 interface Props {
   handleReset: () => void;
@@ -9,7 +10,8 @@ interface Props {
 }
 
 const PlantsData = ({ handleReset, plantChosen }: Props) => {
-  const plantId = plantChosen;
+  const [plantId, setPlantId] = useState(plantChosen);
+  const [currentIndex, setIndex] = useState(Number);
   const filteredData = Data.filter((data) => data.id == plantId);
 
   const divRef = useRef<HTMLDivElement>(null);
@@ -21,13 +23,27 @@ const PlantsData = ({ handleReset, plantChosen }: Props) => {
     }
   }, []);
 
+  const next = () => {
+    console.log(divRef.current);
+    setIndex(currentIndex + 1);
+    setPlantId(Data[currentIndex].id);
+  };
+
+  const back = () => {
+    setIndex(currentIndex - 1);
+    setPlantId(Data[currentIndex].id);
+  };
+
   return (
-    <>
+    <div className={styles.container}>
       {filteredData.map((info, index) => (
         <div ref={divRef} className={styles.plantCard} id={info.id} key={index}>
           <SwitchBack handleReset={handleReset} />
           <div className={styles.plantName}>{info.name}</div>
           <div className={styles.mainContent}>
+            <div className={styles.plantImageContainer}>
+              <img className={styles.plantImage} src={info.img} />
+            </div>
             <div className={styles.plantSciName}>
               <b>Scientific Name: </b>
               <span className={styles.scientificNameText}>
@@ -97,13 +113,9 @@ const PlantsData = ({ handleReset, plantChosen }: Props) => {
               </span>
             </div>
           </div>
-
-          <div className={styles.plantImageContainer}>
-            <img className={styles.plantImage} src={info.img} />
-          </div>
         </div>
       ))}
-    </>
+    </div>
   );
 };
 

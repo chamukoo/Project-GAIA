@@ -1,0 +1,50 @@
+.mainContainer {
+  position: relative;
+  display: flex;
+  top: -70px;
+  flex-direction: row;
+  z-index: 1;
+}
+
+.mainContainer .nextContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  background-color: green;
+  position: relative;
+  border-radius: 100px;
+  cursor: pointer;
+  margin-left: 15px;
+}
+
+.nextContainer img {
+  width: 25px;
+}
+
+.nextContainer span {
+  font-family: Inter;
+}
+.mainContainer .backContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  background-color: green;
+  position: relative;
+  border-radius: 100px;
+  cursor: pointer;
+}
+
+.backContainer img {
+  width: 25px;
+  transform: rotate(360deg) scaleX(-1);
+}
+
+.backContainer span {
+  font-family: Inter;
+}
