@@ -83,6 +83,7 @@ const FlowerCourse: FunctionComponent = () => {
               </div>
             </div>
             <div className={styles.contents}>
+              {/* Row 1 */}
               <div className={styles.row1}>
                 <div className={styles.flower1}>
                   <div
@@ -91,7 +92,7 @@ const FlowerCourse: FunctionComponent = () => {
                   >
                     <div className={styles.flower12}>Gumamela</div>
                     <img
-                      className={styles.flower1Icon}
+                      className={styles.flower2Icon}
                       alt=''
                       src='/flower-1@2x.png'
                     />
@@ -120,6 +121,7 @@ const FlowerCourse: FunctionComponent = () => {
                   />
                 </div>
               </div>
+              {/* Row 2 */}
               <div className={styles.row1}>
                 <div
                   className={styles.flower2}
@@ -127,7 +129,7 @@ const FlowerCourse: FunctionComponent = () => {
                 >
                   <div className={styles.flower41}>Sunflower</div>
                   <img
-                    className={styles.flower4Icon}
+                    className={styles.flower2Icon}
                     alt=''
                     src='/flower-4@2x.png'
                   />
@@ -138,7 +140,7 @@ const FlowerCourse: FunctionComponent = () => {
                 >
                   <div className={styles.flower41}>Plumeria</div>
                   <img
-                    className={styles.flower4Icon}
+                    className={styles.flower2Icon}
                     alt=''
                     src='/flower-5@2x.png'
                   />
@@ -149,12 +151,13 @@ const FlowerCourse: FunctionComponent = () => {
                 >
                   <div className={styles.flower41}>Marigold</div>
                   <img
-                    className={styles.flower4Icon}
+                    className={styles.flower2Icon}
                     alt=''
                     src='/flower-6@2x.png'
                   />
                 </div>
               </div>
+              {/* ROw 3 */}
               <div className={styles.row1}>
                 <div
                   className={styles.flower2}
@@ -162,7 +165,7 @@ const FlowerCourse: FunctionComponent = () => {
                 >
                   <div className={styles.flower71}>Cosmos</div>
                   <img
-                    className={styles.flower7Icon}
+                    className={styles.flower2Icon}
                     alt=''
                     src='/flower-7@2x.png'
                   />
@@ -173,7 +176,7 @@ const FlowerCourse: FunctionComponent = () => {
                 >
                   <div className={styles.flower71}>Lotus</div>
                   <img
-                    className={styles.flower8Icon}
+                    className={styles.flower2Icon}
                     alt=''
                     src='/flower-8@2x.png'
                   />
@@ -184,7 +187,7 @@ const FlowerCourse: FunctionComponent = () => {
                 >
                   <div className={styles.flower71}>Hollyhocks</div>
                   <img
-                    className={styles.flower9Icon}
+                    className={styles.flower2Icon}
                     alt=''
                     src='/flower-9@2x.png'
                   />

@@ -144,6 +144,7 @@ const FernCourse = () => {
               <div className={styles.learningMaterials}>Learning Materials</div>
             </div>
             <div className={styles.contents}>
+              {/* Row1 */}
               <div className={styles.row1}>
                 <div className={styles.fern1} onClick={onFern1ContainerClick}>
                   <img
@@ -170,6 +171,7 @@ const FernCourse = () => {
                   <div className={styles.fern21}>Silver Lace</div>
                 </div>
               </div>
+              {/* Row 2 */}
               <div className={styles.row1}>
                 <div className={styles.fern1} onClick={onFern4ContainerClick}>
                   <img
@@ -196,6 +198,7 @@ const FernCourse = () => {
                   <div className={styles.fern21}>Maidenhair</div>
                 </div>
               </div>
+              {/* ROw3 */}
               <div className={styles.row1}>
                 <div className={styles.fern1} onClick={onFern7ContainerClick}>
                   <img
@@ -207,7 +210,7 @@ const FernCourse = () => {
                 </div>
                 <div className={styles.fern1} onClick={onFern8ContainerClick}>
                   <img
-                    className={styles.fern8Icon}
+                    className={styles.fern1Icon}
                     alt=''
                     src='/fern-8@2x.png'
                   />

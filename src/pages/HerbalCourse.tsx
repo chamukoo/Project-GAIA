@@ -147,6 +147,7 @@ const HerbalCourse = () => {
               <div className={styles.learningMaterials}>Learning Materials</div>
             </div>
             <div className={styles.contents}>
+              {/* First Row */}
               <div className={styles.row1}>
                 <div
                   className={styles.herbal1}
@@ -154,7 +155,7 @@ const HerbalCourse = () => {
                 >
                   <div className={styles.herbal1Wrapper}>
                     <img
-                      className={styles.herbal1Icon}
+                      className={styles.herbal2Icon}
                       alt=''
                       src='/herbal-1@2x.png'
                     />
@@ -184,6 +185,7 @@ const HerbalCourse = () => {
                   <div className={styles.herbal21}>Rosemary</div>
                 </div>
               </div>
+              {/* Second row */}
               <div className={styles.row1}>
                 <div
                   className={styles.herbal1}
@@ -219,6 +221,7 @@ const HerbalCourse = () => {
                   <div className={styles.herbal11}>Arugula</div>
                 </div>
               </div>
+              {/* Third Row */}
               <div className={styles.row1}>
                 <div
                   className={styles.herbal1}

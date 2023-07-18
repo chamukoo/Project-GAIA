@@ -230,10 +230,17 @@
   position: relative;
   width: 250px;
 }
+/* Image effects */
 .herbal2Icon {
   height: 250px;
   object-fit: cover;
+  transition: 0.5s;
 }
+.herbal2Icon:hover {
+  transform: scale(1.2);
+  z-index: 2;
+}
+
 .herbal21 {
   letter-spacing: 0.05em;
   font-weight: 800;

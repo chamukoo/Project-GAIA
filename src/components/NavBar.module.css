@@ -69,6 +69,16 @@
   transform: scale(1) translateY(0);
   transition: 0.5s;
 }
+.plantClassificationsActive {
+  display: flex;
+  flex-direction: row;
+}
+
+.plantClassifications {
+  display: flex;
+  flex-direction: row;
+}
+
 /* Start of dropdown */
 .plantClassificationsActive ul.dropDown {
   background-color: #fff;
@@ -78,7 +88,7 @@
   position: absolute;
   justify-content: center;
   align-items: center;
-  margin-top: 4px;
+  margin-top: 30px;
   list-style: none;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
@@ -93,13 +103,13 @@
   padding-top: 10px;
 }
 
-.plantClassificationsActive ul.dropDown li a {
+.plantClassificationsActive ul.dropDown li {
   text-decoration: none;
   color: #446a12;
   font-weight: 500;
 }
 
-.plantClassificationsActive ul.dropDown li:hover a {
+.plantClassificationsActive ul.dropDown li:hover {
   text-decoration: none;
   color: #446a12;
   font-weight: bold;
@@ -115,6 +125,8 @@
 .plantClassificationsActive:hover img {
   transform: rotate(0deg);
 }
+
+/* Not active */
 .plantClassifications ul.dropDown {
   background-color: #fff;
   width: 80%;
@@ -123,7 +135,7 @@
   position: absolute;
   justify-content: center;
   align-items: center;
-  margin-top: 4px;
+  margin-top: 30px;
   list-style: none;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
@@ -138,13 +150,13 @@
   padding-top: 10px;
 }
 
-.plantClassifications ul.dropDown li a {
+.plantClassifications ul.dropDown li {
   text-decoration: none;
   color: #446a12;
   font-weight: 500;
 }
 
-.plantClassifications ul.dropDown li:hover a {
+.plantClassifications ul.dropDown li:hover {
   text-decoration: none;
   color: #446a12;
   font-weight: bold;

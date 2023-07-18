@@ -87,11 +87,18 @@
   display: inline-block;
   height: 31.37px;
 }
+/* Image animation */
 .flower2Icon {
   top: 0;
   height: 250px;
+  transition: 0.5s;
   object-fit: cover;
 }
+.flower2Icon:hover {
+  transform: scale(1.1);
+  z-index: 2;
+}
+
 .flower2 {
   position: relative;
   width: 270px;

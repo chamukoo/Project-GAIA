@@ -149,7 +149,9 @@ const SucculentCourse = () => {
               </div>
               <div className={styles.learningMaterials}>Learning Materials</div>
             </div>
+            {/* Reference Div */}
             <div className={styles.contents}>
+              {/*First Row*/}
               <div className={styles.row1}>
                 <div
                   className={styles.donkeystailbtn}
@@ -185,6 +187,7 @@ const SucculentCourse = () => {
                   <div className={styles.donkeysTail}>Ox Tongue</div>
                 </div>
               </div>
+              {/* Second Row */}
               <div className={styles.row1}>
                 <div
                   className={styles.donkeystailbtn}
@@ -220,6 +223,7 @@ const SucculentCourse = () => {
                   <div className={styles.donkeysTail}>Jade Plant</div>
                 </div>
               </div>
+              {/* Third Row */}
               <div className={styles.row1}>
                 <div
                   className={styles.donkeystailbtn}

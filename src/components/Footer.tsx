@@ -25,9 +25,15 @@ const Footer = () => {
         </div>
       </div>
       <div className={styles.socialMediIcons}>
-        <img className={styles.layer1Icon1} alt='' src='/layer-11.svg' />
-        <img className={styles.frameIcon1} alt='' src='/frame1.svg' />
-        <img className={styles.frameIcon1} alt='' src='/layer-12.svg' />
+        <a href='https://www.facebook.com'>
+          <img className={styles.layer1Icon1} alt='' src='/layer-11.svg' />
+        </a>
+        <a href='https://www.instagram.com'>
+          <img className={styles.frameIcon1} alt='' src='/frame1.svg' />
+        </a>
+        <a href='https://www.twitter.com'>
+          <img className={styles.frameIcon1} alt='' src='/layer-12.svg' />
+        </a>
       </div>
       <div className={styles.others}>
         <div

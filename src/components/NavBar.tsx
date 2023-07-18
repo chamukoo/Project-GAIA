@@ -25,6 +25,16 @@ const NavBar = ({ clickable }: Props) => {
     navigate("/succulent-course");
   }, [navigate]);
 
+  const onHerbalClick = useCallback(() => {
+    navigate("/herbal-course");
+  }, [navigate]);
+  const onFlowerClick = useCallback(() => {
+    navigate("/flower-course");
+  }, [navigate]);
+  const onFernClick = useCallback(() => {
+    navigate("/fern-course");
+  }, [navigate]);
+
   return (
     <div className={styles.menu} style={clickable}>
       <div
@@ -35,28 +45,25 @@ const NavBar = ({ clickable }: Props) => {
       </div>
       <div
         className={
-          activeTab == "/learning-course" || activeTab == "/succulent-course"
+          activeTab == "/learning-course" ||
+          activeTab == "/succulent-course" ||
+          activeTab == "/flower-course" ||
+          activeTab == "/herbal-course" ||
+          activeTab == "/fern-course"
             ? styles.plantClassificationsActive
             : styles.plantClassifications
         }
-        onClick={onPlantClassificationsTextClick}
       >
         <span></span>
-        Plant Classifications
+        <div onClick={onPlantClassificationsTextClick}>
+          Plant Classification
+        </div>
         <img alt='' src='./dropdown.svg' />
         <ul className={styles.dropDown}>
-          <li>
-            <a href='/succulent-course'>Succulent</a>
-          </li>
-          <li>
-            <a href='/herbal-course'>Herbal</a>
-          </li>
-          <li>
-            <a href='/flower-course'>Flower</a>
-          </li>
-          <li>
-            <a href='/fern-course'>Fern</a>
-          </li>
+          <li onClick={onSucculentClick}>Succulent</li>
+          <li onClick={onHerbalClick}>Herbal</li>
+          <li onClick={onFlowerClick}>Flower</li>
+          <li onClick={onFernClick}>Fern</li>
         </ul>
       </div>
       <div
@@ -65,7 +72,7 @@ const NavBar = ({ clickable }: Props) => {
         }
         onClick={onAboutTextClick}
       >
-        About<span></span>
+        Our Team<span></span>
       </div>
     </div>
   );

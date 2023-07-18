@@ -75,26 +75,34 @@ const AboutUs = () => {
                 aspiring Back-End Developer.
               </div>
               <div className={styles.socialMediaLinks}>
-                <img
-                  className={styles.iconInstagram}
-                  alt=''
-                  src='/-icon-facebook-v11.svg'
-                />
-                <img
-                  className={styles.iconInstagram}
-                  alt=''
-                  src='/-icon-instagram1.svg'
-                />
-                <img
-                  className={styles.iconInstagram}
-                  alt=''
-                  src='/-icon-github1.svg'
-                />
-                <img
-                  className={styles.iconInstagram}
-                  alt=''
-                  src='/-icon-mail1.svg'
-                />
+                <a href='https://www.facebook.com/commoners.hexagon'>
+                  <img
+                    className={styles.iconInstagram}
+                    alt=''
+                    src='/-icon-facebook-v11.svg'
+                  />
+                </a>
+                <a href='https://www.instagram.com/cyyynical_'>
+                  <img
+                    className={styles.iconInstagram}
+                    alt=''
+                    src='/-icon-instagram1.svg'
+                  />
+                </a>
+                <a href='https://github.com/irel04'>
+                  <img
+                    className={styles.iconInstagram}
+                    alt=''
+                    src='/-icon-github1.svg'
+                  />
+                </a>
+                <a href='mailto:kianirel56@gmail.com'>
+                  <img
+                    className={styles.iconInstagram}
+                    alt=''
+                    src='/-icon-mail1.svg'
+                  />
+                </a>
               </div>
             </div>
           </div>
