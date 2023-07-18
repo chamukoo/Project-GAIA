@@ -11,17 +11,18 @@ const NavBar = ({ clickable }: Props) => {
 
   const navigate = useNavigate();
   const onHomeTextClick = useCallback(() => {
-    setActiveTab("/");
     navigate("/");
   }, [navigate]);
   const onPlantClassificationsTextClick = useCallback(() => {
-    setActiveTab("/learning-course");
     navigate("/learning-course");
   }, [navigate]);
 
   const onAboutTextClick = useCallback(() => {
-    setActiveTab("/about-us");
     navigate("/about-us");
+  }, [navigate]);
+
+  const onSucculentClick = useCallback(() => {
+    navigate("/succulent-course");
   }, [navigate]);
 
   return (
@@ -34,19 +35,33 @@ const NavBar = ({ clickable }: Props) => {
       </div>
       <div
         className={
-          activeTab == "/learning-course"
+          activeTab == "/learning-course" || activeTab == "/succulent-course"
             ? styles.plantClassificationsActive
             : styles.plantClassifications
         }
         onClick={onPlantClassificationsTextClick}
       >
-        Plant Classifications<span></span>
+        <span></span>
+        Plant Classifications
+        <img alt='' src='./dropdown.svg' />
+        <ul className={styles.dropDown}>
+          <li>
+            <a href='/succulent-course'>Succulent</a>
+          </li>
+          <li>
+            <a href='/herbal-course'>Herbal</a>
+          </li>
+          <li>
+            <a href='/flower-course'>Flower</a>
+          </li>
+          <li>
+            <a href='/fern-course'>Fern</a>
+          </li>
+        </ul>
       </div>
       <div
         className={
-          activeTab == "/about-us"
-            ? styles.plantClassificationsActive
-            : styles.plantClassifications
+          activeTab == "/about-us" ? styles.aboutUsActive : styles.aboutUs
         }
         onClick={onAboutTextClick}
       >
