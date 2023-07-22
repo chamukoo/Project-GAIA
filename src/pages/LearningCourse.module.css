@@ -193,13 +193,36 @@
   position: relative;
   letter-spacing: 0.05em;
 }
+/* Animation Succulent */
 .succulentcourseimgIcon {
   position: relative;
   width: 297.84px;
   height: 241px;
   object-fit: cover;
   z-index: 1;
+  transition: 0.5s;
 }
+
+.succulent:hover .succulentcourseimgIcon {
+  transform: scale(1.1);
+  z-index: 2;
+}
+
+/* Animation Flower */
+.flowercourseimgIcon {
+  position: relative;
+  width: 292.98px;
+  height: 216px;
+  object-fit: cover;
+  z-index: 1;
+  transition: 0.5s;
+}
+
+.flower:hover .flowercourseimgIcon {
+  transform: scale(1.1);
+  z-index: 2;
+}
+
 .succulentPlants,
 .viewPlants {
   position: relative;
@@ -237,20 +260,16 @@
   margin-top: -111px;
 }
 .succulent,
-.succulentPlantsParent {
+.succulentPlantsParent,
+.flower {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
 }
-.herbcourseimgIcon {
-  position: relative;
-  width: 306.56px;
-  height: 266px;
-  object-fit: cover;
-  z-index: 1;
-}
+
 .herbal,
+.fern,
 .herbalPlantsParent,
 .viewPlantsGroup {
   display: flex;
@@ -268,6 +287,7 @@
   color: #fff;
 }
 .herbal,
+.fern,
 .herbalPlantsParent {
   flex-direction: column;
 }
@@ -280,16 +300,26 @@
   z-index: 0;
   margin-top: -111px;
 }
-.herbal {
+.herbal,
+.fern {
   color: #000;
 }
-.flowercourseimgIcon {
+/* Herbal animation */
+
+.herbcourseimgIcon {
   position: relative;
-  width: 292.98px;
-  height: 216px;
+  width: 306.56px;
+  height: 266px;
   object-fit: cover;
   z-index: 1;
+  transition: 1.5s;
 }
+
+.herbal:hover .herbcourseimgIcon {
+  transform: scale(1.1);
+  z-index: 1;
+}
+
 .flowerPlantsParent {
   border-radius: 30px;
   background-color: #112102;
@@ -303,20 +333,29 @@
   z-index: 0;
   margin-top: -111px;
 }
+
+/* Fern animation */
 .ferncourseimgIcon {
   position: relative;
   width: 324px;
   height: 226.7px;
   object-fit: cover;
   z-index: 1;
+  transition: 0.5s;
 }
+
+.fern:hover .ferncourseimgIcon {
+  transform: scale(1.1);
+  z-index: 2;
+}
+
 .fernPlantsParent {
   border-radius: 30px;
   background-color: #cbf57e;
   overflow: hidden;
   display: flex;
   flex-direction: column;
-  padding: 142px 73px 24px;
+  padding: 142px 69px 24px;
   align-items: center;
   justify-content: flex-start;
   gap: 26px;

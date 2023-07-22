@@ -8,7 +8,9 @@ const Footer = () => {
         <div className={styles.iconParent}>
           <img className={styles.icon} alt='' src='/icon.svg' />
           <div className={styles.gaiaplantcom}>
-            <p className={styles.p}>gaia@plant.com</p>
+            <a href='mailto: gaia@plant.com'>
+              <p className={styles.p}>gaia@plant.com</p>
+            </a>
           </div>
         </div>
         <div className={styles.frameParent}>

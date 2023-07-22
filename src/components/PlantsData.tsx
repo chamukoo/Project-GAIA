@@ -73,7 +73,7 @@ const PlantsData = ({ handleReset, plantChosen }: Props) => {
               </span>
             </div>
             <div className={styles.uses}>
-              <b>Uses of Donkey’s Tail:</b>
+              <b>{`Uses of ${info.name}:`}</b>
               <span className={styles.usesText}>
                 <ul>
                   <li>{info.uses[0]}</li>
@@ -83,7 +83,7 @@ const PlantsData = ({ handleReset, plantChosen }: Props) => {
               </span>
             </div>
             <div className={styles.benefits}>
-              <b>Benefits of Donkey’s Tail:</b>
+              <b>{`Benefits of ${info.name}:`}</b>
               <span className={styles.benefitsText}>
                 <ul>
                   <li>{info.benefits[0]}</li>
@@ -93,7 +93,7 @@ const PlantsData = ({ handleReset, plantChosen }: Props) => {
               </span>
             </div>
             <div className={styles.caring}>
-              <b>How to Take Care of Donkey’s Tail:</b>
+              <b>{`How to Take Care of ${info.name}`}:</b>
               <span className={styles.caringText}>
                 <ul>
                   <li>{info.caring[0]}</li>

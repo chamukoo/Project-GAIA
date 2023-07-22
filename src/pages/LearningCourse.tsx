@@ -28,6 +28,7 @@ const LearningCourse = () => {
           <b>{`PLANT `}</b>
           <span className={styles.classification}>CLASSIFICATION</span>
         </div>
+        {/* Succulent */}
         <div className={styles.takeCourseFrame1}>
           <div className={styles.succulent}>
             <img
@@ -50,6 +51,7 @@ const LearningCourse = () => {
               </div>
             </div>
           </div>
+          {/* Herbal */}
           <div className={styles.herbal}>
             <img
               className={styles.herbcourseimgIcon}
@@ -71,7 +73,8 @@ const LearningCourse = () => {
               </div>
             </div>
           </div>
-          <div className={styles.succulent}>
+          {/* Flower */}
+          <div className={styles.flower}>
             <img
               className={styles.flowercourseimgIcon}
               alt=''
@@ -92,7 +95,8 @@ const LearningCourse = () => {
               </div>
             </div>
           </div>
-          <div className={styles.herbal}>
+          {/* fern */}
+          <div className={styles.fern}>
             <img
               className={styles.ferncourseimgIcon}
               alt=''

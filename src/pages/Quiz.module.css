@@ -89,6 +89,14 @@
   align-items: center;
   font-size: 25px;
 }
+
+.option1:hover,
+.option2:hover,
+.option3:hover,
+.option4:hover {
+  background-color: #cfcfcf70;
+}
+
 .timerChild {
   top: calc(50% - 30px);
   left: calc(50% - 70px);
