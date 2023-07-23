@@ -147,7 +147,7 @@ const SucculentCourse = () => {
                 <span>SUCCULENT</span>
                 <span className={styles.plants}> PLANTS</span>
               </div>
-              <div className={styles.learningMaterials}>Learning Materials</div>
+              <div className={styles.learningMaterials}>Listed Individuals</div>
             </div>
             {/* Reference Div */}
             <div className={styles.contents}>

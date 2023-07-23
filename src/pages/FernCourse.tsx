@@ -141,7 +141,7 @@ const FernCourse = () => {
                 <span>FERN</span>
                 <span className={styles.plants}> PLANTS</span>
               </div>
-              <div className={styles.learningMaterials}>Learning Materials</div>
+              <div className={styles.learningMaterials}>Listed Individuals</div>
             </div>
             <div className={styles.contents}>
               {/* Row1 */}

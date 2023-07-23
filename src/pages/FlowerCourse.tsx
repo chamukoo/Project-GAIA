@@ -78,7 +78,7 @@ const FlowerCourse: FunctionComponent = () => {
               </div>
               <div className={styles.learningMaterialsWrapper}>
                 <div className={styles.learningMaterials}>
-                  Learning Materials
+                  Listed Individuals
                 </div>
               </div>
             </div>

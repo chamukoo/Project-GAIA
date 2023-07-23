@@ -1,0 +1,37 @@
+.timerChild {
+  top: calc(50% - 30px);
+  left: calc(50% - 70px);
+  width: 140px;
+}
+.timer11Icon {
+  top: calc(50% - 22px);
+  left: calc(50% - 41.63px);
+  border-radius: 150px;
+  width: 35px;
+  height: 40px;
+  object-fit: cover;
+}
+.div,
+.timer,
+.timer11Icon {
+  position: absolute;
+}
+.div {
+  top: calc(50% - 18.8px);
+  left: calc(50% + 4.37px);
+  letter-spacing: 0.05em;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 41.13px;
+  height: 38.4px;
+}
+.timer {
+  background-color: white;
+  top: calc(50% - 246.5px);
+  left: calc(50% + 270px);
+  width: 140px;
+  height: 60px;
+  border-radius: 150px;
+}

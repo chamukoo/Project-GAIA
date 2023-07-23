@@ -144,7 +144,7 @@ const HerbalCourse = () => {
                 <span>HERBAL</span>
                 <span className={styles.plants}> PLANTS</span>
               </div>
-              <div className={styles.learningMaterials}>Learning Materials</div>
+              <div className={styles.learningMaterials}>Listed Indivuals</div>
             </div>
             <div className={styles.contents}>
               {/* First Row */}

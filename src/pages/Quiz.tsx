@@ -3,6 +3,7 @@ import styles from "./Quiz.module.css";
 import QuizData from "../quiz.json";
 import SwitchBack from "../components/SwitchBack";
 import { useNavigate } from "react-router-dom";
+import Timer from "../components/Timer";
 
 interface Props {
   category?: any;
@@ -197,15 +198,7 @@ const Quiz = ({ category }: Props) => {
               >
                 {inputData.choices[0]}
               </div>
-              <div className={styles.timer}>
-                <div className={styles.timerChild} />
-                <img
-                  className={styles.timer11Icon}
-                  alt=''
-                  src='/timer1-1@2x.png'
-                />
-                <div className={styles.div}>{timeLeft}</div>
-              </div>
+              <Timer displayThis={true} timeLeft={timeLeft} />
               <div className={styles.quizBoxContentChild} />
               <div className={styles.div1}>{`${currentItem}/10`}</div>
             </div>
