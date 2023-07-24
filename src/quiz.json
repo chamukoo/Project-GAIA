@@ -437,126 +437,126 @@
     "category": "Fern",
     "id": "Q63",
     "question": "It is a popular indoor fern known for its delicate and lacy foliage. The fronds are finely textured, with a feather-like appearance, consisting of numerous small leaflets arranged along the stem. ",
-    "choices": ["Silver Lace", "", "", ""],
+    "choices": ["Silver Lace", "Asparagus Fern", "Maidenhair", "Floating Fern"],
     "correct": "Silver Lace"
   },
   {
     "category": "Fern",
     "id": "Q64",
-    "question": "",
-    "choices": ["", "", "", ""],
-    "correct": ""
+    "question": "It is known scientifically as Dryopteris erythrosora, is native to East Asia, including regions of China, Japan, and Korea.",
+    "choices": ["Water Sprite", "Lemon Button", "Crocodile Fern", "Autumn Fern"],
+    "correct": "Autumn Fern"
   },
   {
     "category": "Fern",
     "id": "Q65",
-    "question": "",
-    "choices": ["", "", "", ""],
-    "correct": ""
+    "question": "It is a popular houseplant known for its delicate, feathery foliage and long, arching stems covered with tiny, needle-like leaves called cladophylls.",
+    "choices": ["Asparagus Fern", "Maidenhair", "Silver Lace", "Boston Fern"],
+    "correct": "Asparagus Fern"
   },
   {
     "category": "Fern",
     "id": "Q66",
-    "question": "",
-    "choices": ["", "", "", ""],
-    "correct": ""
+    "question": "It belongs to the Adiantum genus, which consists of over 200 species found worldwide.",
+    "choices": ["Water Sprite", "Maidenhair", "Lemon Button", "Crocodile Fern"],
+    "correct": "Maidenhair"
   },
   {
     "category": "Fern",
     "id": "Q67",
-    "question": "",
-    "choices": ["", "", "", ""],
-    "correct": ""
+    "question": "These ferns reproduce and spread through spores or vegetative propagation, allowing them to olonize and cover large areas of water bodies",
+    "choices": ["Silver Lace", "Water Sprite", "Floating Fern", "Lemon Button"],
+    "correct": "Floating Fern"
   },
   {
     "category": "Fern",
     "id": "Q68",
-    "question": "",
-    "choices": ["", "", "", ""],
-    "correct": ""
+    "question": "It also known as Indian Fern. It is a popular aquatic fern species native to tropical regions in Asia, Africa, and the Americas.",
+    "choices": ["Asparagus Fern", "Water Sprite", "Boston Fern", "Autumn Fern"],
+    "correct": "Water Sprite"
   },
   {
     "category": "Fern",
     "id": "Q69",
-    "question": "",
-    "choices": ["", "", "", ""],
-    "correct": ""
+    "question": "It is often known as the 'Sword Fern' due to its long, arching fronds that resemble sword blades.",
+    "choices": ["Boston Fern", "Lemon Button", "Silver Lace", "Crocodile Fern"],
+    "correct": "Boston Fern"
   },
   {
     "category": "Fern",
     "id": "Q70",
-    "question": "",
-    "choices": ["", "", "", ""],
-    "correct": ""
+    "question": "In Feng Shui, they are believed to bring positive energy and vitality to the spaces they inhabit, enhancing the flow of chi (energy) in the home.",
+    "choices": ["Floating Fern", "Water Sprite", "Boston Fern", "Crocodile Fern"],
+    "correct": "Boston Fern"
   },
   {
     "category": "Fern",
     "id": "Q71",
-    "question": "",
-    "choices": ["", "", "", ""],
-    "correct": ""
+    "question": "It absorbs excess nutrients like nitrates and phosphates, playing a role in reducing algae growth in aquariums.",
+    "choices": ["Water Sprite", "Floating Fern", "Silver Lace", "Maidenhair"],
+    "correct": "Water Sprite"
   },
   {
     "category": "Fern",
     "id": "Q72",
-    "question": "",
-    "choices": ["", "", "", ""],
-    "correct": ""
+    "question": "The Water Sprite Fern is a fast-growing plant known for its delicate, lacy foliage, which can grow both submerged and emergent.",
+    "choices": ["Lemon Button", "Silver Lace", "Floating Fern", "Asparagus Fern"],
+    "correct": "Floating Fern"
   },
   {
     "category": "Fern",
     "id": "Q73",
-    "question": "",
-    "choices": ["", "", "", ""],
-    "correct": ""
+    "question": "They are sometimes referred to as 'venus hair fern' or 'lover's fern' due to their connection with matters of the heart.",
+    "choices": ["Maidenhair", "Boston Fern", "Crocodile Fern", "Autumn Fern"],
+    "correct": "Maidenhair"
   },
   {
     "category": "Fern",
     "id": "Q74",
-    "question": "",
-    "choices": ["", "", "", ""],
-    "correct": ""
+    "question": "They were introduced to horticulture in the 19th century and have since become popular as decorative and ornamental plants due to their delicate, lacy foliage and ease of cultivation.",
+    "choices": ["Silver Lace", "Asparagus Fern", "Water Sprite", "Lemon Button"],
+    "correct": "Asparagus Fern"
   },
   {
     "category": "Fern",
     "id": "Q75",
-    "question": "",
-    "choices": ["", "", "", ""],
-    "correct": ""
+    "question": "It is commonly called 'Japanese Shield Fern' due to the shape and texture of its fronds resembling a shield.",
+    "choices": ["Crocodile Fern", "Silver Lace", "Autumn Fern", "Maidenhair"],
+    "correct": "Autumn Fern"
   },
   {
     "category": "Fern",
     "id": "Q76",
-    "question": "",
-    "choices": ["", "", "", ""],
-    "correct": ""
+    "question": "It is also known as the Silver Ribbon Fern due to the striking silver variegation on its fronds.",
+    "choices": [" Silver Lace", "Water Sprite", "Boston Fern", "Asparagus Fern"],
+    "correct": " Silver Lace"
   },
   {
     "category": "Fern",
     "id": "Q77",
-    "question": "",
-    "choices": ["", "", "", ""],
-    "correct": ""
+    "question": "Its name comes from the unique texture and pattern of its fronds, which resemble the scales of a crocodile.",
+    "choices": ["Autumn Fern", "Lemon Button", "Crocodile Fern", "Silver Lace"],
+    "correct": "Crocodile Fern"
   },
   {
     "category": "Fern",
     "id": "Q78",
-    "question": "",
-    "choices": ["", "", "", ""],
-    "correct": ""
+    "question": "The fronds are finely textured, feathery, and pinnately divided into small, rounded leaflets, resembling small buttons or coins.",
+    "choices": ["Maidenhair", "Lemon Button", "Boston Fern", "Floating Fern"],
+    "correct": "Lemon Button"
   },
   {
     "category": "Fern",
     "id": "Q79",
-    "question": "",
-    "choices": ["", "", "", ""],
-    "correct": ""
+    "question": "This fern has a rhizomatous growth habit, meaning it spreads via underground stems called rhizomes.",
+    "choices": ["Asparagus Fern", "Silver Lace", "Crocodile Fern", "Water Sprite"],
+    "correct": "Crocodile Fern"
   },
   {
     "category": "Fern",
     "id": "Q80",
-    "question": "",
-    "choices": ["", "", "", ""],
-    "correct": ""
+    "question": "It forms a clumping habit and can create a dense, textured mound of foliage. ",
+    "choices": ["Autumn Fern", "Floating Fern", "Lemon Button", "Maidenhair"],
+    "correct": "Autumn Fern"
   }
 ]
