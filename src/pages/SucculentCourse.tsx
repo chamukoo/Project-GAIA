@@ -1,8 +1,9 @@
-import { FunctionComponent, useState } from "react";
+import { FunctionComponent, useRef, useState } from "react";
 import styles from "./SucculentCourse.module.css";
 import MainLayout from "../layouts/MainLayout";
 import CourseLayout from "../layouts/CourseLayout";
 import TakeQuiz from "../components/TakeQuiz";
+
 const SucculentCourse = () => {
   const [showInfo, setShowInfo] = useState(false);
   const [selectedPlant, setSelectedPlant] = useState(String);
@@ -52,6 +53,32 @@ const SucculentCourse = () => {
 
   const handleReset = () => {
     setShowInfo(false);
+  };
+
+  // Search
+  const [query, setQuery] = useState("");
+  const search = () => {
+    let filter = query.toUpperCase();
+    let item = document.getElementsByClassName(
+      styles.donkeystailbtn
+    ) as HTMLCollectionOf<HTMLElement>;
+    let nameLen = document.getElementsByClassName(
+      styles.donkeysTail
+    ) as HTMLCollectionOf<HTMLElement>;
+
+    for (let i = 0; i < nameLen.length; i++) {
+      let a = item[i].getElementsByClassName(
+        styles.donkeysTail
+      )[0] as HTMLElement;
+      let value = a.innerHTML || a.textContent;
+
+      if (value != undefined)
+        if (value?.toUpperCase().indexOf(filter) > -1) {
+          item[i].style.display = "";
+        } else {
+          item[i].style.display = "none";
+        }
+    }
   };
 
   return (
@@ -142,6 +169,17 @@ const SucculentCourse = () => {
         </div>
         <div className={styles.mainContent}>
           <div className={styles.succulentContents}>
+            {/* Search bar */}
+            <div className={styles.searchBar}>
+              <input
+                type='text'
+                value={query}
+                onChange={(e) => setQuery(e.target.value)}
+                onKeyUp={search}
+                placeholder='Search Plant'
+              ></input>
+              <img src='./search-icon.svg' alt='' />
+            </div>
             <div className={styles.header}>
               <div className={styles.header1}>
                 <span>SUCCULENT</span>
@@ -151,113 +189,106 @@ const SucculentCourse = () => {
             </div>
             {/* Reference Div */}
             <div className={styles.contents}>
-              {/*First Row*/}
-              <div className={styles.row1}>
-                <div
-                  className={styles.donkeystailbtn}
-                  onClick={onSucculent1ContainerClick}
-                >
-                  <img
-                    className={styles.donkeystailimgIcon}
-                    alt=''
-                    src='/donkeystailimg@2x.png'
-                  />
-                  <div className={styles.donkeysTail}>Donkey’s Tail</div>
-                </div>
-                <div
-                  className={styles.donkeystailbtn}
-                  onClick={onSucculent2ContainerClick}
-                >
-                  <img
-                    className={styles.donkeystailimgIcon}
-                    alt=''
-                    src='/ball-cactus@2x.png'
-                  />
-                  <div className={styles.donkeysTail}>Ball Cactus</div>
-                </div>
-                <div
-                  className={styles.donkeystailbtn}
-                  onClick={onSucculent3ContainerClick}
-                >
-                  <img
-                    className={styles.donkeystailimgIcon}
-                    alt=''
-                    src='/ox-tongue@2x.png'
-                  />
-                  <div className={styles.donkeysTail}>Ox Tongue</div>
-                </div>
+              <div
+                className={styles.donkeystailbtn}
+                onClick={onSucculent1ContainerClick}
+              >
+                <img
+                  className={styles.donkeystailimgIcon}
+                  alt=''
+                  src='/donkeystailimg@2x.png'
+                />
+                <div className={styles.donkeysTail}>Donkey’s Tail</div>
+              </div>
+              <div
+                className={styles.donkeystailbtn}
+                onClick={onSucculent2ContainerClick}
+              >
+                <img
+                  className={styles.donkeystailimgIcon}
+                  alt=''
+                  src='/ball-cactus@2x.png'
+                />
+                <div className={styles.donkeysTail}>Ball Cactus</div>
+              </div>
+              <div
+                className={styles.donkeystailbtn}
+                onClick={onSucculent3ContainerClick}
+              >
+                <img
+                  className={styles.donkeystailimgIcon}
+                  alt=''
+                  src='/ox-tongue@2x.png'
+                />
+                <div className={styles.donkeysTail}>Ox Tongue</div>
+              </div>
+              <div
+                className={styles.donkeystailbtn}
+                onClick={onSucculent4ContainerClick}
+              >
+                <img
+                  className={styles.donkeystailimgIcon}
+                  alt=''
+                  src='/zebra-plant@2x.png'
+                />
+                <div className={styles.donkeysTail}>Zebra Plant</div>
+              </div>
+              <div
+                className={styles.donkeystailbtn}
+                onClick={onSucculent5ContainerClick}
+              >
+                <img
+                  className={styles.donkeystailimgIcon}
+                  alt=''
+                  src='/panda-plant@2x.png'
+                />
+                <div className={styles.donkeysTail}>Panda Plant</div>
+              </div>
+              <div
+                className={styles.donkeystailbtn}
+                onClick={onSucculent6ContainerClick}
+              >
+                <img
+                  className={styles.donkeystailimgIcon}
+                  alt=''
+                  src='/jade-plant@2x.png'
+                />
+                <div className={styles.donkeysTail}>Jade Plant</div>
               </div>
               {/* Second Row */}
-              <div className={styles.row1}>
-                <div
-                  className={styles.donkeystailbtn}
-                  onClick={onSucculent4ContainerClick}
-                >
-                  <img
-                    className={styles.donkeystailimgIcon}
-                    alt=''
-                    src='/zebra-plant@2x.png'
-                  />
-                  <div className={styles.donkeysTail}>Zebra Plant</div>
-                </div>
-                <div
-                  className={styles.donkeystailbtn}
-                  onClick={onSucculent5ContainerClick}
-                >
-                  <img
-                    className={styles.donkeystailimgIcon}
-                    alt=''
-                    src='/panda-plant@2x.png'
-                  />
-                  <div className={styles.donkeysTail}>Panda Plant</div>
-                </div>
-                <div
-                  className={styles.donkeystailbtn}
-                  onClick={onSucculent6ContainerClick}
-                >
-                  <img
-                    className={styles.donkeystailimgIcon}
-                    alt=''
-                    src='/jade-plant@2x.png'
-                  />
-                  <div className={styles.donkeysTail}>Jade Plant</div>
-                </div>
-              </div>
               {/* Third Row */}
-              <div className={styles.row1}>
-                <div
-                  className={styles.donkeystailbtn}
-                  onClick={onSucculent7ContainerClick}
-                >
-                  <img
-                    className={styles.donkeystailimgIcon}
-                    alt=''
-                    src='/sunburst@2x.png'
-                  />
-                  <div className={styles.donkeysTail}>{`Sunburst `}</div>
-                </div>
-                <div
-                  className={styles.donkeystailbtn}
-                  onClick={onSucculent8ContainerClick}
-                >
-                  <img
-                    className={styles.donkeystailimgIcon}
-                    alt=''
-                    src='/dolphin@2x.png'
-                  />
-                  <div className={styles.donkeysTail}>Dolphin</div>
-                </div>
-                <div
-                  className={styles.donkeystailbtn}
-                  onClick={onSucculent9ContainerClick}
-                >
-                  <img
-                    className={styles.donkeystailimgIcon}
-                    alt=''
-                    src='/moonstone@2x.png'
-                  />
-                  <div className={styles.donkeysTail}>Moonstone</div>
-                </div>
+              <div
+                className={styles.donkeystailbtn}
+                onClick={onSucculent7ContainerClick}
+              >
+                <img
+                  className={styles.donkeystailimgIcon}
+                  alt=''
+                  src='/sunburst@2x.png'
+                />
+                <div className={styles.donkeysTail}>{`Sunburst `}</div>
+              </div>
+              <div
+                className={styles.donkeystailbtn}
+                onClick={onSucculent8ContainerClick}
+              >
+                <img
+                  className={styles.donkeystailimgIcon}
+                  alt=''
+                  src='/dolphin@2x.png'
+                />
+                <div className={styles.donkeysTail}>Dolphin</div>
+              </div>
+              <div
+                className={styles.donkeystailbtn}
+                onClick={onSucculent9ContainerClick}
+              >
+                <img
+                  className={styles.donkeystailimgIcon}
+                  alt=''
+                  src='/moonstone@2x.png'
+                />
+                <div className={styles.donkeysTail}>Moonstone</div>
               </div>
             </div>
           </div>

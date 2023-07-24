@@ -265,6 +265,8 @@
   flex-direction: column;
 }
 .contents {
+  flex-direction: row;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   gap: 40px;
@@ -328,8 +330,7 @@
 .mainContent,
 .quizSucculent {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  flex-direction: column;
 }
 .flowerquizbtn {
   border-radius: 25px;
@@ -430,4 +431,22 @@
   font-size: 18px;
   color: #000;
   font-family: Inter;
+}
+.searchBar {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  width: 400px;
+  height: 35px;
+  gap: 10px;
+}
+
+.searchBar input {
+  border-radius: 5px;
+  font-size: 15px;
+  width: 300px;
+}
+.searchBar img {
+  width: 30px;
+  cursor: pointer;
 }

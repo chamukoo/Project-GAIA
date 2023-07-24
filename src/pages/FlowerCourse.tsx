@@ -53,6 +53,29 @@ const FlowerCourse: FunctionComponent = () => {
   const handleReset = () => {
     setShowInfo(false);
   };
+  // Search
+  const [query, setQuery] = useState("");
+  const search = () => {
+    let filter = query.toUpperCase();
+    let item = document.getElementsByClassName(
+      styles.flower2
+    ) as HTMLCollectionOf<HTMLElement>;
+    let nameLen = document.getElementsByClassName(
+      styles.flower21
+    ) as HTMLCollectionOf<HTMLElement>;
+
+    for (let i = 0; i < nameLen.length; i++) {
+      let a = item[i].getElementsByClassName(styles.flower21)[0] as HTMLElement;
+      let value = a.innerHTML || a.textContent;
+
+      if (value != undefined)
+        if (value?.toUpperCase().indexOf(filter) > -1) {
+          item[i].style.cssText = "position: absolue; left: 0";
+        } else {
+          item[i].style.display = "none";
+        }
+    }
+  };
 
   return (
     <CourseLayout
@@ -69,6 +92,17 @@ const FlowerCourse: FunctionComponent = () => {
         <div className={styles.flowerCourseChild} />
         <div className={styles.mainContent}>
           <div className={styles.flowerContents}>
+            {/* Search bar */}
+            <div className={styles.searchBar}>
+              <input
+                type='text'
+                value={query}
+                onChange={(e) => setQuery(e.target.value)}
+                onKeyUp={search}
+                placeholder='Search Plant'
+              ></input>
+              <img src='./search-icon.svg' alt='' />
+            </div>
             <div className={styles.header}>
               <div className={styles.floweringPlantsWrapper}>
                 <div className={styles.floweringPlants}>
@@ -84,114 +118,80 @@ const FlowerCourse: FunctionComponent = () => {
             </div>
             <div className={styles.contents}>
               {/* Row 1 */}
-              <div className={styles.row1}>
-                <div className={styles.flower1}>
-                  <div
-                    className={styles.flower11}
-                    onClick={onFlower1ContainerClick}
-                  >
-                    <div className={styles.flower12}>Gumamela</div>
-                    <img
-                      className={styles.flower2Icon}
-                      alt=''
-                      src='/flower-1@2x.png'
-                    />
-                  </div>
-                </div>
-                <div
-                  className={styles.flower2}
-                  onClick={onFlower2ContainerClick}
-                >
-                  <div className={styles.flower21}>Daisy</div>
-                  <img
-                    className={styles.flower2Icon}
-                    alt=''
-                    src='/flower-2@2x.png'
-                  />
-                </div>
-                <div
-                  className={styles.flower2}
-                  onClick={onFlower3ContainerClick}
-                >
-                  <div className={styles.flower21}>Rose</div>
-                  <img
-                    className={styles.flower2Icon}
-                    alt=''
-                    src='/flower-3@2x.png'
-                  />
-                </div>
+              <div className={styles.flower2} onClick={onFlower1ContainerClick}>
+                <div className={styles.flower21}>Gumamela</div>
+                <img
+                  className={styles.flower2Icon}
+                  alt=''
+                  src='/flower-1@2x.png'
+                />
               </div>
+              <div className={styles.flower2} onClick={onFlower2ContainerClick}>
+                <div className={styles.flower21}>Daisy</div>
+                <img
+                  className={styles.flower2Icon}
+                  alt=''
+                  src='/flower-2@2x.png'
+                />
+              </div>
+              <div className={styles.flower2} onClick={onFlower3ContainerClick}>
+                <div className={styles.flower21}>Rose</div>
+                <img
+                  className={styles.flower2Icon}
+                  alt=''
+                  src='/flower-3@2x.png'
+                />
+              </div>
+
               {/* Row 2 */}
-              <div className={styles.row1}>
-                <div
-                  className={styles.flower2}
-                  onClick={onFlower4ContainerClick}
-                >
-                  <div className={styles.flower41}>Sunflower</div>
-                  <img
-                    className={styles.flower2Icon}
-                    alt=''
-                    src='/flower-4@2x.png'
-                  />
-                </div>
-                <div
-                  className={styles.flower2}
-                  onClick={onFlower5ContainerClick}
-                >
-                  <div className={styles.flower41}>Plumeria</div>
-                  <img
-                    className={styles.flower2Icon}
-                    alt=''
-                    src='/flower-5@2x.png'
-                  />
-                </div>
-                <div
-                  className={styles.flower2}
-                  onClick={onFlower6ContainerClick}
-                >
-                  <div className={styles.flower41}>Marigold</div>
-                  <img
-                    className={styles.flower2Icon}
-                    alt=''
-                    src='/flower-6@2x.png'
-                  />
-                </div>
+              <div className={styles.flower2} onClick={onFlower4ContainerClick}>
+                <div className={styles.flower21}>Sunflower</div>
+                <img
+                  className={styles.flower2Icon}
+                  alt=''
+                  src='/flower-4@2x.png'
+                />
+              </div>
+              <div className={styles.flower2} onClick={onFlower5ContainerClick}>
+                <div className={styles.flower21}>Plumeria</div>
+                <img
+                  className={styles.flower2Icon}
+                  alt=''
+                  src='/flower-5@2x.png'
+                />
+              </div>
+              <div className={styles.flower2} onClick={onFlower6ContainerClick}>
+                <div className={styles.flower21}>Marigold</div>
+                <img
+                  className={styles.flower2Icon}
+                  alt=''
+                  src='/flower-6@2x.png'
+                />
               </div>
               {/* ROw 3 */}
-              <div className={styles.row1}>
-                <div
-                  className={styles.flower2}
-                  onClick={onFlower7ContainerClick}
-                >
-                  <div className={styles.flower71}>Cosmos</div>
-                  <img
-                    className={styles.flower2Icon}
-                    alt=''
-                    src='/flower-7@2x.png'
-                  />
-                </div>
-                <div
-                  className={styles.flower2}
-                  onClick={onFlower8ContainerClick}
-                >
-                  <div className={styles.flower71}>Lotus</div>
-                  <img
-                    className={styles.flower2Icon}
-                    alt=''
-                    src='/flower-8@2x.png'
-                  />
-                </div>
-                <div
-                  className={styles.flower2}
-                  onClick={onFlower9ContainerClick}
-                >
-                  <div className={styles.flower71}>Hollyhocks</div>
-                  <img
-                    className={styles.flower2Icon}
-                    alt=''
-                    src='/flower-9@2x.png'
-                  />
-                </div>
+              <div className={styles.flower2} onClick={onFlower7ContainerClick}>
+                <div className={styles.flower21}>Cosmos</div>
+                <img
+                  className={styles.flower2Icon}
+                  alt=''
+                  src='/flower-7@2x.png'
+                />
+              </div>
+              <div className={styles.flower2} onClick={onFlower8ContainerClick}>
+                <div className={styles.flower21}>Lotus</div>
+                <img
+                  className={styles.flower2Icon}
+                  alt=''
+                  src='/flower-8@2x.png'
+                />
+              </div>
+              <div className={styles.flower2} onClick={onFlower9ContainerClick}>
+                <div className={styles.flower21}>Hollyhocks</div>
+                <img
+                  className={styles.flower2Icon}
+                  alt=''
+                  src='/flower-9@2x.png'
+                />
               </div>
             </div>
           </div>

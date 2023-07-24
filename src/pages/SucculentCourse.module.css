@@ -251,6 +251,8 @@
   flex-direction: column;
 }
 .contents {
+  flex-direction: row;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   gap: 40px;
@@ -357,4 +359,23 @@
   font-size: 16px;
   color: #fff;
   font-family: Inter;
+}
+
+.searchBar {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  width: 400px;
+  height: 35px;
+  gap: 10px;
+}
+
+.searchBar input {
+  border-radius: 5px;
+  font-size: 15px;
+  width: 300px;
+}
+.searchBar img {
+  width: 30px;
+  cursor: pointer;
 }

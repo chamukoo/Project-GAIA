@@ -2,7 +2,6 @@ import { FunctionComponent, useState } from "react";
 import MainLayout from "../layouts/MainLayout";
 import styles from "./HerbalCourse.module.css";
 import CourseLayout from "../layouts/CourseLayout";
-import { click } from "@testing-library/user-event/dist/click";
 import TakeQuiz from "../components/TakeQuiz";
 const HerbalCourse = () => {
   const [showInfo, setShowInfo] = useState(false);
@@ -54,6 +53,29 @@ const HerbalCourse = () => {
 
   const handleReset = () => {
     setShowInfo(false);
+  };
+  // Search
+  const [query, setQuery] = useState("");
+  const search = () => {
+    let filter = query.toUpperCase();
+    let item = document.getElementsByClassName(
+      styles.herbal1
+    ) as HTMLCollectionOf<HTMLElement>;
+    let nameLen = document.getElementsByClassName(
+      styles.herbal21
+    ) as HTMLCollectionOf<HTMLElement>;
+
+    for (let i = 0; i < nameLen.length; i++) {
+      let a = item[i].getElementsByClassName(styles.herbal21)[0] as HTMLElement;
+      let value = a.innerHTML || a.textContent;
+
+      if (value != undefined)
+        if (value?.toUpperCase().indexOf(filter) > -1) {
+          item[i].style.display = "";
+        } else {
+          item[i].style.display = "none";
+        }
+    }
   };
 
   return (
@@ -139,6 +161,17 @@ const HerbalCourse = () => {
         </div>
         <div className={styles.mainContent}>
           <div className={styles.herbalContents}>
+            {/* Search bar */}
+            <div className={styles.searchBar}>
+              <input
+                type='text'
+                value={query}
+                onChange={(e) => setQuery(e.target.value)}
+                onKeyUp={search}
+                placeholder='Search Plant'
+              ></input>
+              <img src='./search-icon.svg' alt='' />
+            </div>
             <div className={styles.header}>
               <div className={styles.herbalPlants}>
                 <span>HERBAL</span>
@@ -148,114 +181,80 @@ const HerbalCourse = () => {
             </div>
             <div className={styles.contents}>
               {/* First Row */}
-              <div className={styles.row1}>
-                <div
-                  className={styles.herbal1}
-                  onClick={onHerbal1ContainerClick}
-                >
-                  <div className={styles.herbal1Wrapper}>
-                    <img
-                      className={styles.herbal2Icon}
-                      alt=''
-                      src='/herbal-1@2x.png'
-                    />
-                  </div>
-                  <div className={styles.herbal11}>Basil</div>
-                </div>
-                <div
-                  className={styles.herbal1}
-                  onClick={onHerbal2ContainerClick}
-                >
-                  <img
-                    className={styles.herbal2Icon}
-                    alt=''
-                    src='/herbal-2@2x.png'
-                  />
-                  <div className={styles.herbal21}>Oregano</div>
-                </div>
-                <div
-                  className={styles.herbal1}
-                  onClick={onHerbal3ContainerClick}
-                >
-                  <img
-                    className={styles.herbal2Icon}
-                    alt=''
-                    src='/herbal-3@2x.png'
-                  />
-                  <div className={styles.herbal21}>Rosemary</div>
-                </div>
+              <div className={styles.herbal1} onClick={onHerbal1ContainerClick}>
+                <img
+                  className={styles.herbal2Icon}
+                  alt=''
+                  src='/herbal-1@2x.png'
+                />
+                <div className={styles.herbal21}>Basil</div>
+              </div>
+              <div className={styles.herbal1} onClick={onHerbal2ContainerClick}>
+                <img
+                  className={styles.herbal2Icon}
+                  alt=''
+                  src='/herbal-2@2x.png'
+                />
+                <div className={styles.herbal21}>Oregano</div>
+              </div>
+              <div className={styles.herbal1} onClick={onHerbal3ContainerClick}>
+                <img
+                  className={styles.herbal2Icon}
+                  alt=''
+                  src='/herbal-3@2x.png'
+                />
+                <div className={styles.herbal21}>Rosemary</div>
               </div>
               {/* Second row */}
-              <div className={styles.row1}>
-                <div
-                  className={styles.herbal1}
-                  onClick={onHerbal4ContainerClick}
-                >
-                  <img
-                    className={styles.herbal2Icon}
-                    alt=''
-                    src='/herbal-4@2x.png'
-                  />
-                  <div className={styles.herbal11}>Thyme</div>
-                </div>
-                <div
-                  className={styles.herbal1}
-                  onClick={onHerbal5ContainerClick}
-                >
-                  <img
-                    className={styles.herbal2Icon}
-                    alt=''
-                    src='/herbal-5@2x.png'
-                  />
-                  <div className={styles.herbal21}>Sage</div>
-                </div>
-                <div
-                  className={styles.herbal1}
-                  onClick={onHerbal6ContainerClick}
-                >
-                  <img
-                    className={styles.herbal2Icon}
-                    alt=''
-                    src='/herbal-6@2x.png'
-                  />
-                  <div className={styles.herbal11}>Arugula</div>
-                </div>
+              <div className={styles.herbal1} onClick={onHerbal4ContainerClick}>
+                <img
+                  className={styles.herbal2Icon}
+                  alt=''
+                  src='/herbal-4@2x.png'
+                />
+                <div className={styles.herbal21}>Thyme</div>
               </div>
+              <div className={styles.herbal1} onClick={onHerbal5ContainerClick}>
+                <img
+                  className={styles.herbal2Icon}
+                  alt=''
+                  src='/herbal-5@2x.png'
+                />
+                <div className={styles.herbal21}>Sage</div>
+              </div>
+              <div className={styles.herbal1} onClick={onHerbal6ContainerClick}>
+                <img
+                  className={styles.herbal2Icon}
+                  alt=''
+                  src='/herbal-6@2x.png'
+                />
+                <div className={styles.herbal21}>Arugula</div>
+              </div>
+
               {/* Third Row */}
-              <div className={styles.row1}>
-                <div
-                  className={styles.herbal1}
-                  onClick={onHerbal7ContainerClick}
-                >
-                  <img
-                    className={styles.herbal2Icon}
-                    alt=''
-                    src='/herbal-7@2x.png'
-                  />
-                  <div className={styles.herbal21}>Marjoram</div>
-                </div>
-                <div
-                  className={styles.herbal1}
-                  onClick={onHerbal8ContainerClick}
-                >
-                  <img
-                    className={styles.herbal2Icon}
-                    alt=''
-                    src='/herbal-8@2x.png'
-                  />
-                  <div className={styles.herbal21}>Tarragon</div>
-                </div>
-                <div
-                  className={styles.herbal1}
-                  onClick={onHerbal9ContainerClick}
-                >
-                  <img
-                    className={styles.herbal2Icon}
-                    alt=''
-                    src='/herbal-9@2x.png'
-                  />
-                  <div className={styles.herbal21}>Spinach</div>
-                </div>
+              <div className={styles.herbal1} onClick={onHerbal7ContainerClick}>
+                <img
+                  className={styles.herbal2Icon}
+                  alt=''
+                  src='/herbal-7@2x.png'
+                />
+                <div className={styles.herbal21}>Marjoram</div>
+              </div>
+              <div className={styles.herbal1} onClick={onHerbal8ContainerClick}>
+                <img
+                  className={styles.herbal2Icon}
+                  alt=''
+                  src='/herbal-8@2x.png'
+                />
+                <div className={styles.herbal21}>Tarragon</div>
+              </div>
+              <div className={styles.herbal1} onClick={onHerbal9ContainerClick}>
+                <img
+                  className={styles.herbal2Icon}
+                  alt=''
+                  src='/herbal-9@2x.png'
+                />
+                <div className={styles.herbal21}>Spinach</div>
               </div>
             </div>
           </div>

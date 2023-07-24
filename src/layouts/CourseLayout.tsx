@@ -19,7 +19,6 @@ const CourseLayout = ({
   const [timeLeft, updateTime] = useState(2);
   const [readingPoints, setReadingPoints] = useState(0);
   localStorage.setItem("readingPoints", readingPoints.toString());
-  console.log(readingPoints);
 
   useEffect(() => {
     {

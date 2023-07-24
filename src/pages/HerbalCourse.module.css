@@ -259,6 +259,8 @@
   flex-direction: column;
 }
 .contents {
+  flex-direction: row;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   gap: 40px;
@@ -322,7 +324,6 @@
 .takeherbalquiz {
   display: flex;
   flex-direction: column;
-  align-items: center;
 }
 .takeherbalquiz {
   border-radius: 50px;
@@ -429,4 +430,22 @@
   color: #fff;
   font-family: Inter;
   filter: blur(10px);
+}
+.searchBar {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  width: 400px;
+  height: 35px;
+  gap: 10px;
+}
+
+.searchBar input {
+  border-radius: 5px;
+  font-size: 15px;
+  width: 300px;
+}
+.searchBar img {
+  width: 30px;
+  cursor: pointer;
 }
