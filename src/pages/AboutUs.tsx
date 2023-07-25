@@ -34,9 +34,7 @@ const AboutUs = () => {
                 <p className={styles.angeles}>ANGELES</p>
               </div>
               <div className={styles.helloIAm}>
-                Hello, I am currently a second year Computer Engineering student
-                at Polytechnic University of the Philippines, and I am an
-                aspiring Front-End Developer.
+                "When you plant something, you invest in a beautiful future amidst a stressful, chaotic and, at times, downright appalling world." <br></br>- Monty Don
               </div>
               <div className={styles.socialMediaLinks}>
                 <a href='https://www.facebook.com/leeangeles111220'>
@@ -78,9 +76,7 @@ const AboutUs = () => {
                 <p className={styles.angeles}>BACOLOD</p>
               </div>
               <div className={styles.helloIAm}>
-                Hello, I am currently a second year Computer Engineering student
-                at Polytechnic University of the Philippines, and I am an
-                aspiring Back-End Developer.
+                "Before the reward there must be labor. You plant before you harvest. You sow in tears before you reap joy." <br></br>- Ralph Ransom
               </div>
               <div className={styles.socialMediaLinks}>
                 <a href='https://www.facebook.com/commoners.hexagon'>
@@ -122,9 +118,7 @@ const AboutUs = () => {
                 <p className={styles.angeles}>ESMERALDA</p>
               </div>
               <div className={styles.helloIAm}>
-                Hello, I am currently a second year Computer Engineering student
-                at Polytechnic University of the Philippines, and I am an
-                aspiring Front-End Developer.
+                "Always do your best. What you plant now, you will harvest later." <br></br>- Og Mandino
               </div>
               <div className={styles.socialMediaLinks}>
                 <a href='https://m.facebook.com/theiskie'>
@@ -166,9 +160,7 @@ const AboutUs = () => {
                 <p className={styles.angeles}>VALLECERA</p>
               </div>
               <div className={styles.helloIAm}>
-                Hello, I am currently a second year Computer Engineering student
-                at Polytechnic University of the Philippines, and I am an
-                aspiring Front-End Developer.
+                "Plant your own garden and decorate your own soul instead of waiting for someone to bring you flowers." <br></br>- The Minds Journal
               </div>
               <div className={styles.socialMediaLinks}>
                 <a href='https://www.facebook.com/Charina.Carpio.Vallecera'>
