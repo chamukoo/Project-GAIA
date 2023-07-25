@@ -1,8 +1,7 @@
 .mainContainer {
   background: #f3f4d3;
-  width: 100%;
+  width: fit-content;
   height: 1650px;
-  overflow: hidden;
 }
 
 .aboutGaia img {
@@ -16,7 +15,7 @@
   height: 490px;
   position: absolute;
   top: 230px;
-  left: calc(50% - 560px);
+  left: calc(50% - 600px);
   display: inline-flex;
   padding: 0px 50px;
   align-items: center;
@@ -69,7 +68,7 @@
   align-items: center;
   gap: 40px;
   top: 795px;
-  left: calc(50% - 560px);
+  left: calc(50% - 600px);
 }
 
 .featuresIcon {
