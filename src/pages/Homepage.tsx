@@ -6,7 +6,7 @@ const Homepage: FunctionComponent = () => {
   const navigate = useNavigate();
 
   const onAboutComponentContainerClick = useCallback(() => {
-    navigate("");
+    navigate("/all-about");
   }, [navigate]);
 
   const onContinueComponentContainerClick = useCallback(() => {

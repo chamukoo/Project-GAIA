@@ -12,9 +12,9 @@ import HerbalCourse from "./pages/HerbalCourse";
 import FlowerCourse from "./pages/FlowerCourse";
 import FernCourse from "./pages/FernCourse";
 import Quiz from "./pages/Quiz";
-import Quiz1 from "./pages/Quiz1";
 import ScoreReveal from "./pages/ScoreReveal";
 import { useEffect } from "react";
+import WebAbout from "./pages/WebAbout";
 
 function App() {
   const action = useNavigationType();
@@ -97,6 +97,7 @@ function App() {
       <Route path='/herbal-course' element={<HerbalCourse />} />
       <Route path='/flower-course' element={<FlowerCourse />} />
       <Route path='/fern-course' element={<FernCourse />} />
+      <Route path='/all-about' element={<WebAbout />} />
       <Route
         path='/quiz-page'
         element={<Quiz category={localStorage.getItem("category")} />}
