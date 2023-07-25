@@ -1,12 +1,13 @@
 import { FunctionComponent, useCallback } from "react";
 import { useNavigate } from "react-router-dom";
 import styles from "./ScoreReveal.module.css";
-const ScoreReveal: FunctionComponent = () => {
+
+const ScoreReveal = () => {
   const navigate = useNavigate();
 
   const onExitQuizButtonClick = useCallback(() => {
     localStorage.setItem("points", "0");
-    navigate("/succulent-course");
+    navigate("/learning-course");
   }, [navigate]);
 
   const onTakeQuizButtonClick = useCallback(() => {

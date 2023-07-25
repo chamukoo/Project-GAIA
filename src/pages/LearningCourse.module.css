@@ -80,6 +80,7 @@
   width: 42px;
   height: 42px;
 }
+
 .socialMediIcons {
   position: absolute;
   top: calc(50% + 14px);
@@ -249,7 +250,29 @@
   cursor: pointer;
   font-size: 15px;
   color: #000;
+  transition: 1s;
 }
+.viewPlantsGroup {
+  border-radius: 30px;
+  background-color: #112102;
+  flex-direction: row;
+  padding: 10px 20px;
+  gap: 6px;
+  cursor: pointer;
+  font-size: 15px;
+  color: #fff;
+  transition: 1s;
+}
+.viewPlantsParent:hover {
+  color: #fff;
+  background: linear-gradient(45deg, #006837, #8cc63f);
+}
+
+.viewPlantsGroup:hover {
+  color: #000;
+  background: linear-gradient(45deg, #006837, #8cc63f);
+}
+
 .succulentPlantsParent {
   border-radius: 30px;
   background-color: #112102;
@@ -276,16 +299,7 @@
   align-items: center;
   justify-content: flex-start;
 }
-.viewPlantsGroup {
-  border-radius: 30px;
-  background-color: #112102;
-  flex-direction: row;
-  padding: 10px 20px;
-  gap: 6px;
-  cursor: pointer;
-  font-size: 15px;
-  color: #fff;
-}
+
 .herbal,
 .fern,
 .herbalPlantsParent {

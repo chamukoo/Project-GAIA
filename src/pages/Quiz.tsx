@@ -15,7 +15,7 @@ const Quiz = ({ category }: Props) => {
   const navigate = useNavigate();
 
   const goBack = useCallback(() => {
-    navigate("/succulent-course");
+    navigate(`/${category}-course`);
   }, [navigate]);
 
   const [isClicked, setIsClicked] = useState(Boolean);
@@ -100,7 +100,7 @@ const Quiz = ({ category }: Props) => {
             updateTime(20);
             setIsCorrect("");
             setIsClicked(false);
-          }, 1000);
+          }, 500);
 
           inputData.choices[3] == inputData.correct
             ? setIsCorrect("green")
@@ -115,7 +115,7 @@ const Quiz = ({ category }: Props) => {
             checker(inputData.choices[2], inputData.correct);
             updateTime(20);
             setIsCorrect("");
-          }, 1000);
+          }, 500);
           inputData.choices[2] == inputData.correct
             ? setIsCorrect("green")
             : setIsCorrect("red");
@@ -130,7 +130,7 @@ const Quiz = ({ category }: Props) => {
             checker(inputData.choices[1], inputData.correct);
             updateTime(20);
             setIsCorrect("");
-          }, 1000);
+          }, 500);
           inputData.choices[1] == inputData.correct
             ? setIsCorrect("green")
             : setIsCorrect("red");
@@ -144,7 +144,7 @@ const Quiz = ({ category }: Props) => {
             checker(inputData.choices[0], inputData.correct);
             updateTime(20);
             setIsCorrect("");
-          }, 1000);
+          }, 500);
           inputData.choices[0] == inputData.correct
             ? setIsCorrect("green")
             : setIsCorrect("red");

@@ -82,6 +82,7 @@
   overflow: hidden;
   flex-shrink: 0;
 }
+/* Simple hover effects */
 .aboutComponent {
   border-radius: 100px;
   background-color: #83bd1a;
@@ -92,7 +93,9 @@
   justify-content: flex-start;
   gap: 6px;
   cursor: pointer;
+  transition: 1s;
 }
+
 .continue,
 .frameIcon3 {
   position: relative;
@@ -111,7 +114,18 @@
   padding: 9px 11px;
   align-items: center;
   cursor: pointer;
+  transition: 1s;
 }
+.continueComponent:hover {
+  color: #000;
+  background: linear-gradient(45deg, #006837, #8cc63f);
+}
+
+.aboutComponent:hover {
+  color: #000;
+  background: linear-gradient(45deg, #006837, #8cc63f);
+}
+
 .component,
 .continueComponent,
 .displayInfo {

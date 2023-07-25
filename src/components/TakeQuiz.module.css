@@ -44,7 +44,14 @@
   justify-content: center;
   color: #000;
   cursor: pointer;
+  transition: 1s;
 }
+
+.succulentquizbtn:hover {
+  color: #fff;
+  background: linear-gradient(45deg, #000000, #026349);
+}
+
 .quiz {
   justify-content: flex-start;
   gap: 35px;
