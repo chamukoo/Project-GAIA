@@ -1,9 +1,16 @@
 import React from "react";
 import styles from "./Footer.module.css";
 
-const Footer = () => {
+interface Props {
+  ownStyle?: string;
+}
+
+const Footer = ({ ownStyle }: Props) => {
   return (
-    <div className={styles.footer}>
+    <div
+      style={ownStyle ? { top: ownStyle } : { top: "inherit" }}
+      className={styles.footer}
+    >
       <div className={styles.contacts}>
         <div className={styles.iconParent}>
           <img className={styles.icon} alt='' src='/icon.svg' />

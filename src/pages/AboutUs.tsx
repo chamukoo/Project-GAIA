@@ -39,26 +39,34 @@ const AboutUs = () => {
                 aspiring Front-End Developer.
               </div>
               <div className={styles.socialMediaLinks}>
-                <img
-                  className={styles.iconInstagram}
-                  alt=''
-                  src='/-icon-facebook-v1.svg'
-                />
-                <img
-                  className={styles.iconInstagram}
-                  alt=''
-                  src='/-icon-instagram.svg'
-                />
-                <img
-                  className={styles.iconInstagram}
-                  alt=''
-                  src='/-icon-github.svg'
-                />
-                <img
-                  className={styles.iconInstagram}
-                  alt=''
-                  src='/-icon-mail.svg'
-                />
+                <a href='https://www.facebook.com/leeangeles111220'>
+                  <img
+                    className={styles.iconInstagram}
+                    alt=''
+                    src='/-icon-facebook-v1.svg'
+                  />
+                </a>
+                <a href='https://www.instagram.com/liyaaaaaan_/'>
+                  <img
+                    className={styles.iconInstagram}
+                    alt=''
+                    src='/-icon-instagram.svg'
+                  />
+                </a>
+                <a href='https://github.com/chamukoo'>
+                  <img
+                    className={styles.iconInstagram}
+                    alt=''
+                    src='/-icon-github.svg'
+                  />
+                </a>
+                <a href='mailto: leeangeles2@gmail.com'>
+                  <img
+                    className={styles.iconInstagram}
+                    alt=''
+                    src='/-icon-mail.svg'
+                  />
+                </a>
               </div>
             </div>
           </div>
@@ -119,26 +127,34 @@ const AboutUs = () => {
                 aspiring Front-End Developer.
               </div>
               <div className={styles.socialMediaLinks}>
-                <img
-                  className={styles.iconInstagram}
-                  alt=''
-                  src='/-icon-facebook-v12.svg'
-                />
-                <img
-                  className={styles.iconInstagram}
-                  alt=''
-                  src='/-icon-instagram2.svg'
-                />
-                <img
-                  className={styles.iconInstagram}
-                  alt=''
-                  src='/-icon-github2.svg'
-                />
-                <img
-                  className={styles.iconInstagram}
-                  alt=''
-                  src='/-icon-mail2.svg'
-                />
+                <a href='https://m.facebook.com/theiskie'>
+                  <img
+                    className={styles.iconInstagram}
+                    alt=''
+                    src='/-icon-facebook-v12.svg'
+                  />
+                </a>
+                <a href='https://instagram.com/theiskie'>
+                  <img
+                    className={styles.iconInstagram}
+                    alt=''
+                    src='/-icon-instagram2.svg'
+                  />
+                </a>
+                <a href='https://github.com/EsmeraldaUriel'>
+                  <img
+                    className={styles.iconInstagram}
+                    alt=''
+                    src='/-icon-github2.svg'
+                  />
+                </a>
+                <a href=''>
+                  <img
+                    className={styles.iconInstagram}
+                    alt=''
+                    src='/-icon-mail2.svg'
+                  />
+                </a>
               </div>
             </div>
           </div>
@@ -155,26 +171,34 @@ const AboutUs = () => {
                 aspiring Front-End Developer.
               </div>
               <div className={styles.socialMediaLinks}>
-                <img
-                  className={styles.iconInstagram}
-                  alt=''
-                  src='/-icon-facebook-v13.svg'
-                />
-                <img
-                  className={styles.iconInstagram}
-                  alt=''
-                  src='/-icon-instagram3.svg'
-                />
-                <img
-                  className={styles.iconInstagram}
-                  alt=''
-                  src='/-icon-github3.svg'
-                />
-                <img
-                  className={styles.iconInstagram}
-                  alt=''
-                  src='/-icon-mail3.svg'
-                />
+                <a href='https://www.facebook.com/Charina.Carpio.Vallecera'>
+                  <img
+                    className={styles.iconInstagram}
+                    alt=''
+                    src='/-icon-facebook-v13.svg'
+                  />
+                </a>
+                <a href='https://instagram.com/chachi_vallecera'>
+                  <img
+                    className={styles.iconInstagram}
+                    alt=''
+                    src='/-icon-instagram3.svg'
+                  />
+                </a>
+                <a href='https://github.com/akira1881'>
+                  <img
+                    className={styles.iconInstagram}
+                    alt=''
+                    src='/-icon-github3.svg'
+                  />
+                </a>
+                <a href='mailto: charinavallecera08@gmail.com'>
+                  <img
+                    className={styles.iconInstagram}
+                    alt=''
+                    src='/-icon-mail3.svg'
+                  />
+                </a>
               </div>
             </div>
           </div>

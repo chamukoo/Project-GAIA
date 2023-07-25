@@ -1,0 +1,105 @@
+.mainContainer {
+  background: #f3f4d3;
+  width: 100%;
+  height: 1650px;
+  overflow: hidden;
+}
+
+.aboutGaia img {
+  width: 448.318px;
+  height: 450px;
+  padding: 20px 20px 20px 20px;
+}
+
+.aboutGaia {
+  width: 1108px;
+  height: 490px;
+  position: absolute;
+  top: 230px;
+  left: calc(50% - 560px);
+  display: inline-flex;
+  padding: 0px 50px;
+  align-items: center;
+  gap: 40px;
+  background: rgba(203, 245, 126, 0.7);
+  box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.aboutTextsContainer {
+  color: #000;
+  text-align: justify;
+  font-family: Inter;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2.5px;
+}
+
+.aboutTextsContainer span {
+  color: #468b06;
+  font-family: Inter;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  letter-spacing: 2.5px;
+}
+
+.aboutTextsContainer p {
+  width: 530px;
+  color: #000;
+  text-align: justify;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1px;
+}
+
+.featuresContainer {
+  background: rgba(203, 245, 126, 0.25);
+  width: 1108px;
+  height: 490px;
+  position: absolute;
+  display: inline-flex;
+  padding: 75px 50px;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  top: 795px;
+  left: calc(50% - 560px);
+}
+
+.featuresIcon {
+  display: flex;
+  flex-direction: row;
+  gap: 45px;
+}
+
+.feature1,
+.feature2,
+.feature3 {
+  width: 300px;
+  height: 198px;
+  display: inline-flex;
+  padding: 75px 25px;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+  background: rgba(203, 245, 126, 0.8);
+  box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.featuresIcon p {
+  width: 300px;
+  color: #000;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1px;
+}
