@@ -88,7 +88,9 @@ const FernCourse = () => {
       <MainLayout
         ownClass={showInfo ? styles.fernCourse1 : styles.fernCourse}
         clickable={
-          showInfo ? { pointerEvents: "none" } : { pointerEvents: "inherit" }
+          showInfo
+            ? { pointerEvents: "none", height: "2900px" }
+            : { pointerEvents: "inherit", height: "2290px" }
         }
       >
         <div className={styles.sideInfo} />

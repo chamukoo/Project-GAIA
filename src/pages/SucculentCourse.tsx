@@ -1,4 +1,10 @@
-import { FunctionComponent, useRef, useState } from "react";
+import {
+  FunctionComponent,
+  useCallback,
+  useEffect,
+  useRef,
+  useState,
+} from "react";
 import styles from "./SucculentCourse.module.css";
 import MainLayout from "../layouts/MainLayout";
 import CourseLayout from "../layouts/CourseLayout";
@@ -81,6 +87,8 @@ const SucculentCourse = () => {
     }
   };
 
+  useEffect(() => {}, [showInfo]);
+
   return (
     <CourseLayout
       plantChosen={selectedPlant}
@@ -92,7 +100,9 @@ const SucculentCourse = () => {
           showInfo ? styles.succulentCourseBlur : styles.succulentCourse
         }
         clickable={
-          showInfo ? { pointerEvents: "none" } : { pointerEvents: "inherit" }
+          showInfo
+            ? { pointerEvents: "none", height: "2700px" }
+            : { pointerEvents: "inherit", height: "2290px" }
         }
       >
         <div className={styles.sideInfo} />

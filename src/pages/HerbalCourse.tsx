@@ -87,7 +87,9 @@ const HerbalCourse = () => {
       <MainLayout
         ownClass={showInfo ? styles.herbalCourseBlur : styles.herbalCourse}
         clickable={
-          showInfo ? { pointerEvents: "none" } : { pointerEvents: "inherit" }
+          showInfo
+            ? { pointerEvents: "none", height: "2500px" }
+            : { pointerEvents: "inherit", height: "2290px" }
         }
       >
         <div className={styles.sideInfo} />
