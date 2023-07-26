@@ -131,7 +131,7 @@ const SucculentCourse = () => {
               >
                 Water Theraphy for Succulents
               </a>
-              <div className={styles.therapyReco} />
+              <img src='/Therapy Reco.png' className={styles.therapyReco} />
               <a
                 className={styles.readMore}
                 href='https://www.sublimesucculents.com/water-therapy-succulents/'
@@ -149,7 +149,7 @@ const SucculentCourse = () => {
                 >
                   5 Tips for Succulent Planters
                 </a>
-                <div className={styles.tipsRecos} />
+                <img src='/Tips Recos.png' className={styles.tipsRecos} />
                 <a
                   className={styles.readMore1}
                   href='https://www.sublimesucculents.com/5-tips-succulent-planters/'

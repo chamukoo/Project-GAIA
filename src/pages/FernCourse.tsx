@@ -123,7 +123,7 @@ const FernCourse = () => {
               >
                 Why are ferns unique?
               </a>
-              <div className={styles.tipsRecos} />
+              <img src='ferns-uniqueness.png' className={styles.tipsRecos} />
               <a
                 className={styles.readMore}
                 href='https://www.sciencelearn.org.nz/videos/712-why-are-ferns-unique#:~:text=Ferns%20are%20unique%20in%20land,that%20we%20call%20a%20gametophyte.'
@@ -142,7 +142,7 @@ const FernCourse = () => {
               >
                 Are ferns lucky plant?
               </a>
-              <div className={styles.therapyReco} />
+              <img src='/ferns-lucky.png' className={styles.therapyReco} />
             </div>
             <a
               className={styles.readMore1}

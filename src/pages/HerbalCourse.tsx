@@ -125,7 +125,7 @@ const HerbalCourse = () => {
               >
                 31 Things you didn’t know about spices and herbs!
               </a>
-              <div className={styles.therapyReco} />
+              <img src='31Things.png' className={styles.therapyReco} />
               <a
                 className={styles.readMore}
                 href='https://fightershots.co.uk/blogs/blog/31-things-you-didn-t-know-about-spices-and-herbs'
@@ -142,7 +142,10 @@ const HerbalCourse = () => {
               >
                 Importance of herbal plant
               </a>
-              <div className={styles.therapyReco1} />
+              <img
+                src='herbal-theraphy-reco.png'
+                className={styles.therapyReco1}
+              />
               <a
                 className={styles.readMore1}
                 href='https://www.betterhealth.vic.gov.au/health/healthyliving/herbs#:~:text=Consuming%20herbs%20may%20help%20to,lemongrass%20may%20help%20lower%20cholesterol.'

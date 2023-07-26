@@ -229,7 +229,10 @@ const FlowerCourse: FunctionComponent = () => {
                   >
                     Caring For Your Flowers
                   </a>
-                  <div className={styles.therapyReco} />
+                  <img
+                    src='caringYourFlower.png'
+                    className={styles.therapyReco}
+                  />
                   <a
                     className={styles.readMore}
                     href='https://www.waitroseflorist.com/inspiration-and-advice/care-guides/caring-for-your-flowers'
@@ -249,7 +252,7 @@ const FlowerCourse: FunctionComponent = () => {
                   >
                     6 Reasons Why Flowers Are Loved by Millions
                   </a>
-                  <div className={styles.therapyReco} />
+                  <img src='6reasonsWhy.png' className={styles.therapyReco} />
                   <a
                     className={styles.readMore1}
                     href='https://community.thriveglobal.com/6-reasons-why-flowers-are-loved-by-millions/'
