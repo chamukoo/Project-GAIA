@@ -1,7 +1,9 @@
 .mainContainer {
+  overflow-x: hidden;
   background-color: #f3f4d3;
   width: fit-content;
   height: 1650px;
+  
 }
 
 .aboutGaia img {

@@ -5,7 +5,7 @@ import Footer from "../components/Footer";
 
 const WebAbout = () => {
   return (
-    <MainLayout ownClass={styles.mainContainer}>
+    <MainLayout ownClass={styles.mainContainer}>  
       <div className={styles.aboutGaia}>
         <img src='/home--plant-design@2x.png' />
         <div className={styles.aboutTextsContainer}>
